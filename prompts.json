@@ -4,7 +4,7 @@
     "title": "Neon Cyberpunk Cat",
     "prompt": "A majestic cat sitting on a neon-lit metal ledge overlooking a sprawling futuristic cyberpunk city, rain pouring with reflections on wet metal, neon signs in violet, amber, and cyan, highly detailed cinematic shot, 8k resolution, photorealistic, cinematic lighting.",
     "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, human",
-    "image": "/images/cyberpunk-cat.png",
+    "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
     "tags": ["cat", "cyberpunk", "neon", "city", "rain"],
     "settings": {
