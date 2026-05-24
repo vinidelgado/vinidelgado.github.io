@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>AuraPrompts — Curated AI Image & Prompt Gallery</title>
+  <meta name="description" content="Discover, search, and copy premium text prompts for AI image generation, complete with model configurations, settings, and high-resolution examples.">
+  <meta name="keywords" content="AI, Midjourney, Stable Diffusion, Flux, prompts, prompt engineering, AI art, gallery">
+  <meta name="author" content="AuraPrompts">
+  
+  <!-- Favicon / Theme Color -->
+  <meta name="theme-color" content="#0a0a0a">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Header Section -->
+  <header class="main-header" id="header">
+    <div class="header-container">
+      <div class="logo-area">
+        <a href="/" class="logo-link">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Aura<span class="highlight">Prompts</span></span>
+        </a>
+      </div>
+      
+      <!-- Interactive Theme Toggle -->
+      <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle light/dark theme">
+        <!-- Sun Icon (visible in dark theme) -->
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <!-- Moon Icon (visible in light theme) -->
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3a6.36 6.36 0 0 0-9 9 9 9 0 1 0 9-9Z"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <h1 class="hero-title">Beautiful prompts. <br class="mobile-break">Stunning generations.</h1>
+      <p class="hero-description">The open source prompt library for creators. Discover curated prompts, copy with one click, and remix details.</p>
+      
+      <!-- Dynamic Search Bar -->
+      <div class="search-bar-wrapper">
+        <div class="search-icon-box">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+        </div>
+        <input type="text" id="searchInput" placeholder="Search prompts, categories, models, or tags..." aria-label="Search prompts">
+        <button id="clearSearchBtn" class="clear-search-btn" aria-label="Clear search" style="display: none;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter & Categories Row -->
+  <section class="filter-section">
+    <div class="filter-container">
+      <nav class="categories-nav" id="categoriesNav" aria-label="Categories filter">
+        <!-- JS will populate these buttons dynamically -->
+        <button class="category-pill active" data-category="all">
+          <span>All</span>
+          <span class="count-badge" id="totalCount">0</span>
+        </button>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Gallery Main Container -->
+  <main class="gallery-wrapper">
+    <!-- Active Filters Badge Area -->
+    <div id="activeFilterFeedback" class="active-filter-feedback" style="display: none;">
+      <span class="feedback-text">Showing results for tag: <strong id="activeTagName">tag</strong></span>
+      <button id="resetTagFilterBtn" class="reset-tag-btn">Clear filter</button>
+    </div>
+
+    <!-- Masonry Grid -->
+    <div id="galleryGrid" class="masonry-grid">
+      <!-- Skeletons will show initially before JSON loads, then replaced by image cards -->
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+
+    <!-- Empty Search State -->
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <div class="empty-state-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="m16 16-3.89-3.89M12 8v4M12 16h.01"></path>
+        </svg>
+      </div>
+      <h3 class="empty-state-title">No prompts found</h3>
+      <p class="empty-state-text">We couldn't find anything matching your keywords. Try searching for other terms or resetting filters.</p>
+      <button id="resetAllFiltersBtn" class="btn btn-primary">Reset search filters</button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <p class="footer-copy">&copy; 2026 AuraPrompts. Inspired by Unsplash. Built with precision and care.</p>
+      <p class="footer-disclaimer">All images are generated using state-of-the-art AI diffusion models.</p>
+    </div>
+  </footer>
+
+  <!-- Detail Modal Overlay -->
+  <div id="detailModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      
+      <!-- Close Button (Mobile and Desktop Desktop Overlay) -->
+      <button id="closeModalBtn" class="modal-close-btn" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18M6 6l12 12"></path>
+        </svg>
+      </button>
+
+      <!-- Modal Card Body -->
+      <div class="modal-card">
+        
+        <!-- Left Side: Image Viewer -->
+        <div class="modal-image-panel">
+          <div class="modal-image-wrapper">
+            <img id="modalImage" src="" alt="Prompt Visual Result" class="modal-img">
+            <div class="image-zoom-overlay">
+              <a id="modalImageDownload" href="" download target="_blank" class="download-fab" title="View original image">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Details and Copy Controls -->
+        <div class="modal-details-panel">
+          <div class="modal-details-header">
+            <span id="modalCategory" class="modal-category-badge">Category</span>
+            <button id="modalShareBtn" class="btn btn-secondary btn-sm" aria-label="Copy share link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+              <span>Share Link</span>
+            </button>
+          </div>
+
+          <h2 id="modalTitle" class="modal-title">Prompt Title</h2>
+
+          <!-- Monospace Prompt copy box -->
+          <div class="prompt-box-section">
+            <div class="prompt-section-header">
+              <span class="prompt-label">Prompt</span>
+              <button id="modalCopyPromptBtn" class="btn btn-primary btn-sm copy-btn" data-clipboard-target="#modalPromptText">
+                <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="btn-text">Copy Prompt</span>
+              </button>
+            </div>
+            <div class="prompt-content-box">
+              <p id="modalPromptText" class="prompt-text">Prompt text goes here...</p>
+            </div>
+          </div>
+
+          <!-- Negative Prompt Section (only shown if present) -->
+          <div id="modalNegativePromptSection" class="prompt-box-section negative-prompt-section">
+            <div class="prompt-section-header">
+              <span class="prompt-label">Negative Prompt</span>
+              <button id="modalCopyNegativeBtn" class="btn btn-secondary btn-sm copy-btn" data-clipboard-target="#modalNegativePromptText">
+                <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="btn-text">Copy</span>
+              </button>
+            </div>
+            <div class="prompt-content-box">
+              <p id="modalNegativePromptText" class="prompt-text">Negative prompt text goes here...</p>
+            </div>
+          </div>
+
+          <!-- Technical parameters grid -->
+          <div class="settings-section">
+            <h3 class="section-subtitle">Parameters</h3>
+            <div class="settings-grid">
+              <div class="setting-item">
+                <span class="setting-name">Model</span>
+                <span id="settingModel" class="setting-value">-</span>
+              </div>
+              <div class="setting-item">
+                <span class="setting-name">Aspect Ratio</span>
+                <span id="settingAspect" class="setting-value">-</span>
+              </div>
+              <div class="setting-item">
+                <span class="setting-name">CFG Scale</span>
+                <span id="settingCFG" class="setting-value">-</span>
+              </div>
+              <div class="setting-item">
+                <span class="setting-name">Steps</span>
+                <span id="settingSteps" class="setting-value">-</span>
+              </div>
+              <div class="setting-item">
+                <span class="setting-name">Seed</span>
+                <span id="settingSeed" class="setting-value">-</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags list -->
+          <div class="tags-section">
+            <h3 class="section-subtitle">Tags</h3>
+            <div id="modalTagsContainer" class="modal-tags-container">
+              <!-- Tags list will populate dynamically -->
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Overlay -->
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+  <!-- Client Scripts -->
+  <script src="prompts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
