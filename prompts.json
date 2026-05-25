@@ -130,24 +130,5 @@
       "seed": "551849102",
       "aspect_ratio": "16:9"
     }
-  },
-  {
-    "id": "meu-prompt-novo",
-    "title": "Título do Prompt",
-    "prompt": "Descrição completa do prompt...",
-    "negative_prompt": "blurry, low quality",
-    "image": "images/meu-prompt-novo.png",
-    "category": "Cyberpunk",
-    "tags": [
-      "neon",
-      "city"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
   }
 ]
