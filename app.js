@@ -32,8 +32,6 @@ const modalTitle = document.getElementById('modalTitle');
 const modalPromptText = document.getElementById('modalPromptText');
 const modalNegativePromptSection = document.getElementById('modalNegativePromptSection');
 const modalNegativePromptText = document.getElementById('modalNegativePromptText');
-const modalCopyPromptBtn = document.getElementById('modalCopyPromptBtn');
-const modalCopyNegativeBtn = document.getElementById('modalCopyNegativeBtn');
 const settingModel = document.getElementById('settingModel');
 const settingAspect = document.getElementById('settingAspect');
 const settingCFG = document.getElementById('settingCFG');
@@ -404,9 +402,9 @@ function openModal(item) {
   });
   
   // Update modal clipboard copy triggers
-  setupCopyAction(modalCopyPromptBtn, item.prompt);
+  setupCopyAction('modalCopyPromptBtn', item.prompt);
   if (item.negative_prompt) {
-    setupCopyAction(modalCopyNegativeBtn, item.negative_prompt);
+    setupCopyAction('modalCopyNegativeBtn', item.negative_prompt);
   }
   
   // Set up Modal Share link generator
@@ -463,7 +461,10 @@ window.addEventListener('keydown', (e) => {
    Clipboard & Share Copy Helper
    ========================================================================== */
 
-function setupCopyAction(btnElement, textToCopy) {
+function setupCopyAction(btnId, textToCopy) {
+  const btnElement = document.getElementById(btnId);
+  if (!btnElement) return;
+
   // Remove existing listeners by cloning the button (simple JS trick to clear event listeners)
   const newBtn = btnElement.cloneNode(true);
   btnElement.parentNode.replaceChild(newBtn, btnElement);
@@ -472,23 +473,31 @@ function setupCopyAction(btnElement, textToCopy) {
   const checkIcon = newBtn.querySelector('.check-icon');
   const btnText = newBtn.querySelector('.btn-text');
   
+  // Detect if it's a primary or secondary button for accurate theme restoration
+  const isPrimary = newBtn.classList.contains('btn-primary');
+  const originalClass = isPrimary ? 'btn-primary' : 'btn-secondary';
+  
   newBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(textToCopy).then(() => {
       showToast('Copied to clipboard!', 'success');
       
       // Toggle icons and classes
-      copyIcon.style.display = 'none';
-      checkIcon.style.display = 'inline-block';
+      if (copyIcon) copyIcon.style.display = 'none';
+      if (checkIcon) checkIcon.style.display = 'inline-block';
       if (btnText) btnText.textContent = 'Copied!';
-      newBtn.classList.replace('btn-primary', 'btn-success');
+      
+      newBtn.classList.replace(originalClass, 'btn-success');
       
       setTimeout(() => {
-        copyIcon.style.display = 'inline-block';
-        checkIcon.style.display = 'none';
+        if (copyIcon) copyIcon.style.display = 'inline-block';
+        if (checkIcon) checkIcon.style.display = 'none';
+        
         if (btnText) {
-          btnText.textContent = btnText.parentNode.id === 'modalCopyNegativeBtn' ? 'Copy' : 'Copy Prompt';
+          // Restore original text based on button ID
+          btnText.textContent = btnId === 'modalCopyNegativeBtn' ? 'Copy' : 'Copy Prompt';
         }
-        newBtn.classList.replace('btn-success', 'btn-primary');
+        
+        newBtn.classList.replace('btn-success', originalClass);
       }, 2000);
     });
   });
