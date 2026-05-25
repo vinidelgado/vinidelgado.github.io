@@ -6,7 +6,13 @@
     "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, human",
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
-    "tags": ["cat", "cyberpunk", "neon", "city", "rain"],
+    "tags": [
+      "cat",
+      "cyberpunk",
+      "neon",
+      "city",
+      "rain"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.5",
@@ -22,7 +28,13 @@
     "negative_prompt": "daylight, sun, bright, low detail, human, buildings",
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
-    "tags": ["forest", "magic", "glowing", "nature", "night"],
+    "tags": [
+      "forest",
+      "magic",
+      "glowing",
+      "nature",
+      "night"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.0",
@@ -38,7 +50,13 @@
     "negative_prompt": "indoor, house, normal plants, low quality, blurry",
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
-    "tags": ["astronaut", "space", "garden", "mars", "surreal"],
+    "tags": [
+      "astronaut",
+      "space",
+      "garden",
+      "mars",
+      "surreal"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "5.0",
@@ -54,7 +72,13 @@
     "negative_prompt": "photorealistic, metal robot, scary, dark, high contrast",
     "image": "images/claymation-robot.png",
     "category": "3D Render",
-    "tags": ["robot", "cute", "claymation", "miniature", "toy"],
+    "tags": [
+      "robot",
+      "cute",
+      "claymation",
+      "miniature",
+      "toy"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.0",
@@ -70,7 +94,13 @@
     "negative_prompt": "deformed, bad eyes, low resolution, multiple people, rendering art, drawings",
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
-    "tags": ["portrait", "female", "neon", "glow", "photorealistic"],
+    "tags": [
+      "portrait",
+      "female",
+      "neon",
+      "glow",
+      "photorealistic"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "6.0",
@@ -86,12 +116,37 @@
     "negative_prompt": "modern buildings, cars, city, low quality, black and white",
     "image": "images/floating-island.png",
     "category": "Fantasy",
-    "tags": ["castle", "island", "floating", "waterfall", "sunset"],
+    "tags": [
+      "castle",
+      "island",
+      "floating",
+      "waterfall",
+      "sunset"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.5",
       "steps": "25",
       "seed": "551849102",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "10",
+    "title": "World Cup Player",
+    "prompt": "Premium urban football editorial poster for FIFA World Cup 2026. Cinematic close-up portrait of the man from the reference image, face filling most of the frame. Photorealistic warm skin tones, dramatic Rembrandt lighting, deep shadows, intense focused expression. Shoulders show the Brazil national jersey. Clean minimal background: soft off-white textured base, subtle diagonal muted gold wash, faint Brazil national color tones. Cinematic warm grading with bold graphic accents in yellow and green, including one sharp green stripe. Bold editorial typography: large 'FIFA WORLD CUP 2026' title, 'NEYMAR JR', 'BRAZIL', 'Atacante', '10'. Luxury football magazine meets street art aesthetic. ",
+    "negative_prompt": "-",
+    "image": "images/10.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
       "aspect_ratio": "16:9"
     }
   }
