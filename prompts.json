@@ -6,13 +6,7 @@
     "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, human",
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
-    "tags": [
-      "cat",
-      "cyberpunk",
-      "neon",
-      "city",
-      "rain"
-    ],
+    "tags": ["cat", "cyberpunk", "neon", "city", "rain"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.5",
@@ -28,13 +22,7 @@
     "negative_prompt": "daylight, sun, bright, low detail, human, buildings",
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
-    "tags": [
-      "forest",
-      "magic",
-      "glowing",
-      "nature",
-      "night"
-    ],
+    "tags": ["forest", "magic", "glowing", "nature", "night"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.0",
@@ -50,13 +38,7 @@
     "negative_prompt": "indoor, house, normal plants, low quality, blurry",
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
-    "tags": [
-      "astronaut",
-      "space",
-      "garden",
-      "mars",
-      "surreal"
-    ],
+    "tags": ["astronaut", "space", "garden", "mars", "surreal"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "5.0",
@@ -72,13 +54,7 @@
     "negative_prompt": "photorealistic, metal robot, scary, dark, high contrast",
     "image": "images/claymation-robot.png",
     "category": "3D Render",
-    "tags": [
-      "robot",
-      "cute",
-      "claymation",
-      "miniature",
-      "toy"
-    ],
+    "tags": ["robot", "cute", "claymation", "miniature", "toy"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.0",
@@ -94,13 +70,7 @@
     "negative_prompt": "deformed, bad eyes, low resolution, multiple people, rendering art, drawings",
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
-    "tags": [
-      "portrait",
-      "female",
-      "neon",
-      "glow",
-      "photorealistic"
-    ],
+    "tags": ["portrait", "female", "neon", "glow", "photorealistic"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "6.0",
@@ -116,56 +86,12 @@
     "negative_prompt": "modern buildings, cars, city, low quality, black and white",
     "image": "images/floating-island.png",
     "category": "Fantasy",
-    "tags": [
-      "castle",
-      "island",
-      "floating",
-      "waterfall",
-      "sunset"
-    ],
+    "tags": ["castle", "island", "floating", "waterfall", "sunset"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.5",
       "steps": "25",
       "seed": "551849102",
-      "aspect_ratio": "16:9"
-    }
-  },
-  {
-    "id": "meu-prompt-novo",
-    "title": "Título do Prompt",
-    "prompt": "Descrição completa do prompt...",
-    "negative_prompt": "blurry, low quality",
-    "image": "images/meu-prompt-novo.png",
-    "category": "Cyberpunk",
-    "tags": [
-      "neon",
-      "city"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
-  },
-  {
-    "id": "9",
-    "title": "Teste",
-    "prompt": "Teste",
-    "negative_prompt": "teste",
-    "image": "images/9.jpg",
-    "category": "Cyberpunk",
-    "tags": [
-      "neon",
-      "city"
-    ],
-    "settings": {
-      "model": "ChatGPT",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
       "aspect_ratio": "16:9"
     }
   }
