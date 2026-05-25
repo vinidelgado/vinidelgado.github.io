@@ -1,5 +1,5 @@
 /* ==========================================================================
-   AuraPrompts — Client Side Interactivity & Rendering Engine
+   Infinity Prompt Verse — Client Side Interactivity & Rendering Engine
    ========================================================================== */
 
 // Global App State
