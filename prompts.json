@@ -168,5 +168,24 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "12",
+    "title": "Nissan GTR",
+    "prompt": "{\r\n  \"scene\": {\r\n    \"environment\": \"urban street\",\r\n    \"weather\": \"rainy\",\r\n    \"season\": \"autumn\",\r\n    \"time_of_day\": \"evening or overcast daylight\"\r\n  },\r\n  \"main_subject\": {\r\n    \"type\": \"sports car\",\r\n    \"model_inspiration\": \"Nissan GT-R\",\r\n    \"color\": \"dark with custom decals\",\r\n    \"view_angle\": \"rear three-quarter\",\r\n    \"details\": {\r\n      \"taillights\": \"circular red illuminated\",\r\n      \"body_kit\": \"widebody\",\r\n      \"exhaust\": \"dual large exhaust pipes\",\r\n      \"finish\": \"wet with rain droplets\"\r\n    }\r\n  },\r\n  \"environment_details\": {\r\n    \"street\": \"wet asphalt with reflections\",\r\n    \"foliage\": \"orange autumn leaves on ground and trees\",\r\n    \"buildings\": \"urban buildings with signage\",\r\n    \"signage_style\": \"Japanese-style neon signs\",\r\n    \"pedestrians\": \"blurred figures in background\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"cinematic\",\r\n    \"sources\": [\r\n      \"ambient daylight\",\r\n      \"neon signs\",\r\n      \"car taillights reflections\"\r\n    ],\r\n    \"effects\": \"bokeh, reflections on wet ground\"\r\n  },\r\n  \"camera\": {\r\n    \"perspective\": \"low angle\",\r\n    \"focus\": \"car rear\",\r\n    \"depth_of_field\": \"shallow\",\r\n    \"motion\": \"static shot\"\r\n  },\r\n  \"mood\": \"cinematic, moody, urban, slightly melancholic\",\r\n  \"style\": \"hyper-realistic, cinematic photography\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/12.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   }
 ]
