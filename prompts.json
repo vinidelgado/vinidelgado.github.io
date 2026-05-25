@@ -187,5 +187,24 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "13",
+    "title": "Car Night",
+    "prompt": "{\r\n  \"scene\": {\r\n    \"environment\": \"city\",\r\n    \"weather\": \"clear\",\r\n    \"season\": \"summer\",\r\n    \"time_of_day\": \"night\"\r\n  },\r\n  \"main_subject\": {\r\n    \"type\": \"luxury sports car\",\r\n    \"model_inspiration\": \"low-slung Italian supercar\",\r\n    \"color\": \"black\",\r\n    \"view_angle\": \"three-quarter\",\r\n    \"details\": {\r\n      \"taillights\": \"LED\",\r\n      \"body_kit\": \"aerodynamic\",\r\n      \"exhaust\": \"twin\",\r\n      \"finish\": \"glossy\"\r\n    }\r\n  },\r\n  \"environment_details\": {\r\n    \"street\": \"cobblestone\",\r\n    \"foliage\": \"none\",\r\n    \"buildings\": \"modern skyscrapers\",\r\n    \"signage_style\": \"neon\",\r\n    \"pedestrians\": \"none\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"artificial\",\r\n    \"sources\": [\r\n      \"streetlights\",\r\n      \"building lights\"\r\n    ],\r\n    \"effects\": \"high-contrast\"\r\n  },\r\n  \"camera\": {\r\n    \"perspective\": \"low-angle\",\r\n    \"focus\": \"subject\",\r\n    \"depth_of_field\": \"shallow\",\r\n    \"motion\": \"slow orbit\"\r\n  },\r\n  \"mood\": \"sophisticated\",\r\n  \"style\": \"cinematic\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/13.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   }
 ]
