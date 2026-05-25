@@ -149,5 +149,24 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "11",
+    "title": "FIFA World Cup 2026 editorial poster",
+    "prompt": "Ultra-premium FIFA World Cup 2026 editorial poster design featuring Cristiano Ronaldo sitting in a powerful contemplative pose on a minimalist concrete cube. Symmetrical front-facing composition, cinematic sports photography mixed with graphic design aesthetics. Cristiano Ronaldo wearing the Portugal national team home kit for the World Cup, authentic red and green color palette, elegant gold accents, realistic fabric texture, detailed stitching, subtle geometric patterns on the jersey. Puma logo replacing Nike logo on chest, socks and boots. Number 7 prominently displayed on jersey and oversized behind and below the player in modern typography.  Cristiano Ronaldo looking slightly upward with intense focused expression, dramatic Rembrandt lighting, photorealistic skin texture, highly detailed facial features, sharp jawline, athletic muscular anatomy, realistic hands clasped together. Captain armband on arm. White football boots with subtle gold details.  Minimal luxury background with warm beige/off-white textured paper aesthetic, clean geometric graphic elements, thin modern line art, editorial Swiss design layout, subtle Portugal national symbols, modern World Cup visual identity style. Large oversized transparent number 7 in background with layered red and green outlines. Small Portugal crest elements positioned around composition. Elegant negative space and premium poster balance.  Cinematic lighting, soft shadows, high contrast, realistic ambient occlusion, ultra detailed skin pores, realistic fabric folds, studio-quality sports campaign photography, luxury football campaign aesthetic, Behance trending sports artwork, modern football poster design, artstation quality, hyper realistic, 8k ultra HD, extremely detailed, centered composition, premium sports branding aesthetic.  STYLE TAGS: sports editorial, FIFA World Cup poster, Cristiano Ronaldo portrait, modern graphic design, luxury football campaign, cinematic sports photography, Swiss poster design, photorealistic, symmetrical composition, ultra detailed, premium branding aesthetic, contemporary football artwork, high fashion sports campaign  CAMERA: 85mm lens, centered framing, slightly low angle, shallow depth of field, studio lighting setup, ultra sharp focus  LIGHTING: dramatic Rembrandt lighting, cinematic shadows, soft warm highlights, studio spotlight, premium sports commercial lighting",
+    "negative_prompt": "low quality, blurry, deformed anatomy, bad hands, extra fingers, poorly drawn face, asymmetrical eyes, unrealistic proportions, duplicate limbs, mutated body, distorted jersey, incorrect football kit, bad typography, messy composition, oversaturated colors, low resolution, pixelated, jpeg artifacts, watermark, signature, text errors, cropped head, out of frame, cartoon style, anime style, exaggerated muscles, unrealistic skin, plastic skin, overexposed lighting, underexposed shadows, noisy image, flat lighting, generic background, bad posture, floating limbs, malformed hands, poorly rendered boots, distorted Puma logo, fake football crest, extra arms, extra legs, unrealistic facial expression, stretched anatomy, tilted composition, cluttered background, cheap poster aesthetic, bad graphic design, amateur composition, incorrect perspective, low detail fabric, unrealistic shadows, inconsistent lighting, AI artifacts, duplicated elements, ugly face, crossed eyes, malformed ears, weird fingers, poor symmetry, low contrast, washed colors",
+    "image": "images/11.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   }
 ]
