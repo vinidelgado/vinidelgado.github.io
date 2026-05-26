@@ -244,5 +244,24 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "16",
+    "title": "Poster de desenho",
+    "prompt": "\r\nHigh-quality digital illustration of Cygnus Hyoga from Saint Seiya in his full classic armor. The character is standing in the foreground, heroic pose. The background is an epic, golden, divine, and ethereal composition, featuring intricate celestial patterns, glowing constellations, and light rays, inspired by the style of a legendary anime poster. In the upper part, a large, majestic portrait of Hyoga’s face with a determined expression. Ornate golden frames and ancient symbolic patterns bordering the edges. The aesthetic is grand, cinematic, and god-like, with a luminous gold and ice-blue color palette, detailed armor textures, 8k resolution, masterful composition.",
+    "negative_prompt": "",
+    "image": "images/16.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   }
 ]
