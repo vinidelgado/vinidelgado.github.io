@@ -137,10 +137,10 @@
     "prompt": "Premium urban football editorial poster for FIFA World Cup 2026. Cinematic close-up portrait of the man from the reference image, face filling most of the frame. Photorealistic warm skin tones, dramatic Rembrandt lighting, deep shadows, intense focused expression. Shoulders show the Brazil national jersey. Clean minimal background: soft off-white textured base, subtle diagonal muted gold wash, faint Brazil national color tones. Cinematic warm grading with bold graphic accents in yellow and green, including one sharp green stripe. Bold editorial typography: large 'FIFA WORLD CUP 2026' title, 'NEYMAR JR', 'BRAZIL', 'Atacante', '10'. Luxury football magazine meets street art aesthetic. ",
     "negative_prompt": "-",
     "image": "images/10.jpg",
-    "category": "Cyberpunk",
+    "category": "World Cup, Fifa 2026, Photorealistic",
     "tags": [
-      "neon",
-      "city"
+      "neymar",
+      "world cup"
     ],
     "settings": {
       "model": "Gemini",
@@ -156,10 +156,10 @@
     "prompt": "Ultra-premium FIFA World Cup 2026 editorial poster design featuring Cristiano Ronaldo sitting in a powerful contemplative pose on a minimalist concrete cube. Symmetrical front-facing composition, cinematic sports photography mixed with graphic design aesthetics. Cristiano Ronaldo wearing the Portugal national team home kit for the World Cup, authentic red and green color palette, elegant gold accents, realistic fabric texture, detailed stitching, subtle geometric patterns on the jersey. Puma logo replacing Nike logo on chest, socks and boots. Number 7 prominently displayed on jersey and oversized behind and below the player in modern typography.  Cristiano Ronaldo looking slightly upward with intense focused expression, dramatic Rembrandt lighting, photorealistic skin texture, highly detailed facial features, sharp jawline, athletic muscular anatomy, realistic hands clasped together. Captain armband on arm. White football boots with subtle gold details.  Minimal luxury background with warm beige/off-white textured paper aesthetic, clean geometric graphic elements, thin modern line art, editorial Swiss design layout, subtle Portugal national symbols, modern World Cup visual identity style. Large oversized transparent number 7 in background with layered red and green outlines. Small Portugal crest elements positioned around composition. Elegant negative space and premium poster balance.  Cinematic lighting, soft shadows, high contrast, realistic ambient occlusion, ultra detailed skin pores, realistic fabric folds, studio-quality sports campaign photography, luxury football campaign aesthetic, Behance trending sports artwork, modern football poster design, artstation quality, hyper realistic, 8k ultra HD, extremely detailed, centered composition, premium sports branding aesthetic.  STYLE TAGS: sports editorial, FIFA World Cup poster, Cristiano Ronaldo portrait, modern graphic design, luxury football campaign, cinematic sports photography, Swiss poster design, photorealistic, symmetrical composition, ultra detailed, premium branding aesthetic, contemporary football artwork, high fashion sports campaign  CAMERA: 85mm lens, centered framing, slightly low angle, shallow depth of field, studio lighting setup, ultra sharp focus  LIGHTING: dramatic Rembrandt lighting, cinematic shadows, soft warm highlights, studio spotlight, premium sports commercial lighting",
     "negative_prompt": "low quality, blurry, deformed anatomy, bad hands, extra fingers, poorly drawn face, asymmetrical eyes, unrealistic proportions, duplicate limbs, mutated body, distorted jersey, incorrect football kit, bad typography, messy composition, oversaturated colors, low resolution, pixelated, jpeg artifacts, watermark, signature, text errors, cropped head, out of frame, cartoon style, anime style, exaggerated muscles, unrealistic skin, plastic skin, overexposed lighting, underexposed shadows, noisy image, flat lighting, generic background, bad posture, floating limbs, malformed hands, poorly rendered boots, distorted Puma logo, fake football crest, extra arms, extra legs, unrealistic facial expression, stretched anatomy, tilted composition, cluttered background, cheap poster aesthetic, bad graphic design, amateur composition, incorrect perspective, low detail fabric, unrealistic shadows, inconsistent lighting, AI artifacts, duplicated elements, ugly face, crossed eyes, malformed ears, weird fingers, poor symmetry, low contrast, washed colors",
     "image": "images/11.jpg",
-    "category": "Cyberpunk",
+    "category": "World Cup, Fifa 2026, Photorealistic",
     "tags": [
-      "neon",
-      "city"
+      "world cup",
+      "cr7"
     ],
     "settings": {
       "model": "ChatGPT",
@@ -175,10 +175,11 @@
     "prompt": "{\r\n  \"scene\": {\r\n    \"environment\": \"urban street\",\r\n    \"weather\": \"rainy\",\r\n    \"season\": \"autumn\",\r\n    \"time_of_day\": \"evening or overcast daylight\"\r\n  },\r\n  \"main_subject\": {\r\n    \"type\": \"sports car\",\r\n    \"model_inspiration\": \"Nissan GT-R\",\r\n    \"color\": \"dark with custom decals\",\r\n    \"view_angle\": \"rear three-quarter\",\r\n    \"details\": {\r\n      \"taillights\": \"circular red illuminated\",\r\n      \"body_kit\": \"widebody\",\r\n      \"exhaust\": \"dual large exhaust pipes\",\r\n      \"finish\": \"wet with rain droplets\"\r\n    }\r\n  },\r\n  \"environment_details\": {\r\n    \"street\": \"wet asphalt with reflections\",\r\n    \"foliage\": \"orange autumn leaves on ground and trees\",\r\n    \"buildings\": \"urban buildings with signage\",\r\n    \"signage_style\": \"Japanese-style neon signs\",\r\n    \"pedestrians\": \"blurred figures in background\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"cinematic\",\r\n    \"sources\": [\r\n      \"ambient daylight\",\r\n      \"neon signs\",\r\n      \"car taillights reflections\"\r\n    ],\r\n    \"effects\": \"bokeh, reflections on wet ground\"\r\n  },\r\n  \"camera\": {\r\n    \"perspective\": \"low angle\",\r\n    \"focus\": \"car rear\",\r\n    \"depth_of_field\": \"shallow\",\r\n    \"motion\": \"static shot\"\r\n  },\r\n  \"mood\": \"cinematic, moody, urban, slightly melancholic\",\r\n  \"style\": \"hyper-realistic, cinematic photography\"\r\n}",
     "negative_prompt": "",
     "image": "images/12.jpg",
-    "category": "Cyberpunk",
+    "category": "Car, Nissan GTR, GTR",
     "tags": [
-      "neon",
-      "city"
+      "rain",
+      "city",
+      "gtr"
     ],
     "settings": {
       "model": "Gemini",
@@ -194,10 +195,11 @@
     "prompt": "{\r\n  \"scene\": {\r\n    \"environment\": \"city\",\r\n    \"weather\": \"clear\",\r\n    \"season\": \"summer\",\r\n    \"time_of_day\": \"night\"\r\n  },\r\n  \"main_subject\": {\r\n    \"type\": \"luxury sports car\",\r\n    \"model_inspiration\": \"low-slung Italian supercar\",\r\n    \"color\": \"black\",\r\n    \"view_angle\": \"three-quarter\",\r\n    \"details\": {\r\n      \"taillights\": \"LED\",\r\n      \"body_kit\": \"aerodynamic\",\r\n      \"exhaust\": \"twin\",\r\n      \"finish\": \"glossy\"\r\n    }\r\n  },\r\n  \"environment_details\": {\r\n    \"street\": \"cobblestone\",\r\n    \"foliage\": \"none\",\r\n    \"buildings\": \"modern skyscrapers\",\r\n    \"signage_style\": \"neon\",\r\n    \"pedestrians\": \"none\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"artificial\",\r\n    \"sources\": [\r\n      \"streetlights\",\r\n      \"building lights\"\r\n    ],\r\n    \"effects\": \"high-contrast\"\r\n  },\r\n  \"camera\": {\r\n    \"perspective\": \"low-angle\",\r\n    \"focus\": \"subject\",\r\n    \"depth_of_field\": \"shallow\",\r\n    \"motion\": \"slow orbit\"\r\n  },\r\n  \"mood\": \"sophisticated\",\r\n  \"style\": \"cinematic\"\r\n}",
     "negative_prompt": "",
     "image": "images/13.jpg",
-    "category": "Cyberpunk",
+    "category": "Car, Ferrari",
     "tags": [
-      "neon",
-      "city"
+      "car",
+      "city",
+      "night"
     ],
     "settings": {
       "model": "Gemini",
@@ -213,10 +215,10 @@
     "prompt": "A cinematic 9:16 vertical composition featuring a gourmet \"Smokey Obsidian\" burger. WHAT: A towering burger with a charcoal brioche bun, thick Wagyu beef patty with visible sear marks, melting aged gruyère dripping like lava, and crispy maple-glazed bacon. FEEL: An atmosphere of \"Urban Indulgence.\" Dark, moody lighting with a single warm amber spotlight. Wisps of real hickory smoke curl around the bun. The texture is hyper-realistic you can see the salt crystals on the crust and the moisture on the heirloom tomato. SHOW: The burger is captured in a \"deconstructed gravity\" moment the top bun is slightly hovering, revealing the internal layers of house-made aioli and pickled red onions. TYPOGRAPHY: Integration of ultra-bold, distressed sans-serif typeface overlapping the bottom third of the frame. The text reads \"DEFY GRAVITY\" in a raw, concrete-texture finish. TECHNICAL: 4k resolution, macro photography style, shallow depth of field, neon-noir color grading (deep blacks, warm ambers, and subtle teal highlights).",
     "negative_prompt": "",
     "image": "images/14.jpg",
-    "category": "Cyberpunk",
+    "category": "Food, Hamburguer",
     "tags": [
-      "neon",
-      "city"
+      "hamburguer",
+      "promote"
     ],
     "settings": {
       "model": "Gemini",
@@ -232,10 +234,10 @@
     "prompt": "A hyper-realistic, high-resolution cinematic shot of a majestic black panther in a powerful forward-leaping motion, direct eye contact with the viewer. The panther's fur is deep black with subtle, intricate rosette textures visible under dramatic lighting. Its eyes are intense, glowing amber, serving as the focal point. The background is a vibrant, moody sunset gradient transitioning from deep purple and magenta at the top to a fiery, brilliant orange and gold glow at the horizon. In the foreground, silhouettes of wild savanna grass frame the leap, with soft bokeh blurring the edges. Expert lighting, 8k resolution, cinematic depth of field, sharp focus on the panther's face and paws, hyper-detailed fur rendering, dramatic atmosphere.",
     "negative_prompt": "",
     "image": "images/15.jpg",
-    "category": "Cyberpunk",
+    "category": "Panther, Photorealistic",
     "tags": [
-      "neon",
-      "city"
+      "gradient",
+      "panther"
     ],
     "settings": {
       "model": "Gemini",
@@ -251,10 +253,9 @@
     "prompt": "\r\nHigh-quality digital illustration of Cygnus Hyoga from Saint Seiya in his full classic armor. The character is standing in the foreground, heroic pose. The background is an epic, golden, divine, and ethereal composition, featuring intricate celestial patterns, glowing constellations, and light rays, inspired by the style of a legendary anime poster. In the upper part, a large, majestic portrait of Hyoga’s face with a determined expression. Ornate golden frames and ancient symbolic patterns bordering the edges. The aesthetic is grand, cinematic, and god-like, with a luminous gold and ice-blue color palette, detailed armor textures, 8k resolution, masterful composition.",
     "negative_prompt": "",
     "image": "images/16.jpg",
-    "category": "Cyberpunk",
+    "category": "Illustration, Poster",
     "tags": [
-      "neon",
-      "city"
+      "illustration"
     ],
     "settings": {
       "model": "Gemini",
