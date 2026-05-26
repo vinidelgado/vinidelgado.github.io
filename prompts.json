@@ -6,7 +6,14 @@
     "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, human",
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
-    "tags": ["cat", "cyberpunk", "neon", "city", "rain", "futuristic"],
+    "tags": [
+      "cat",
+      "cyberpunk",
+      "neon",
+      "city",
+      "rain",
+      "futuristic"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.5",
@@ -22,7 +29,14 @@
     "negative_prompt": "daylight, sun, bright, low detail, human, buildings",
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
-    "tags": ["forest", "magic", "glowing", "nature", "night", "bioluminescent"],
+    "tags": [
+      "forest",
+      "magic",
+      "glowing",
+      "nature",
+      "night",
+      "bioluminescent"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.0",
@@ -38,7 +52,14 @@
     "negative_prompt": "indoor, house, normal plants, low quality, blurry",
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
-    "tags": ["astronaut", "space", "garden", "mars", "surreal", "greenhouse"],
+    "tags": [
+      "astronaut",
+      "space",
+      "garden",
+      "mars",
+      "surreal",
+      "greenhouse"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "5.0",
@@ -54,7 +75,14 @@
     "negative_prompt": "photorealistic, metal robot, scary, dark, high contrast",
     "image": "images/claymation-robot.png",
     "category": "3D Render",
-    "tags": ["robot", "cute", "claymation", "miniature", "toy", "3d"],
+    "tags": [
+      "robot",
+      "cute",
+      "claymation",
+      "miniature",
+      "toy",
+      "3d"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.0",
@@ -70,7 +98,14 @@
     "negative_prompt": "deformed, bad eyes, low resolution, multiple people, rendering art, drawings",
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
-    "tags": ["portrait", "female", "neon", "glow", "photorealistic", "cyberpunk"],
+    "tags": [
+      "portrait",
+      "female",
+      "neon",
+      "glow",
+      "photorealistic",
+      "cyberpunk"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "6.0",
@@ -86,7 +121,14 @@
     "negative_prompt": "modern buildings, cars, city, low quality, black and white",
     "image": "images/floating-island.png",
     "category": "Fantasy",
-    "tags": ["castle", "island", "floating", "waterfall", "sunset", "fantasy"],
+    "tags": [
+      "castle",
+      "island",
+      "floating",
+      "waterfall",
+      "sunset",
+      "fantasy"
+    ],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.5",
@@ -102,7 +144,13 @@
     "negative_prompt": "-",
     "image": "images/10.jpg",
     "category": "Esportes",
-    "tags": ["neymar", "world cup", "fifa 2026", "football", "brasil"],
+    "tags": [
+      "neymar",
+      "world cup",
+      "fifa 2026",
+      "football",
+      "brasil"
+    ],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
@@ -118,7 +166,13 @@
     "negative_prompt": "low quality, blurry, deformed anatomy, bad hands, extra fingers, poorly drawn face, asymmetrical eyes, unrealistic proportions, duplicate limbs, mutated body, distorted jersey, incorrect football kit, bad typography, messy composition, oversaturated colors, low resolution, pixelated, jpeg artifacts, watermark, signature, text errors, cropped head, out of frame, cartoon style, anime style, exaggerated muscles, unrealistic skin, plastic skin, overexposed lighting, underexposed shadows, noisy image, flat lighting, generic background, bad posture, floating limbs, malformed hands, poorly rendered boots, distorted Puma logo, fake football crest, extra arms, extra legs, unrealistic facial expression, stretched anatomy, tilted composition, cluttered background, cheap poster aesthetic, bad graphic design, amateur composition, incorrect perspective, low detail fabric, unrealistic shadows, inconsistent lighting, AI artifacts, duplicated elements, ugly face, crossed eyes, malformed ears, weird fingers, poor symmetry, low contrast, washed colors",
     "image": "images/11.jpg",
     "category": "Esportes",
-    "tags": ["world cup", "cr7", "fifa 2026", "football", "portugal"],
+    "tags": [
+      "world cup",
+      "cr7",
+      "fifa 2026",
+      "football",
+      "portugal"
+    ],
     "settings": {
       "model": "ChatGPT",
       "cfg_scale": "4.0",
@@ -134,7 +188,14 @@
     "negative_prompt": "",
     "image": "images/12.jpg",
     "category": "Automotivo",
-    "tags": ["car", "nissan gtr", "rain", "city", "jdm", "sports car"],
+    "tags": [
+      "car",
+      "nissan gtr",
+      "rain",
+      "city",
+      "jdm",
+      "sports car"
+    ],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
@@ -150,7 +211,14 @@
     "negative_prompt": "",
     "image": "images/13.jpg",
     "category": "Automotivo",
-    "tags": ["car", "luxury", "city", "night", "supercar", "ferrari"],
+    "tags": [
+      "car",
+      "luxury",
+      "city",
+      "night",
+      "supercar",
+      "ferrari"
+    ],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
@@ -166,7 +234,13 @@
     "negative_prompt": "",
     "image": "images/14.jpg",
     "category": "Gastronomia",
-    "tags": ["hamburguer", "food", "gourmet", "advertising", "commercial"],
+    "tags": [
+      "hamburguer",
+      "food",
+      "gourmet",
+      "advertising",
+      "commercial"
+    ],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
@@ -182,7 +256,14 @@
     "negative_prompt": "",
     "image": "images/15.jpg",
     "category": "Natureza",
-    "tags": ["panther", "wildlife", "animal", "sunset", "predator", "gradient"],
+    "tags": [
+      "panther",
+      "wildlife",
+      "animal",
+      "sunset",
+      "predator",
+      "gradient"
+    ],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
@@ -198,7 +279,33 @@
     "negative_prompt": "",
     "image": "images/16.jpg",
     "category": "Anime/Ilustração",
-    "tags": ["anime", "saint seiya", "hyoga", "illustration", "poster", "gold"],
+    "tags": [
+      "anime",
+      "saint seiya",
+      "hyoga",
+      "illustration",
+      "poster",
+      "gold"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "17",
+    "title": "Nissan 350z",
+    "prompt": "{\r\n  \"project\": \"Automotive Collector Poster\",\r\n  \"subject\": \"Nissan 350Z (Nardo Gray Widebody)\",\r\n  \"concept\": \"STREET CULTURE EVOLVED\",\r\n  \"prompt_text\": \"Create a 4:5 vertical premium automotive collector poster in ultra-high-resolution 8K quality. The subject is a custom Nardo Gray Nissan 350Z with widebody fender flares, aggressive aero kit, and vibrant multi-colored racing livery stickers on the side panels. The background should be a moody, high-contrast dark urban environment at night—think rain-slicked asphalt reflecting vibrant neon city lights in deep blues and purples to make the Nardo Gray paint pop. The composition should feel like a high-end automotive magazine cover. Position the 350Z at the lower-middle, captured with a low, wide-angle lens for a powerful stance. The car features deep-dish wheels with polished chrome lips, aggressive front bumper, and track-focused setup. Use dramatic chiaroscuro lighting to emphasize the widebody contours and the intricate details of the side graphics. The typography should be bold and urban, with a massive, stylized “350Z” in the background using a clean white sans-serif font with a subtle chromatic aberration effect. Include the headline 'BUILT FOR THE STREETS' in a modern, razor-sharp font. Beneath the car, include a performance specification strip with the following stats: '300 HP', '5.4 SECONDS', and '255 KM/H' using sleek, minimal icons. Add subtle cinematic elements like light lens flares from city neons, fine atmospheric mist, and a slight grain overlay for an authentic film look. The final output must have ultra-detailed textures on the widebody kit, realistic reflections on the gray paint, and sharp typography edges, resulting in a premium collector’s edition aesthetic.\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/17.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
