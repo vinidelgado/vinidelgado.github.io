@@ -225,5 +225,24 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "15",
+    "title": "O Predador da Alvorada",
+    "prompt": "A hyper-realistic, high-resolution cinematic shot of a majestic black panther in a powerful forward-leaping motion, direct eye contact with the viewer. The panther's fur is deep black with subtle, intricate rosette textures visible under dramatic lighting. Its eyes are intense, glowing amber, serving as the focal point. The background is a vibrant, moody sunset gradient transitioning from deep purple and magenta at the top to a fiery, brilliant orange and gold glow at the horizon. In the foreground, silhouettes of wild savanna grass frame the leap, with soft bokeh blurring the edges. Expert lighting, 8k resolution, cinematic depth of field, sharp focus on the panther's face and paws, hyper-detailed fur rendering, dramatic atmosphere.",
+    "negative_prompt": "",
+    "image": "images/15.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   }
 ]
