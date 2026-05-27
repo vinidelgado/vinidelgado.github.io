@@ -1233,3 +1233,159 @@ body.modal-open {
   font-size: 0.75rem;
   opacity: 0.7;
 }
+
+/* ==========================================================================
+   TikTok Profile Section
+   ========================================================================== */
+
+.tiktok-cta-section {
+  width: 100%;
+  padding: 4rem 1.5rem;
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.tiktok-cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.tiktok-content {
+  max-width: 600px;
+}
+
+.tiktok-logo-badge {
+  width: 64px;
+  height: 64px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3), 0 0 40px rgba(236, 72, 153, 0.2);
+  transition: transform var(--transition-normal);
+}
+
+.tiktok-cta-section:hover .tiktok-logo-badge {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.tiktok-logo-badge svg {
+  width: 32px;
+  height: 32px;
+}
+
+.tiktok-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #22d3ee, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tiktok-text {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.tiktok-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all var(--transition-normal);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tiktok-btn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(34, 211, 238, 0.4);
+}
+
+.tiktok-visual-elements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.glow-sphere {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+}
+
+.sphere-1 {
+  width: 300px;
+  height: 300px;
+  background-color: #22d3ee;
+  top: -100px;
+  left: -50px;
+}
+
+.sphere-2 {
+  width: 400px;
+  height: 400px;
+  background-color: #ec4899;
+  bottom: -150px;
+  right: -100px;
+}
+
+/* ==========================================================================
+   Simplified Modal Parameters
+   ========================================================================== */
+
+.highlight-item {
+  background-color: var(--bg-tertiary);
+  padding: 1rem !important;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  width: 100% !important;
+}
+
+.highlight-item .setting-name {
+  color: var(--color-accent) !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.highlight-item .setting-value {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: var(--text-primary) !important;
+}
+
+@media (max-width: 768px) {
+  .tiktok-title {
+    font-size: 1.5rem;
+  }
+}

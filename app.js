@@ -33,10 +33,6 @@ const modalPromptText = document.getElementById('modalPromptText');
 const modalNegativePromptSection = document.getElementById('modalNegativePromptSection');
 const modalNegativePromptText = document.getElementById('modalNegativePromptText');
 const settingModel = document.getElementById('settingModel');
-const settingAspect = document.getElementById('settingAspect');
-const settingCFG = document.getElementById('settingCFG');
-const settingSteps = document.getElementById('settingSteps');
-const settingSeed = document.getElementById('settingSeed');
 const modalTagsContainer = document.getElementById('modalTagsContainer');
 const toastContainer = document.getElementById('toastContainer');
 
@@ -333,12 +329,8 @@ function openModal(item) {
   modalTitle.textContent = item.title;
   modalPromptText.textContent = item.prompt;
   
-  // Set parameters
-  settingModel.textContent = item.settings?.model || '-';
-  settingAspect.textContent = item.settings?.aspect_ratio || '-';
-  settingCFG.textContent = item.settings?.cfg_scale || '-';
-  settingSteps.textContent = item.settings?.steps || '-';
-  settingSeed.textContent = item.settings?.seed || '-';
+  // Set parameters (Focused only on Model as requested)
+  if (settingModel) settingModel.textContent = item.settings?.model || '-';
   
   // Handling negative prompt visibility
   if (item.negative_prompt) {
