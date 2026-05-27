@@ -347,5 +347,24 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "19",
+    "title": "Ronaldo Fenômeno - Cubist Legacy",
+    "prompt": "{\r\n  \"prompt\": {\r\n    \"subject\": \"Ronaldo Fenômeno\",\r\n    \"style\": \"stylized geometric cubist sports poster\",\r\n    \"art_direction\": \"modern abstract vector illustration inspired by premium Behance and Dribbble artworks\",\r\n    \"composition\": {\r\n      \"focus\": \"one explosive football moment: a powerful dribble, an iconic celebration, or an explosive strike on goal\",\r\n      \"visual_elements\": [\r\n        \"elongated curved body proportions\",\r\n        \"muscular yet angular limbs\",\r\n        \"exaggerated motion\",\r\n        \"smooth flowing body lines\",\r\n        \"sharp geometric vector elements\"\r\n      ]\r\n    },\r\n    \"details\": {\r\n      \"attire\": \"classic yellow or blue football kit inspired by his peak era with clean geometric details\",\r\n      \"atmosphere\": \"iconic, elegant, powerful, and timeless\"\r\n    },\r\n    \"style_specs\": {\r\n      \"background\": \"pure white\",\r\n      \"color_palette\": \"bright clean with strong geometric shadows\",\r\n      \"shapes\": \"smooth curves mixed with sharp triangular vector elements\",\r\n      \"face\": \"minimalistic but expressive facial geometry capturing the iconic smile or intense focus\",\r\n      \"aesthetic\": \"flat modern graphic design, ultra-clean cubist vector finish\",\r\n      \"finish\": \"high-detail abstract vector illustration\",\r\n      \"layout\": \"balanced negative space, dynamic football-inspired composition\",\r\n      \"restrictions\": [\r\n        \"no text\",\r\n        \"no quotes\",\r\n        \"no watermarks\"\r\n      ],\r\n      \"mood\": \"premium sports poster atmosphere, futuristic luxury, dramatic explosive energy\",\r\n      \"emphasis\": \"speed, agility, and lethal finishing\"\r\n    }\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/19.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   }
 ]
