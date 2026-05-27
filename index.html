@@ -67,7 +67,7 @@
             <path d="m21 21-4.3-4.3"></path>
           </svg>
         </div>
-        <input type="text" id="searchInput" placeholder="Search prompts, categories, models, or tags..." aria-label="Search prompts">
+        <input type="text" id="searchInput" placeholder="Search prompts, models, or tags..." aria-label="Search prompts">
         <button id="clearSearchBtn" class="clear-search-btn" aria-label="Clear search" style="display: none;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 6 6 18M6 6l12 12"></path>
@@ -80,13 +80,12 @@
   <!-- Filter & Categories Row -->
   <section class="filter-section">
     <div class="filter-container">
-      <nav class="categories-nav" id="categoriesNav" aria-label="Categories filter">
-        <!-- JS will populate these buttons dynamically -->
-        <button class="category-pill active" data-category="all">
-          <span>All</span>
-          <span class="count-badge" id="totalCount">0</span>
+      <div id="sortControls" class="sort-controls">
+        <button class="sort-pill active" id="sortNewestBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 16-4 4-4-4"/><path d="M17 20V4"/><path d="m3 8 4-4 4 4"/><path d="M7 4v16"/></svg>
+          <span>Newest First</span>
         </button>
-      </nav>
+      </div>
     </div>
   </section>
 
@@ -138,9 +137,7 @@
       <div class="footer-links-side">
         <div class="footer-column">
           <h4>Explore</h4>
-          <a href="#">Newest</a>
-          <a href="#">Popular</a>
-          <a href="#">Categories</a>
+          <a href="#" id="footerNewest">Newest</a>
         </div>
         <div class="footer-column">
           <h4>Community</h4>

@@ -6,6 +6,7 @@
     "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, human",
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
+    "date": "23/05/2026",
     "tags": [
       "cat",
       "cyberpunk",
@@ -29,6 +30,7 @@
     "negative_prompt": "daylight, sun, bright, low detail, human, buildings",
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
+    "date": "23/05/2026",
     "tags": [
       "forest",
       "magic",
@@ -52,6 +54,7 @@
     "negative_prompt": "indoor, house, normal plants, low quality, blurry",
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
+    "date": "23/05/2026",
     "tags": [
       "astronaut",
       "space",
@@ -75,6 +78,7 @@
     "negative_prompt": "photorealistic, metal robot, scary, dark, high contrast",
     "image": "images/claymation-robot.png",
     "category": "3D Render",
+    "date": "23/05/2026",
     "tags": [
       "robot",
       "cute",
@@ -98,6 +102,7 @@
     "negative_prompt": "deformed, bad eyes, low resolution, multiple people, rendering art, drawings",
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
+    "date": "23/05/2026",
     "tags": [
       "portrait",
       "female",
@@ -121,6 +126,7 @@
     "negative_prompt": "modern buildings, cars, city, low quality, black and white",
     "image": "images/floating-island.png",
     "category": "Fantasy",
+    "date": "25/05/2026",
     "tags": [
       "castle",
       "island",
@@ -144,6 +150,7 @@
     "negative_prompt": "-",
     "image": "images/10.jpg",
     "category": "Esportes",
+    "date": "26/05/2026",
     "tags": [
       "neymar",
       "world cup",
@@ -166,6 +173,7 @@
     "negative_prompt": "low quality, blurry, deformed anatomy, bad hands, extra fingers, poorly drawn face, asymmetrical eyes, unrealistic proportions, duplicate limbs, mutated body, distorted jersey, incorrect football kit, bad typography, messy composition, oversaturated colors, low resolution, pixelated, jpeg artifacts, watermark, signature, text errors, cropped head, out of frame, cartoon style, anime style, exaggerated muscles, unrealistic skin, plastic skin, overexposed lighting, underexposed shadows, noisy image, flat lighting, generic background, bad posture, floating limbs, malformed hands, poorly rendered boots, distorted Puma logo, fake football crest, extra arms, extra legs, unrealistic facial expression, stretched anatomy, tilted composition, cluttered background, cheap poster aesthetic, bad graphic design, amateur composition, incorrect perspective, low detail fabric, unrealistic shadows, inconsistent lighting, AI artifacts, duplicated elements, ugly face, crossed eyes, malformed ears, weird fingers, poor symmetry, low contrast, washed colors",
     "image": "images/11.jpg",
     "category": "Esportes",
+    "date": "25/05/2026",
     "tags": [
       "world cup",
       "cr7",
@@ -188,6 +196,7 @@
     "negative_prompt": "",
     "image": "images/12.jpg",
     "category": "Automotivo",
+    "date": "26/05/2026",
     "tags": [
       "car",
       "nissan gtr",
@@ -211,6 +220,7 @@
     "negative_prompt": "",
     "image": "images/13.jpg",
     "category": "Automotivo",
+    "date": "25/05/2026",
     "tags": [
       "car",
       "luxury",
@@ -234,6 +244,7 @@
     "negative_prompt": "",
     "image": "images/14.jpg",
     "category": "Gastronomia",
+    "date": "26/05/2026",
     "tags": [
       "hamburguer",
       "food",
@@ -256,6 +267,7 @@
     "negative_prompt": "",
     "image": "images/15.jpg",
     "category": "Natureza",
+    "date": "25/05/2026",
     "tags": [
       "panther",
       "wildlife",
@@ -279,6 +291,7 @@
     "negative_prompt": "",
     "image": "images/16.jpg",
     "category": "Anime/Ilustração",
+    "date": "27/05/2026",
     "tags": [
       "anime",
       "saint seiya",
@@ -302,6 +315,7 @@
     "negative_prompt": "",
     "image": "images/17.jpg",
     "category": "Cyberpunk",
+    "date": "26/05/2026",
     "tags": [
       "neon",
       "city"
@@ -321,6 +335,7 @@
     "negative_prompt": "",
     "image": "images/18.jpg",
     "category": "Cyberpunk",
+    "date": "25/05/2026",
     "tags": [
       "neon",
       "city"

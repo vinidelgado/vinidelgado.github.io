@@ -4,7 +4,7 @@
 
 // Global App State
 let promptsData = [];
-let activeCategory = 'all';
+let isNewestSorted = true;
 let activeTag = null;
 let searchQuery = '';
 
@@ -13,7 +13,7 @@ const body = document.body;
 const themeToggleBtn = document.getElementById('themeToggleBtn');
 const searchInput = document.getElementById('searchInput');
 const clearSearchBtn = document.getElementById('clearSearchBtn');
-const categoriesNav = document.getElementById('categoriesNav');
+const sortNewestBtn = document.getElementById('sortNewestBtn');
 const galleryGrid = document.getElementById('galleryGrid');
 const emptyState = document.getElementById('emptyState');
 const resetAllFiltersBtn = document.getElementById('resetAllFiltersBtn');
@@ -99,82 +99,42 @@ async function bootstrapApp() {
     }
   }
   
-  // Build navigation counts and filter buttons
-  renderCategoryPills();
-  
   // Initial Render of Gallery
   renderGallery();
   
   // Handle URL parameters (Deep Linking)
   handleUrlParameters();
+  
+  // Newest Sort Toggle
+  if (sortNewestBtn) {
+    sortNewestBtn.addEventListener('click', () => {
+      isNewestSorted = !isNewestSorted;
+      sortNewestBtn.classList.toggle('active', isNewestSorted);
+      renderGallery();
+    });
+  }
+
+  // Footer Newest link
+  const footerNewest = document.getElementById('footerNewest');
+  if (footerNewest) {
+    footerNewest.addEventListener('click', (e) => {
+      e.preventDefault();
+      isNewestSorted = true;
+      if (sortNewestBtn) sortNewestBtn.classList.add('active');
+      resetAllSearchFilters();
+      galleryGrid.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
 }
 
 /* ==========================================================================
-   Category Counter & Pill Generation
+   Date Parsing Utility
    ========================================================================== */
 
-function renderCategoryPills() {
-  // Clear out dynamic entries (keep only the "All" pill)
-  const allPill = categoriesNav.querySelector('[data-category="all"]');
-  categoriesNav.innerHTML = '';
-  categoriesNav.appendChild(allPill);
-  
-  // Update "All" counter
-  document.getElementById('totalCount').textContent = promptsData.length;
-  
-  // Calculate counts for other categories
-  const categoriesMap = new Map();
-  promptsData.forEach(item => {
-    if (item.category) {
-      categoriesMap.set(item.category, (categoriesMap.get(item.category) || 0) + 1);
-    }
-  });
-  
-  // Render pills sorted alphabetically
-  Array.from(categoriesMap.keys()).sort().forEach(category => {
-    const count = categoriesMap.get(category);
-    
-    const button = document.createElement('button');
-    button.className = 'category-pill';
-    button.setAttribute('data-category', category.toLowerCase());
-    
-    const label = document.createElement('span');
-    label.textContent = category;
-    
-    const badge = document.createElement('span');
-    badge.className = 'count-badge';
-    badge.textContent = count;
-    
-    button.appendChild(label);
-    button.appendChild(badge);
-    
-    button.addEventListener('click', () => {
-      // Clear tag filter when category changes
-      activeTag = null;
-      activeFilterFeedback.style.display = 'none';
-      
-      // Update active category
-      document.querySelectorAll('.category-pill').forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-      activeCategory = category.toLowerCase();
-      
-      renderGallery();
-    });
-    
-    categoriesNav.appendChild(button);
-  });
-  
-  // Hook up "All" click listener
-  allPill.addEventListener('click', () => {
-    activeTag = null;
-    activeFilterFeedback.style.display = 'none';
-    
-    document.querySelectorAll('.category-pill').forEach(btn => btn.classList.remove('active'));
-    allPill.classList.add('active');
-    activeCategory = 'all';
-    
-    renderGallery();
-  });
+function parseDate(dateStr) {
+  if (!dateStr) return new Date(0);
+  const [day, month, year] = dateStr.split('/').map(Number);
+  return new Date(year, month - 1, day);
 }
 
 /* ==========================================================================
@@ -186,23 +146,18 @@ function renderGallery() {
   galleryGrid.innerHTML = '';
   
   // Apply filtering cascade
-  const filtered = promptsData.filter(item => {
-    // 1. Category Filter
-    if (activeCategory !== 'all' && item.category.toLowerCase() !== activeCategory) {
-      return false;
-    }
-    
-    // 2. Tag Filter
+  let filtered = promptsData.filter(item => {
+    // 1. Tag Filter
     if (activeTag && !item.tags.some(t => t.toLowerCase() === activeTag.toLowerCase())) {
       return false;
     }
     
-    // 3. Search Query Filter
+    // 2. Search Query Filter
     if (searchQuery.trim() !== '') {
       const q = searchQuery.toLowerCase();
       const matchTitle = item.title.toLowerCase().includes(q);
       const matchPrompt = item.prompt.toLowerCase().includes(q);
-      const matchCategory = item.category.toLowerCase().includes(q);
+      const matchCategory = item.category?.toLowerCase().includes(q) || false;
       const matchTags = item.tags.some(tag => tag.toLowerCase().includes(q));
       const matchModel = item.settings?.model?.toLowerCase().includes(q);
       
@@ -213,6 +168,11 @@ function renderGallery() {
     
     return true;
   });
+
+  // Apply Sorting
+  if (isNewestSorted) {
+    filtered.sort((a, b) => parseDate(b.date) - parseDate(a.date));
+  }
   
   // Empty State Check
   if (filtered.length === 0) {
@@ -512,11 +472,6 @@ function setTagFilter(tag) {
   activeTagName.textContent = tag;
   activeFilterFeedback.style.display = 'flex';
   
-  // Highlight "All" category pill since tags cross boundaries
-  document.querySelectorAll('.category-pill').forEach(btn => btn.classList.remove('active'));
-  document.querySelector('[data-category="all"]').classList.add('active');
-  activeCategory = 'all';
-  
   renderGallery();
   
   // Smooth scroll down to grid view if viewport is on mobile hero
@@ -552,12 +507,8 @@ function resetAllSearchFilters() {
   searchInput.value = '';
   searchQuery = '';
   activeTag = null;
-  activeCategory = 'all';
   clearSearchBtn.style.display = 'none';
   activeFilterFeedback.style.display = 'none';
-  
-  document.querySelectorAll('.category-pill').forEach(btn => btn.classList.remove('active'));
-  document.querySelector('[data-category="all"]').classList.add('active');
   
   renderGallery();
 }

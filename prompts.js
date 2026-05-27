@@ -6,7 +6,8 @@ window.promptsData = [
     "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, human",
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
-    "tags": ["cat", "cyberpunk", "neon", "city", "rain"],
+    "date": "23/05/2026",
+    "tags": ["cat", "cyberpunk", "neon", "city", "rain", "futuristic"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.5",
@@ -22,7 +23,8 @@ window.promptsData = [
     "negative_prompt": "daylight, sun, bright, low detail, human, buildings",
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
-    "tags": ["forest", "magic", "glowing", "nature", "night"],
+    "date": "23/05/2026",
+    "tags": ["forest", "magic", "glowing", "nature", "night", "bioluminescent"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.0",
@@ -38,7 +40,8 @@ window.promptsData = [
     "negative_prompt": "indoor, house, normal plants, low quality, blurry",
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
-    "tags": ["astronaut", "space", "garden", "mars", "surreal"],
+    "date": "23/05/2026",
+    "tags": ["astronaut", "space", "garden", "mars", "surreal", "greenhouse"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "5.0",
@@ -54,7 +57,8 @@ window.promptsData = [
     "negative_prompt": "photorealistic, metal robot, scary, dark, high contrast",
     "image": "images/claymation-robot.png",
     "category": "3D Render",
-    "tags": ["robot", "cute", "claymation", "miniature", "toy"],
+    "date": "23/05/2026",
+    "tags": ["robot", "cute", "claymation", "miniature", "toy", "3d"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "3.0",
@@ -70,7 +74,8 @@ window.promptsData = [
     "negative_prompt": "deformed, bad eyes, low resolution, multiple people, rendering art, drawings",
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
-    "tags": ["portrait", "female", "neon", "glow", "photorealistic"],
+    "date": "23/05/2026",
+    "tags": ["portrait", "female", "neon", "glow", "photorealistic", "cyberpunk"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "6.0",
@@ -86,12 +91,166 @@ window.promptsData = [
     "negative_prompt": "modern buildings, cars, city, low quality, black and white",
     "image": "images/floating-island.png",
     "category": "Fantasy",
-    "tags": ["castle", "island", "floating", "waterfall", "sunset"],
+    "date": "25/05/2026",
+    "tags": ["castle", "island", "floating", "waterfall", "sunset", "fantasy"],
     "settings": {
       "model": "Gemini 3.5 Flash",
       "cfg_scale": "4.5",
       "steps": "25",
       "seed": "551849102",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "10",
+    "title": "World Cup Player",
+    "prompt": "Premium urban football editorial poster for FIFA World Cup 2026. Cinematic close-up portrait of the man from the reference image, face filling most of the frame. Photorealistic warm skin tones, dramatic Rembrandt lighting, deep shadows, intense focused expression. Shoulders show the Brazil national jersey. Clean minimal background: soft off-white textured base, subtle diagonal muted gold wash, faint Brazil national color tones. Cinematic warm grading with bold graphic accents in yellow and green, including one sharp green stripe. Bold editorial typography: large 'FIFA WORLD CUP 2026' title, 'NEYMAR JR', 'BRAZIL', 'Atacante', '10'. Luxury football magazine meets street art aesthetic.",
+    "negative_prompt": "-",
+    "image": "images/10.jpg",
+    "category": "Esportes",
+    "date": "26/05/2026",
+    "tags": ["neymar", "world cup", "fifa 2026", "football", "brasil"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "11",
+    "title": "FIFA World Cup 2026 editorial poster",
+    "prompt": "Ultra-premium FIFA World Cup 2026 editorial poster design featuring Cristiano Ronaldo sitting in a powerful contemplative pose on a minimalist concrete cube. Symmetrical front-facing composition, cinematic sports photography mixed with graphic design aesthetics. Cristiano Ronaldo wearing the Portugal national team home kit for the World Cup, authentic red and green color palette, elegant gold accents, realistic fabric texture, detailed stitching, subtle geometric patterns on the jersey. Puma logo replacing Nike logo on chest, socks and boots. Number 7 prominently displayed on jersey and oversized behind and below the player in modern typography. Cristiano Ronaldo looking slightly upward with intense focused expression, dramatic Rembrandt lighting, photorealistic skin texture, highly detailed facial features, sharp jawline, athletic muscular anatomy, realistic hands clasped together. Captain armband on arm. White football boots with subtle gold details. Minimal luxury background with warm beige/off-white textured paper aesthetic, clean geometric graphic elements, thin modern line art, editorial Swiss design layout, subtle Portugal national symbols, modern World Cup visual identity style. Large oversized transparent number 7 in background with layered red and green outlines. Small Portugal crest elements positioned around composition. Elegant negative space and premium poster balance. Cinematic lighting, soft shadows, high contrast, realistic ambient occlusion, ultra detailed skin pores, realistic fabric folds, studio-quality sports campaign photography, luxury football campaign aesthetic, Behance trending sports artwork, modern football poster design, artstation quality, hyper realistic, 8k ultra HD, extremely detailed, centered composition, premium sports branding aesthetic.",
+    "negative_prompt": "low quality, blurry, deformed anatomy, bad hands, extra fingers, poorly drawn face, asymmetrical eyes, unrealistic proportions, duplicate limbs, mutated body, distorted jersey, incorrect football kit, bad typography, messy composition, oversaturated colors, low resolution, pixelated, jpeg artifacts, watermark, signature, text errors, cropped head, out of frame, cartoon style, anime style, exaggerated muscles, unrealistic skin, plastic skin, overexposed lighting, underexposed shadows, noisy image, flat lighting, generic background, bad posture, floating limbs, malformed hands, poorly rendered boots, distorted Puma logo, fake football crest, extra arms, extra legs, unrealistic facial expression, stretched anatomy, tilted composition, cluttered background, cheap poster aesthetic, bad graphic design, amateur composition, incorrect perspective, low detail fabric, unrealistic shadows, inconsistent lighting, AI artifacts, duplicated elements, ugly face, crossed eyes, malformed ears, weird fingers, poor symmetry, low contrast, washed colors",
+    "image": "images/11.jpg",
+    "category": "Esportes",
+    "date": "25/05/2026",
+    "tags": ["world cup", "cr7", "fifa 2026", "football", "portugal"],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "12",
+    "title": "Nissan GTR",
+    "prompt": "{\"scene\": {\"environment\": \"urban street\", \"weather\": \"rainy\", \"season\": \"autumn\", \"time_of_day\": \"evening or overcast daylight\"}, \"main_subject\": {\"type\": \"sports car\", \"model_inspiration\": \"Nissan GT-R\", \"color\": \"dark with custom decals\", \"view_angle\": \"rear three-quarter\", \"details\": {\"taillights\": \"circular red illuminated\", \"body_kit\": \"widebody\", \"exhaust\": \"dual large exhaust pipes\", \"finish\": \"wet with rain droplets\"}}, \"environment_details\": {\"street\": \"wet asphalt with reflections\", \"foliage\": \"orange autumn leaves on ground and trees\", \"buildings\": \"urban buildings with signage\", \"signage_style\": \"Japanese-style neon signs\", \"pedestrians\": \"blurred figures in background\"}, \"lighting\": {\"type\": \"cinematic\", \"sources\": [\"ambient daylight\", \"neon signs\", \"car taillights reflections\"], \"effects\": \"bokeh, reflections on wet ground\"}, \"camera\": {\"perspective\": \"low angle\", \"focus\": \"car rear\", \"depth_of_field\": \"shallow\", \"motion\": \"static shot\"}, \"mood\": \"cinematic, moody, urban, slightly melancholic\", \"style\": \"hyper-realistic, cinematic photography\"}",
+    "negative_prompt": "",
+    "image": "images/12.jpg",
+    "category": "Automotivo",
+    "date": "26/05/2026",
+    "tags": ["car", "nissan gtr", "rain", "city", "jdm", "sports car"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "13",
+    "title": "Car Night",
+    "prompt": "{\"scene\": {\"environment\": \"city\", \"weather\": \"clear\", \"season\": \"summer\", \"time_of_day\": \"night\"}, \"main_subject\": {\"type\": \"luxury sports car\", \"model_inspiration\": \"low-slung Italian supercar\", \"color\": \"black\", \"view_angle\": \"three-quarter\", \"details\": {\"taillights\": \"LED\", \"body_kit\": \"aerodynamic\", \"exhaust\": \"twin\", \"finish\": \"glossy\"}}, \"environment_details\": {\"street\": \"cobblestone\", \"foliage\": \"none\", \"buildings\": \"modern skyscrapers\", \"signage_style\": \"neon\", \"pedestrians\": \"none\"}, \"lighting\": {\"type\": \"artificial\", \"sources\": [\"streetlights\", \"building lights\"], \"effects\": \"high-contrast\"}, \"camera\": {\"perspective\": \"low-angle\", \"focus\": \"subject\", \"depth_of_field\": \"shallow\", \"motion\": \"slow orbit\"}, \"mood\": \"sophisticated\", \"style\": \"cinematic\"}",
+    "negative_prompt": "",
+    "image": "images/13.jpg",
+    "category": "Automotivo",
+    "date": "25/05/2026",
+    "tags": ["car", "luxury", "city", "night", "supercar", "ferrari"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "14",
+    "title": "Promote Hamburguer",
+    "prompt": "A cinematic 9:16 vertical composition featuring a gourmet \"Smokey Obsidian\" burger. WHAT: A towering burger with a charcoal brioche bun, thick Wagyu beef patty with visible sear marks, melting aged gruyère dripping like lava, and crispy maple-glazed bacon. FEEL: An atmosphere of \"Urban Indulgence.\" Dark, moody lighting with a single warm amber spotlight. Wisps of real hickory smoke curl around the bun. The texture is hyper-realistic you can see the salt crystals on the crust and the moisture on the heirloom tomato. SHOW: The burger is captured in a \"deconstructed gravity\" moment the top bun is slightly hovering, revealing the internal layers of house-made aioli and pickled red onions. TYPOGRAPHY: Integration of ultra-bold, distressed sans-serif typeface overlapping the bottom third of the frame. The text reads \"DEFY GRAVITY\" in a raw, concrete-texture finish. TECHNICAL: 4k resolution, macro photography style, shallow depth of field, neon-noir color grading (deep blacks, warm ambers, and subtle teal highlights).",
+    "negative_prompt": "",
+    "image": "images/14.jpg",
+    "category": "Gastronomia",
+    "date": "26/05/2026",
+    "tags": ["hamburguer", "food", "gourmet", "advertising", "commercial"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "15",
+    "title": "O Predador da Alvorada",
+    "prompt": "A hyper-realistic, high-resolution cinematic shot of a majestic black panther in a powerful forward-leaping motion, direct eye contact with the viewer. The panther's fur is deep black with subtle, intricate rosette textures visible under dramatic lighting. Its eyes are intense, glowing amber, serving as the focal point. The background is a vibrant, moody sunset gradient transitioning from deep purple and magenta at the top to a fiery, brilliant orange and gold glow at the horizon. In the foreground, silhouettes of wild savanna grass frame the leap, with soft bokeh blurring the edges. Expert lighting, 8k resolution, cinematic depth of field, sharp focus on the panther's face and paws, hyper-detailed fur rendering, dramatic atmosphere.",
+    "negative_prompt": "",
+    "image": "images/15.jpg",
+    "category": "Natureza",
+    "date": "25/05/2026",
+    "tags": ["panther", "wildlife", "animal", "sunset", "predator", "gradient"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "16",
+    "title": "Poster de desenho",
+    "prompt": "High-quality digital illustration of Cygnus Hyoga from Saint Seiya in his full classic armor. The character is standing in the foreground, heroic pose. The background is an epic, golden, divine, and ethereal composition, featuring intricate celestial patterns, glowing constellations, and light rays, inspired by the style of a legendary anime poster. In the upper part, a large, majestic portrait of Hyoga’s face with a determined expression. Ornate golden frames and ancient symbolic patterns bordering the edges. The aesthetic is grand, cinematic, and god-like, with a luminous gold and ice-blue color palette, detailed armor textures, 8k resolution, masterful composition.",
+    "negative_prompt": "",
+    "image": "images/16.jpg",
+    "category": "Anime/Ilustração",
+    "date": "27/05/2026",
+    "tags": ["anime", "saint seiya", "hyoga", "illustration", "poster", "gold"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "17",
+    "title": "Nissan 350z",
+    "prompt": "{\r\n  \"project\": \"Automotive Collector Poster\",\r\n  \"subject\": \"Nissan 350Z (Nardo Gray Widebody)\",\r\n  \"concept\": \"STREET CULTURE EVOLVED\",\r\n  \"prompt_text\": \"Create a 4:5 vertical premium automotive collector poster in ultra-high-resolution 8K quality. The subject is a custom Nardo Gray Nissan 350Z with widebody fender flares, aggressive aero kit, and vibrant multi-colored racing livery stickers on the side panels. The background should be a moody, high-contrast dark urban environment at night—think rain-slicked asphalt reflecting vibrant neon city lights in deep blues and purples to make the Nardo Gray paint pop. The composition should feel like a high-end automotive magazine cover. Position the 350Z at the lower-middle, captured with a low, wide-angle lens for a powerful stance. The car features deep-dish wheels with polished chrome lips, aggressive front bumper, and track-focused setup. Use dramatic chiaroscuro lighting to emphasize the widebody contours and the intricate details of the side graphics. The typography should be bold and urban, with a massive, stylized “350Z” in the background using a clean white sans-serif font with a subtle chromatic aberration effect. Include the headline 'BUILT FOR THE STREETS' in a modern, razor-sharp font. Beneath the car, include a performance specification strip with the following stats: '300 HP', '5.4 SECONDS', and '255 KM/H' using sleek, minimal icons. Add subtle cinematic elements like light lens flares from city neons, fine atmospheric mist, and a slight grain overlay for an authentic film look. The final output must have ultra-detailed textures on the widebody kit, realistic reflections on the gray paint, and sharp typography edges, resulting in a premium collector’s edition aesthetic.\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/17.jpg",
+    "category": "Cyberpunk",
+    "date": "26/05/2026",
+    "tags": ["neon", "city"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "18",
+    "title": "Datailed Hambuguer",
+    "prompt": "{\r\n  \"project_metadata\": {\r\n    \"reference_image\": \"image_144969.png\",\r\n    \"theme\": \"Exploded View Gastronomy\",\r\n    \"product\": \"Big Tasty\",\r\n    \"design_guidelines\": {\r\n      \"font_primary\": \"Montserrat (Bold)\",\r\n      \"font_secondary\": \"Lora (Regular)\",\r\n      \"visual_style\": \"Dark charcoal background, studio lighting\",\r\n      \"action_effect\": \"Levitation/Exploded view\"\r\n    }\r\n  },\r\n  \"menu_item\": {\r\n    \"title\": \"X-PAMONHA\",\r\n    \"description_pt\": \"Hambúrguer icônico com carne grelhada, queijo Emmental, alface, tomate, cebola e o exclusivo molho Tasty.\",\r\n    \"components\": [\r\n      {\r\n        \"id\": \"top_bun\",\r\n        \"label\": \"Pão com Gergelim\",\r\n        \"position\": {\"x\": 500, \"y\": 100},\r\n        \"description\": \"Pão macio e tostado com sementes de gergelim.\"\r\n      },\r\n      {\r\n        \"id\": \"lettuce\",\r\n        \"label\": \"Alface Crocante\",\r\n        \"position\": {\"x\": 450, \"y\": 250},\r\n        \"description\": \"Folhas frescas de alface picada.\"\r\n      },\r\n      {\r\n        \"id\": \"tomato\",\r\n        \"label\": \"Tomate Fresco\",\r\n        \"position\": {\"x\": 550, \"y\": 300},\r\n        \"description\": \"Fatia grossa de tomate vermelho suculento.\"\r\n      },\r\n      {\r\n        \"id\": \"cheese_meat\",\r\n        \"label\": \"3 Carnes e 3 Queijos\",\r\n        \"position\": {\"x\": 500, \"y\": 450},\r\n        \"description\": \"Hambúrguer grelhado coberto por queijo Emmental derretido.\"\r\n      },\r\n      {\r\n        \"id\": \"sauce\",\r\n        \"label\": \"Molho Tasty\",\r\n        \"position\": {\"x\": 400, \"y\": 550},\r\n        \"description\": \"Molho defumado exclusivo.\"\r\n      },\r\n      {\r\n        \"id\": \"bottom_bun\",\r\n        \"label\": \"Base do Pão\",\r\n        \"position\": {\"x\": 500, \"y\": 650},\r\n        \"description\": \"Base macia do pão tostado.\"\r\n      }\r\n    ]\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/18.jpg",
+    "category": "Cyberpunk",
+    "date": "25/05/2026",
+    "tags": ["neon", "city"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
       "aspect_ratio": "16:9"
     }
   }
