@@ -38,26 +38,36 @@
         </a>
       </div>
       
-      <!-- Interactive Theme Toggle -->
-      <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle light/dark theme">
-        <!-- Sun Icon (visible in dark theme) -->
-        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="4"></circle>
-          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
-        </svg>
-        <!-- Moon Icon (visible in light theme) -->
-        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 3a6.36 6.36 0 0 0-9 9 9 9 0 1 0 9-9Z"></path>
-        </svg>
-      </button>
+      <!-- Controls Area -->
+      <div class="header-controls">
+        <!-- Language Switcher -->
+        <button class="lang-toggle" id="langToggleBtn" aria-label="Switch Language">
+          <span class="active-lang">EN</span>
+          <span class="lang-divider">|</span>
+          <span class="inactive-lang">PT</span>
+        </button>
+
+        <!-- Interactive Theme Toggle -->
+        <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle light/dark theme">
+          <!-- Sun Icon (visible in dark theme) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <!-- Moon Icon (visible in light theme) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6.36 6.36 0 0 0-9 9 9 9 0 1 0 9-9Z"></path>
+          </svg>
+        </button>
+      </div>
     </div>
   </header>
 
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="hero-container">
-      <h1 class="hero-title">Beautiful prompts. <br class="mobile-break">Stunning generations.</h1>
-      <p class="hero-description">The open source prompt library for creators. Discover curated prompts, copy with one click, and remix details.</p>
+      <h1 class="hero-title" data-i18n="hero_title">Beautiful prompts. <br class="mobile-break">Stunning generations.</h1>
+      <p class="hero-description" data-i18n="hero_desc">The open source prompt library for creators. Discover curated prompts, copy with one click, and remix details.</p>
       
       <!-- Dynamic Search Bar -->
       <div class="search-bar-wrapper">
@@ -67,7 +77,7 @@
             <path d="m21 21-4.3-4.3"></path>
           </svg>
         </div>
-        <input type="text" id="searchInput" placeholder="Search prompts, models, or tags..." aria-label="Search prompts">
+        <input type="text" id="searchInput" placeholder="Search prompts, models, or tags..." aria-label="Search prompts" data-i18n-placeholder="search_placeholder">
         <button id="clearSearchBtn" class="clear-search-btn" aria-label="Clear search" style="display: none;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 6 6 18M6 6l12 12"></path>
@@ -83,7 +93,7 @@
       <div id="sortControls" class="sort-controls">
         <button class="sort-pill active" id="sortNewestBtn">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 16-4 4-4-4"/><path d="M17 20V4"/><path d="m3 8 4-4 4 4"/><path d="M7 4v16"/></svg>
-          <span>Newest First</span>
+          <span data-i18n="sort_newest">Newest First</span>
         </button>
       </div>
     </div>
@@ -93,8 +103,8 @@
   <main class="gallery-wrapper">
     <!-- Active Filters Badge Area -->
     <div id="activeFilterFeedback" class="active-filter-feedback" style="display: none;">
-      <span class="feedback-text">Showing results for tag: <strong id="activeTagName">tag</strong></span>
-      <button id="resetTagFilterBtn" class="reset-tag-btn">Clear filter</button>
+      <span class="feedback-text"><span data-i18n="showing_tag">Showing results for tag:</span> <strong id="activeTagName">tag</strong></span>
+      <button id="resetTagFilterBtn" class="reset-tag-btn" data-i18n="clear_filter">Clear filter</button>
     </div>
 
     <!-- Masonry Grid -->
@@ -116,9 +126,9 @@
           <path d="m16 16-3.89-3.89M12 8v4M12 16h.01"></path>
         </svg>
       </div>
-      <h3 class="empty-state-title">No prompts found</h3>
-      <p class="empty-state-text">We couldn't find anything matching your keywords. Try searching for other terms or resetting filters.</p>
-      <button id="resetAllFiltersBtn" class="btn btn-primary">Reset search filters</button>
+      <h3 class="empty-state-title" data-i18n="no_prompts">No prompts found</h3>
+      <p class="empty-state-text" data-i18n="no_prompts_desc">We couldn't find anything matching your keywords. Try searching for other terms or resetting filters.</p>
+      <button id="resetAllFiltersBtn" class="btn btn-primary" data-i18n="reset_filters">Reset search filters</button>
     </div>
   </main>
 
@@ -131,10 +141,10 @@
             <path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25V349.38A162.55 162.55 0 1 1 185 188.31V278.2a74.62 74.62 0 1 0 52.23 71.18V0l88 0a121.18 121.18 0 0 0 1.86 22.17h0A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z" fill="currentColor"/>
           </svg>
         </div>
-        <h2 class="tiktok-title">Vini Delgado on TikTok</h2>
-        <p class="tiktok-text">Follow for daily AI inspiration, workflow tips, and behind-the-scenes of Infinity Prompt Verse.</p>
+        <h2 class="tiktok-title" data-i18n="tiktok_title">Vini Delgado on TikTok</h2>
+        <p class="tiktok-text" data-i18n="tiktok_desc">Follow for daily AI inspiration, workflow tips, and behind-the-scenes of Infinity Prompt Verse.</p>
         <a href="https://www.tiktok.com/@vini_dji" target="_blank" class="tiktok-btn">
-          <span>Follow @vini_dji</span>
+          <span data-i18n="tiktok_btn">Follow @vini_dji</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -154,28 +164,26 @@
             <span class="logo-text">Infinity<span class="highlight">Verse</span></span>
           </a>
         </div>
-        <p class="footer-tagline">Pushing the boundaries of generative art through curated prompt engineering.</p>
+        <p class="footer-tagline" data-i18n="footer_tagline">Pushing the boundaries of generative art through curated prompt engineering.</p>
       </div>
       
       <div class="footer-links-side">
         <div class="footer-column">
-          <h4>Explore</h4>
-          <a href="#" id="footerNewest">Newest</a>
+          <h4 data-i18n="footer_explore">Explore</h4>
+          <a href="#" id="footerNewest" data-i18n="footer_newest">Newest</a>
         </div>
         <div class="footer-column">
-          <h4>Community</h4>
+          <h4 data-i18n="footer_community">Community</h4>
           <a href="https://github.com/vinidelgado" target="_blank">GitHub</a>
           <a href="https://www.tiktok.com/@vini_dji" target="_blank">TikTok</a>
-          <a href="#">Discord</a>
-          <a href="#">Twitter</a>
         </div>
       </div>
     </div>
     
     <div class="footer-bottom">
       <div class="footer-container">
-        <p class="footer-copy">&copy; 2026 Infinity Prompt Verse. Built with cosmic precision.</p>
-        <p class="footer-disclaimer">All images are generated using state-of-the-art AI diffusion models.</p>
+        <p class="footer-copy" data-i18n="footer_copy">&copy; 2026 Infinity Prompt Verse. Built with cosmic precision.</p>
+        <p class="footer-disclaimer" data-i18n="footer_disclaimer">All images are generated using state-of-the-art AI diffusion models.</p>
       </div>
     </div>
   </footer>
@@ -216,7 +224,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
               </svg>
-              <span>Share Link</span>
+              <span data-i18n="modal_share">Share Link</span>
             </button>
           </div>
 
@@ -234,7 +242,7 @@
                 <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
-                <span class="btn-text">Copy Prompt</span>
+                <span class="btn-text" data-i18n="modal_copy_prompt">Copy Prompt</span>
               </button>
             </div>
             <div class="prompt-content-box">
@@ -254,7 +262,7 @@
                 <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
-                <span class="btn-text">Copy</span>
+                <span class="btn-text" data-i18n="modal_copy">Copy</span>
               </button>
             </div>
             <div class="prompt-content-box">
@@ -266,7 +274,7 @@
           <div class="settings-section">
             <div class="settings-grid">
               <div class="setting-item highlight-item">
-                <span class="setting-name">Model</span>
+                <span class="setting-name" data-i18n="modal_model">Model</span>
                 <span id="settingModel" class="setting-value">-</span>
               </div>
             </div>
@@ -274,7 +282,7 @@
 
           <!-- Tags list -->
           <div class="tags-section">
-            <h3 class="section-subtitle">Tags</h3>
+            <h3 class="section-subtitle" data-i18n="modal_tags">Tags</h3>
             <div id="modalTagsContainer" class="modal-tags-container">
               <!-- Tags list will populate dynamically -->
             </div>
@@ -290,6 +298,7 @@
   <div id="toastContainer" class="toast-container" aria-live="polite"></div>
 
   <!-- Client Scripts -->
+  <script src="translations.js"></script>
   <script src="prompts.js"></script>
   <script src="app.js"></script>
 </body>

@@ -7,6 +7,7 @@ let promptsData = [];
 let isNewestSorted = true;
 let activeTag = null;
 let searchQuery = '';
+let currentLang = localStorage.getItem('lang') || 'en';
 
 // DOM Cache
 const body = document.body;
@@ -20,6 +21,7 @@ const resetAllFiltersBtn = document.getElementById('resetAllFiltersBtn');
 const activeFilterFeedback = document.getElementById('activeFilterFeedback');
 const activeTagName = document.getElementById('activeTagName');
 const resetTagFilterBtn = document.getElementById('resetTagFilterBtn');
+const langToggleBtn = document.getElementById('langToggleBtn');
 
 // Modal DOM Cache
 const detailModal = document.getElementById('detailModal');
@@ -55,12 +57,48 @@ themeToggleBtn.addEventListener('click', () => {
   if (body.classList.contains('dark-theme')) {
     body.classList.replace('dark-theme', 'light-theme');
     localStorage.setItem('theme', 'light-theme');
-    showToast('Switched to Light Mode', 'info');
+    showToast(getTranslation('toast_theme_light'), 'info');
   } else {
     body.classList.replace('light-theme', 'dark-theme');
     localStorage.setItem('theme', 'dark-theme');
-    showToast('Switched to Dark Mode', 'info');
+    showToast(getTranslation('toast_theme_dark'), 'info');
   }
+});
+
+/* ==========================================================================
+   Internationalization Engine
+   ========================================================================== */
+
+function getTranslation(key) {
+  return window.translations[currentLang][key] || key;
+}
+
+function applyTranslations() {
+  // Update text content for elements with data-i18n
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    el.innerHTML = getTranslation(key); // Using innerHTML to support <br> tags
+  });
+
+  // Update placeholders
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    el.placeholder = getTranslation(key);
+  });
+
+  // Update Lang Toggle Visual State
+  if (langToggleBtn) {
+    const isPt = currentLang === 'pt';
+    langToggleBtn.querySelector('.active-lang').textContent = isPt ? 'PT' : 'EN';
+    langToggleBtn.querySelector('.inactive-lang').textContent = isPt ? 'EN' : 'PT';
+  }
+}
+
+langToggleBtn.addEventListener('click', () => {
+  currentLang = currentLang === 'en' ? 'pt' : 'en';
+  localStorage.setItem('lang', currentLang);
+  applyTranslations();
+  showToast(currentLang === 'en' ? 'Language: English' : 'Idioma: Português', 'info');
 });
 
 /* ==========================================================================
@@ -69,6 +107,7 @@ themeToggleBtn.addEventListener('click', () => {
 
 async function bootstrapApp() {
   initTheme();
+  applyTranslations();
   
   try {
     // 1. Try to load dynamically from prompts.json (works on static web servers)
@@ -229,7 +268,7 @@ function renderGallery() {
     copyBtn.addEventListener('click', (e) => {
       e.stopPropagation(); // Don't trigger modal pop-up on copy button tap
       navigator.clipboard.writeText(item.prompt).then(() => {
-        showToast('Prompt copied to clipboard!', 'success');
+        showToast(getTranslation('toast_prompt_copied'), 'success');
         
         // Brief visual animation on card icon button
         copyBtn.style.backgroundColor = 'var(--color-success)';
@@ -363,7 +402,7 @@ function openModal(item) {
   modalShareBtn.onclick = () => {
     const shareUrl = `${window.location.origin}${window.location.pathname}?prompt=${item.id}`;
     navigator.clipboard.writeText(shareUrl).then(() => {
-      showToast('Share link copied to clipboard!', 'success');
+      showToast(getTranslation('toast_link_copied'), 'success');
     });
   };
   
@@ -431,12 +470,12 @@ function setupCopyAction(btnId, textToCopy) {
   
   newBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(textToCopy).then(() => {
-      showToast('Copied to clipboard!', 'success');
+      showToast(getTranslation('toast_copied'), 'success');
       
       // Toggle icons and classes
       if (copyIcon) copyIcon.style.display = 'none';
       if (checkIcon) checkIcon.style.display = 'inline-block';
-      if (btnText) btnText.textContent = 'Copied!';
+      if (btnText) btnText.textContent = getTranslation('modal_copied');
       
       newBtn.classList.replace(originalClass, 'btn-success');
       
@@ -446,7 +485,7 @@ function setupCopyAction(btnId, textToCopy) {
         
         if (btnText) {
           // Restore original text based on button ID
-          btnText.textContent = btnId === 'modalCopyNegativeBtn' ? 'Copy' : 'Copy Prompt';
+          btnText.textContent = btnId === 'modalCopyNegativeBtn' ? getTranslation('modal_copy') : getTranslation('modal_copy_prompt');
         }
         
         newBtn.classList.replace('btn-success', originalClass);

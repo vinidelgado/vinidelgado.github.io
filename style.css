@@ -232,6 +232,46 @@ button, input {
   font-weight: 500;
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 0.875rem;
+  height: 40px;
+  border-radius: 9999px;
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+}
+
+.lang-toggle:hover {
+  background-color: var(--bg-accent);
+  border-color: var(--text-muted);
+}
+
+.lang-toggle .active-lang {
+  color: var(--color-accent);
+}
+
+.lang-toggle .lang-divider {
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
+.lang-toggle .inactive-lang {
+  color: var(--text-muted);
+}
+
 .theme-toggle {
   width: 40px;
   height: 40px;
