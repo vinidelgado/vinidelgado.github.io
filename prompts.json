@@ -436,8 +436,8 @@
     "category": "Bebidas",
     "date": "28/05/2026",
     "tags": [
-      "neon",
-      "city"
+      "drink",
+      "bebida"
     ],
     "settings": {
       "model": "Gemini",
@@ -445,6 +445,6 @@
       "steps": "25",
       "seed": "123456789",
       "aspect_ratio": "16:9"
-    },
+    }
   }
 ]
