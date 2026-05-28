@@ -210,7 +210,7 @@ window.promptsData = [
     "negative_prompt": "",
     "image": "images/16.jpg",
     "category": "Anime/Ilustração",
-    "date": "27/05/2026",
+    "date": "26/05/2026",
     "tags": ["anime", "saint seiya", "hyoga", "illustration", "poster", "gold"],
     "settings": {
       "model": "Gemini",
@@ -226,9 +226,9 @@ window.promptsData = [
     "prompt": "{\r\n  \"project\": \"Automotive Collector Poster\",\r\n  \"subject\": \"Nissan 350Z (Nardo Gray Widebody)\",\r\n  \"concept\": \"STREET CULTURE EVOLVED\",\r\n  \"prompt_text\": \"Create a 4:5 vertical premium automotive collector poster in ultra-high-resolution 8K quality. The subject is a custom Nardo Gray Nissan 350Z with widebody fender flares, aggressive aero kit, and vibrant multi-colored racing livery stickers on the side panels. The background should be a moody, high-contrast dark urban environment at night—think rain-slicked asphalt reflecting vibrant neon city lights in deep blues and purples to make the Nardo Gray paint pop. The composition should feel like a high-end automotive magazine cover. Position the 350Z at the lower-middle, captured with a low, wide-angle lens for a powerful stance. The car features deep-dish wheels with polished chrome lips, aggressive front bumper, and track-focused setup. Use dramatic chiaroscuro lighting to emphasize the widebody contours and the intricate details of the side graphics. The typography should be bold and urban, with a massive, stylized “350Z” in the background using a clean white sans-serif font with a subtle chromatic aberration effect. Include the headline 'BUILT FOR THE STREETS' in a modern, razor-sharp font. Beneath the car, include a performance specification strip with the following stats: '300 HP', '5.4 SECONDS', and '255 KM/H' using sleek, minimal icons. Add subtle cinematic elements like light lens flares from city neons, fine atmospheric mist, and a slight grain overlay for an authentic film look. The final output must have ultra-detailed textures on the widebody kit, realistic reflections on the gray paint, and sharp typography edges, resulting in a premium collector’s edition aesthetic.\"\r\n}",
     "negative_prompt": "",
     "image": "images/17.jpg",
-    "category": "Cyberpunk",
+    "category": "Automotivo",
     "date": "26/05/2026",
-    "tags": ["neon", "city"],
+    "tags": ["car", "nissan 350z", "jdm", "widebody", "poster", "automotive"],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
@@ -243,9 +243,77 @@ window.promptsData = [
     "prompt": "{\r\n  \"project_metadata\": {\r\n    \"reference_image\": \"image_144969.png\",\r\n    \"theme\": \"Exploded View Gastronomy\",\r\n    \"product\": \"Big Tasty\",\r\n    \"design_guidelines\": {\r\n      \"font_primary\": \"Montserrat (Bold)\",\r\n      \"font_secondary\": \"Lora (Regular)\",\r\n      \"visual_style\": \"Dark charcoal background, studio lighting\",\r\n      \"action_effect\": \"Levitation/Exploded view\"\r\n    }\r\n  },\r\n  \"menu_item\": {\r\n    \"title\": \"X-PAMONHA\",\r\n    \"description_pt\": \"Hambúrguer icônico com carne grelhada, queijo Emmental, alface, tomate, cebola e o exclusivo molho Tasty.\",\r\n    \"components\": [\r\n      {\r\n        \"id\": \"top_bun\",\r\n        \"label\": \"Pão com Gergelim\",\r\n        \"position\": {\"x\": 500, \"y\": 100},\r\n        \"description\": \"Pão macio e tostado com sementes de gergelim.\"\r\n      },\r\n      {\r\n        \"id\": \"lettuce\",\r\n        \"label\": \"Alface Crocante\",\r\n        \"position\": {\"x\": 450, \"y\": 250},\r\n        \"description\": \"Folhas frescas de alface picada.\"\r\n      },\r\n      {\r\n        \"id\": \"tomato\",\r\n        \"label\": \"Tomate Fresco\",\r\n        \"position\": {\"x\": 550, \"y\": 300},\r\n        \"description\": \"Fatia grossa de tomate vermelho suculento.\"\r\n      },\r\n      {\r\n        \"id\": \"cheese_meat\",\r\n        \"label\": \"3 Carnes e 3 Queijos\",\r\n        \"position\": {\"x\": 500, \"y\": 450},\r\n        \"description\": \"Hambúrguer grelhado coberto por queijo Emmental derretido.\"\r\n      },\r\n      {\r\n        \"id\": \"sauce\",\r\n        \"label\": \"Molho Tasty\",\r\n        \"position\": {\"x\": 400, \"y\": 550},\r\n        \"description\": \"Molho defumado exclusivo.\"\r\n      },\r\n      {\r\n        \"id\": \"bottom_bun\",\r\n        \"label\": \"Base do Pão\",\r\n        \"position\": {\"x\": 500, \"y\": 650},\r\n        \"description\": \"Base macia do pão tostado.\"\r\n      }\r\n    ]\r\n  }\r\n}",
     "negative_prompt": "",
     "image": "images/18.jpg",
-    "category": "Cyberpunk",
-    "date": "25/05/2026",
-    "tags": ["neon", "city"],
+    "category": "Gastronomia",
+    "date": "27/05/2026",
+    "tags": ["hamburguer", "food", "gourmet", "gastronomy", "exploded view"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "19",
+    "title": "Ronaldo Fenômeno - Cubist Legacy",
+    "prompt": "{\r\n  \"prompt\": {\r\n    \"subject\": \"Ronaldo Fenômeno\",\r\n    \"style\": \"stylized geometric cubist sports poster\",\r\n    \"art_direction\": \"modern abstract vector illustration inspired by premium Behance and Dribbble artworks\",\r\n    \"composition\": {\r\n      \"focus\": \"one explosive football moment: a powerful dribble, an iconic celebration, or an explosive strike on goal\",\r\n      \"visual_elements\": [\r\n        \"elongated curved body proportions\",\r\n        \"muscular yet angular limbs\",\r\n        \"exaggerated motion\",\r\n        \"smooth flowing body lines\",\r\n        \"sharp geometric vector elements\"\r\n      ]\r\n    },\r\n    \"details\": {\r\n      \"attire\": \"classic yellow or blue football kit inspired by his peak era with clean geometric details\",\r\n      \"atmosphere\": \"iconic, elegant, powerful, and timeless\"\r\n    },\r\n    \"style_specs\": {\r\n      \"background\": \"pure white\",\r\n      \"color_palette\": \"bright clean with strong geometric shadows\",\r\n      \"shapes\": \"smooth curves mixed with sharp triangular vector elements\",\r\n      \"face\": \"minimalistic but expressive facial geometry capturing the iconic smile or intense focus\",\r\n      \"aesthetic\": \"flat modern graphic design, ultra-clean cubist vector finish\",\r\n      \"finish\": \"high-detail abstract vector illustration\",\r\n      \"layout\": \"balanced negative space, dynamic football-inspired composition\",\r\n      \"restrictions\": [\r\n        \"no text\",\r\n        \"no quotes\",\r\n        \"no watermarks\"\r\n      ],\r\n      \"mood\": \"premium sports poster atmosphere, futuristic luxury, dramatic explosive energy\",\r\n      \"emphasis\": \"speed, agility, and lethal finishing\"\r\n    }\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/19.jpg",
+    "category": "Esportes",
+    "date": "27/05/2026",
+    "tags": ["ronaldo", "football", "cubism", "vector", "illustration", "sports"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "20",
+    "title": "Essenza Italiana",
+    "prompt": "A minimalistic advertising poster about food in a modern Italian style with Japanese layout aesthetics, preserving the exact compositional structure: two large rounded vertical geometric color blocks arranged diagonally along the composition, food photography with a view from above. The upper left block is a hero dish: fresh tagliatelle pasta with truffle cream and parmesan cheese on a light ceramic plate, with thin slices of black truffle, olive oil and microgreens, premium restaurant service. The lower right block is the second hero dish: slow—stewed ossobuco with saffron risotto on a matte dark plate, with rich sauce, gremolata and fresh herbs, modern author's Italian cuisine. Floating side dishes and appliances are neatly arranged around each dish: vintage cutlery, linen napkins, sprigs of rosemary and thyme, cherry tomatoes, slices of parmesan, miniature saucepans with olive oil, fresh handmade focaccia, olives and spices. Large typography in modern Italian style is aligned to the upper right, the text is entirely in Russian: the name of the restaurant, the names of the dishes and the prices. Small text with prices is placed next to each dish. Airy editorial is a negative space system, a soft pastel commercial palette with shades of cream, terracotta, olive, sage and graphite. Clear asymmetrical visual hierarchy, premium restaurant branding aesthetics, cinematic soft shadows, modern menu presentation in poster format. The subtle signature in the footer is naturally integrated into the bottom of the composition. Pure vertical composition, ultra detailed, premium branding, realistic food styling, soft cinematic lighting, Italian cuisine editorial poster design, minimalism. The text is entirely in Portuguese Brazilian.",
+    "negative_prompt": "",
+    "image": "images/20.jpg",
+    "category": "Gastronomia",
+    "date": "27/05/2026",
+    "tags": ["food", "italian", "pasta", "restaurant", "poster", "minimalist"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "22",
+    "title": "Imagem Pixar",
+    "prompt": "Estilo caricaturesco/3D tipo Pixar, una mujer.\r\nEfecto de Prisma/Espejo: Lo más característico es que la imagen aparece \"fragmentada\" por lo que parecen ser piezas de vidrio o un prisma colocado frente al lente. Esto crea reflejos geométricos, cortes nítidos y una sensación de profundidad fracturada que distorsiona partes del rostro.\r\nIluminación: La fotografía utiliza un esquema de iluminación dual, un contraste marcado entre tonos cálidos (dorados/naranjas) que iluminan el centro del rostro, y tonos fríos (cian/azul verdoso) que dominan las sombras y los bordes.\r\nMaquillaje: Lleva un maquillaje muy cuidado y profesional. Sus ojos están realzados con sombras en tonos cálidos (melocotón y tierra) y un delineado fino, complementado con pestañas definidas. Sus labios destacan con un labial mate en un tono rosa empolvado o malva.\r\nDetalles: Lleva un collar fino que añade un toque de elegancia y delicadeza, equilibrando el impacto visual de los colores intensos.\r\nManicura: Sus uñas son largas, con forma almendrada o stiletto, y están pintadas de un color negro azabache brillante. Su mano derecha reposa delicadamente sobre su barbilla y mejilla.\r\nFuente de Luz: Existe un punto de luz brillante, casi como un destello, situado en la parte superior derecha. Esta fuente de luz es el elemento clave que da vida a la imagen, ya que al atravesar las grietas y reflejarse en los bordes rotos, crea un efecto de destello de lente (lens flare) y destellos dorados que contrastan con el fondo oscuro.\r\nContraste Cromático: Se utiliza un esquema de color minimalista pero impactante:\r\nTonos Dorados/Ámbar: Se concentran en las zonas donde la luz incide directamente sobre los bordes del vidrio.\r\nEl Efecto de Disolución: El aspecto más impactante es cómo la figura parece desvanecerse o deshacerse en el aire. La parte posterior de su cuerpo y su cabello se están transformando en una nube de partículas oscuras y pequeños fragmentos que se elevan y se dispersan hacia la derecha.\r\nContraste de Luz y Color: Entre estas partículas que se desprenden, emergen puntos de luz cálida, como chispas o brasas encendidas. Este resplandor dorado contrasta dramáticamente con la paleta de colores fríos, grises y oscuros del resto de la escena, creando una sensación de energía que emana desde el interior de la figura.\r\nGotas etéreas: Una estela de luz líquida o energía desciende por su mejilla, como si fuera una lágrima de luz, lo que añade un toque melancólico pero hermoso a la composición.\r\nPaleta de Colores: La imagen se mueve casi exclusivamente en tonos de azul profundo, gris y negro, con el contraste del halo blanco y los destellos brillantes. Esta paleta monocromática azulada crea una atmósfera fría, nocturna y solemne.\r\nEl fondo presenta una textura difusa y ahumada, que transiciona suavemente de tonos oscuros y profundos en la parte superior e izquierda, hacia una iluminación más clara y grisácea hacia el centro y la derecha.\r\nElementos flotantes: La imagen está llena de pequeñas partículas o manchas distribuidas de forma irregular. Estas parecen estar \"suspendidas\" en el aire, sugiriendo movimiento.\r\nContraste de color: Se observa una dicotomía visual marcada entre los tonos oscuros (negros y grises) y los puntos de color naranja vibrante, que contrastan fuertemente, similares a chispas o partículas de fuego que se dispersan en una columna de humo.\r\nComposición: La distribución de los elementos crea un flujo visual diagonal, moviéndose desde la parte superior izquierda hacia la parte inferior derecha, donde las manchas son más densas y aglomeradas.\r\nparada que salga así le pones házmela estilo wallpaper 9:16",
+    "negative_prompt": "",
+    "image": "images/22.jpg",
+    "category": "3D Render",
+    "date": "27/05/2026",
+    "tags": ["3d", "pixar", "portrait", "prism", "character", "woman"],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "23",
+    "title": "Jack Daniels McLaren",
+    "prompt": "{\r\n  \"post_do_anuncio\": {\r\n    \"titulo_principal\": \"JACK DANIEL'S MCLAREN\",\r\n    \"estilo_visual\": {\r\n      \"fundo\": \"Gradiente de âmbar e creme\",\r\n      \"tema\": \"Parceria de luxo\",\r\n      \"elementos_chave\": [\"Garrafa de Tennessee Whiskey\", \"Carro de F1 McLaren\"]\r\n    },\r\n    \"copy_texto\": \"Experience the ultimate partnership. Legendary Tennessee Whiskey meets cutting-edge F1 technology for speed and smoothness.\",\r\n    \"elementos_interativos\": [\r\n      { \"rotulo\": \"TENNESSEE WHISKEY\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"MCLAREN RACING\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"LIMITED EDITION\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"SPEED & SMOOTHNESS\", \"icone\": \"+\" }\r\n    ],\r\n    \"detalhes_de_composicao\": {\r\n      \"tipografia\": \"Serifada em bloco para o título, sans-serif para o corpo\",\r\n      \"dinamismo\": \"Explosão de líquido e marcas de pneus na pista\",\r\n      \"disposicao\": \"Vertical\"\r\n    }\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/23.jpg",
+    "category": "Bebidas",
+    "date": "28/05/2026",
+    "tags": ["drink", "bebida"],
     "settings": {
       "model": "Gemini",
       "cfg_scale": "4.0",
