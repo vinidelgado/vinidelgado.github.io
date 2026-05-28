@@ -385,5 +385,24 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "22",
+    "title": "Imagem Pixar",
+    "prompt": "Estilo caricaturesco/3D tipo Pixar, una mujer.\r\nEfecto de Prisma/Espejo: Lo más característico es que la imagen aparece \"fragmentada\" por lo que parecen ser piezas de vidrio o un prisma colocado frente al lente. Esto crea reflejos geométricos, cortes nítidos y una sensación de profundidad fracturada que distorsiona partes del rostro.\r\nIluminación: La fotografía utiliza un esquema de iluminación dual, un contraste marcado entre tonos cálidos (dorados/naranjas) que iluminan el centro del rostro, y tonos fríos (cian/azul verdoso) que dominan las sombras y los bordes.\r\nMaquillaje: Lleva un maquillaje muy cuidado y profesional. Sus ojos están realzados con sombras en tonos cálidos (melocotón y tierra) y un delineado fino, complementado con pestañas definidas. Sus labios destacan con un labial mate en un tono rosa empolvado o malva.\r\nDetalles: Lleva un collar fino que añade un toque de elegancia y delicadeza, equilibrando el impacto visual de los colores intensos.\r\nManicura: Sus uñas son largas, con forma almendrada o stiletto, y están pintadas de un color negro azabache brillante. Su mano derecha reposa delicadamente sobre su barbilla y mejilla.\r\nFuente de Luz: Existe un punto de luz brillante, casi como un destello, situado en la parte superior derecha. Esta fuente de luz es el elemento clave que da vida a la imagen, ya que al atravesar las grietas y reflejarse en los bordes rotos, crea un efecto de destello de lente (lens flare) y destellos dorados que contrastan con el fondo oscuro.\r\nContraste Cromático: Se utiliza un esquema de color minimalista pero impactante:\r\nTonos Dorados/Ámbar: Se concentran en las zonas donde la luz incide directamente sobre los bordes del vidrio.\r\nEl Efecto de Disolución: El aspecto más impactante es cómo la figura parece desvanecerse o deshacerse en el aire. La parte posterior de su cuerpo y su cabello se están transformando en una nube de partículas oscuras y pequeños fragmentos que se elevan y se dispersan hacia la derecha.\r\nContraste de Luz y Color: Entre estas partículas que se desprenden, emergen puntos de luz cálida, como chispas o brasas encendidas. Este resplandor dorado contrasta dramáticamente con la paleta de colores fríos, grises y oscuros del resto de la escena, creando una sensación de energía que emana desde el interior de la figura.\r\nGotas etéreas: Una estela de luz líquida o energía desciende por su mejilla, como si fuera una lágrima de luz, lo que añade un toque melancólico pero hermoso a la composición.\r\nPaleta de Colores: La imagen se mueve casi exclusivamente en tonos de azul profundo, gris y negro, con el contraste del halo blanco y los destellos brillantes. Esta paleta monocromática azulada crea una atmósfera fría, nocturna y solemne.\r\nEl fondo presenta una textura difusa y ahumada, que transiciona suavemente de tonos oscuros y profundos en la parte superior e izquierda, hacia una iluminación más clara y grisácea hacia el centro y la derecha.\r\nElementos flotantes: La imagen está llena de pequeñas partículas o manchas distribuidas de forma irregular. Estas parecen estar \"suspendidas\" en el aire, sugiriendo movimiento.\r\nContraste de color: Se observa una dicotomía visual marcada entre los tonos oscuros (negros y grises) y los puntos de color naranja vibrante, que contrastan fuertemente, similares a chispas o partículas de fuego que se dispersan en una columna de humo.\r\nComposición: La distribución de los elementos crea un flujo visual diagonal, moviéndose desde la parte superior izquierda hacia la parte inferior derecha, donde las manchas son más densas y aglomeradas.\r\nparada que salga así le pones házmela estilo wallpaper 9:16",
+    "negative_prompt": "",
+    "image": "images/22.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   }
 ]
