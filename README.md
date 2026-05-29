@@ -8,7 +8,7 @@ This project requires **no Node.js, no build steps, and no installations**. It i
 
 - 📸 **Unsplash-style Layout**: A clean, fully responsive column-based masonry grid layout.
 - 🎨 **Design System**: A dark-mode-first aesthetic with a smooth light-mode toggle using CSS custom variables.
-- 📂 **Dual Data Feeding**: Load prompts dynamically from `prompts.json` (on servers) or load them safely via `prompts.js` (when opening files locally).
+- 📂 **Dynamic Data**: Loads prompts dynamically from `prompts.json`.
 - 🔍 **Interactive Search**: Dynamic search bar to filter prompts in real time by title, description, categories, or tags.
 - 🏷️ **Category & Tag Filters**: Quick-filter by tags or category pills with reactive badge counters.
 - 💬 **Details Modal**: Multi-column responsive overlay details view displaying high-res images, full prompt, negative prompt, settings metadata (steps, sampler, seed, model, etc.), and related tags.
@@ -19,18 +19,13 @@ This project requires **no Node.js, no build steps, and no installations**. It i
 
 ### How to Run
 
-1. **Local Double-Click**: Simply double-click on `index.html` to open the gallery directly in your web browser. 
-   *(Note: This uses the `file://` protocol. Browser security blocks dynamic fetching of local JSON files, so the page will automatically fall back to loading data from `prompts.js` without any issues).*
-
-2. **Web Server Hosting**: Upload the files to any web hosting provider (e.g. Vercel, Netlify, GitHub Pages, Hostinger, or Apache). The browser will fetch data dynamically from `prompts.json`.
+Run a local web server (e.g., using `npx serve` or Live Server in VS Code) or host the files on any static web hosting provider (e.g., GitHub Pages, Vercel, Netlify). The browser will dynamically load the database from `prompts.json`.
 
 ---
 
 ## Modifying/Supplying Prompts
 
-To add new images and prompts, you should update the database files:
-1. **For Servers**: Edit [prompts.json](file:///e:/projetos%20antigravity/pessoal/prompt-images/prompts.json)
-2. **For Local Double-Click**: Edit [prompts.js](file:///e:/projetos%20antigravity/pessoal/prompt-images/prompts.js) (Make sure to keep the `window.promptsData = ` prefix in the JS file).
+To add new images and prompts, update the database file [prompts.json](file:///e:/projetos%20antigravity/github/vinidelgado.github.io/prompts.json).
 
 ### Database Entry Schema
 

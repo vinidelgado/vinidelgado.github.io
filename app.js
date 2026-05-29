@@ -110,28 +110,21 @@ async function bootstrapApp() {
   applyTranslations();
   
   try {
-    // 1. Try to load dynamically from prompts.json (works on static web servers)
     const response = await fetch('prompts.json');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     promptsData = await response.json();
-    console.log('Successfully fetched prompts.json dynamically.');
+    console.log('Successfully fetched prompts.json.');
   } catch (error) {
-    // 2. Fall back to window.promptsData from prompts.js (works by double-clicking index.html)
-    console.warn('Could not fetch prompts.json (expected when running via file:// protocol). Falling back to prompts.js loader...');
-    if (window.promptsData && Array.isArray(window.promptsData)) {
-      promptsData = window.promptsData;
-    } else {
-      console.error('Bootstrapping failed: Both prompts.json fetch and prompts.js fallback failed.', error);
-      galleryGrid.innerHTML = `
-        <div class="empty-state">
-          <h3 class="empty-state-title" style="color: #ef4444;">Data Load Error</h3>
-          <p class="empty-state-text">Could not load prompt database. Make sure you have not deleted prompts.js or prompts.json.</p>
-        </div>
-      `;
-      return;
-    }
+    console.error('Bootstrapping failed: Could not fetch prompts.json.', error);
+    galleryGrid.innerHTML = `
+      <div class="empty-state">
+        <h3 class="empty-state-title" style="color: #ef4444;">Data Load Error</h3>
+        <p class="empty-state-text">Could not load prompt database. Make sure prompts.json exists and is valid.</p>
+      </div>
+    `;
+    return;
   }
   
   // Initial Render of Gallery
