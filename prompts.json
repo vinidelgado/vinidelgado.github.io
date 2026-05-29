@@ -291,7 +291,7 @@
     "negative_prompt": "",
     "image": "images/16.jpg",
     "category": "Anime/Ilustração",
-    "date": "27/05/2026",
+    "date": "26/05/2026",
     "tags": [
       "anime",
       "saint seiya",
@@ -418,6 +418,26 @@
       "prism",
       "character",
       "woman"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "23",
+    "title": "Jack Daniels McLaren",
+    "prompt": "{\r\n  \"post_do_anuncio\": {\r\n    \"titulo_principal\": \"JACK DANIEL'S MCLAREN\",\r\n    \"estilo_visual\": {\r\n      \"fundo\": \"Gradiente de âmbar e creme\",\r\n      \"tema\": \"Parceria de luxo\",\r\n      \"elementos_chave\": [\"Garrafa de Tennessee Whiskey\", \"Carro de F1 McLaren\"]\r\n    },\r\n    \"copy_texto\": \"Experience the ultimate partnership. Legendary Tennessee Whiskey meets cutting-edge F1 technology for speed and smoothness.\",\r\n    \"elementos_interativos\": [\r\n      { \"rotulo\": \"TENNESSEE WHISKEY\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"MCLAREN RACING\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"LIMITED EDITION\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"SPEED & SMOOTHNESS\", \"icone\": \"+\" }\r\n    ],\r\n    \"detalhes_de_composicao\": {\r\n      \"tipografia\": \"Serifada em bloco para o título, sans-serif para o corpo\",\r\n      \"dinamismo\": \"Explosão de líquido e marcas de pneus na pista\",\r\n      \"disposicao\": \"Vertical\"\r\n    }\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/23.jpg",
+    "category": "Bebidas",
+    "date": "28/05/2026",
+    "tags": [
+      "drink",
+      "bebida"
     ],
     "settings": {
       "model": "Gemini",
