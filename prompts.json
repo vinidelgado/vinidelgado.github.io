@@ -473,10 +473,10 @@
     "prompt": "Ultra-realistic product photo of a Hot Wheels 1:64 scale die-cast car packaged in official retail blister packaging.\r\n\r\nThe miniature car is a Ford Corcel (Equal image) with chrome accents, classic five-spoke wheels, and the long-nose fastback body. Add subtle metallic reflections and accurate detailing like the headlight housings, mirrors, and bumper lines.\r\n\r\nThe car sits inside a clear plastic blister shell that realistically reflects studio lighting. The backing card features the iconic red-and-yellow Hot Wheels flame logo against a cool blue gradient background.\r\n\r\nThe illustrated version of the Z appears above the blister in a dynamic Tokyo night scene, neon lights glinting off its paint.\r\n\r\nInclude authentic Hot Wheels details:\r\n\r\nCollector number: 12/250\r\n\r\nSeries tag: HW J-Imports or JDM Legends\r\n\r\nYear badge: 1977\r\n\r\nBottom text area: “FORD CORCEL II”\r\n\r\nRed Mattel logo in corner\r\n\r\nSoft reflections and clean studio shadows\r\n\r\nLighting: Crisp, professional studio lighting with subtle highlights on the metallic surfaces and clear blister.\r\n\r\nStyle: Ultra-realistic packaging photograph, 4:5 ratio.\r\n\r\nMood: Premium JDM collectible Hot Wheels – sleek, classic, and cinematic.",
     "negative_prompt": "",
     "image": "images/25.jpg",
-    "category": "Cyberpunk",
+    "category": "Automotivo",
     "tags": [
-      "neon",
-      "city"
+      "hotwheels",
+      "jdm"
     ],
     "settings": {
       "model": "Gemini",
@@ -485,6 +485,6 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "data": "31/05/2026"
+    "date": "31/05/2026"
   }
 ]
