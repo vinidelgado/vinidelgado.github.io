@@ -446,5 +446,25 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     }
+  },
+  {
+    "id": "24",
+    "title": "Poster F1",
+    "prompt": "{\r\n  \"prompt\": \"An artistic Formula 1 poster in a vintage, textured style celebrating the Monaco Grand Prix. At the top, the bold text reads 'MONACO GRAND PRIX' with the subtitle 'THE JEWEL OF FORMULA 1' and the Monaco flag. The background captures the iconic Monaco landscape: a dramatic sun, rocky mountains, luxury yachts docked in the harbor, and high-rise buildings climbing up the hills under a hazy sky. On the race track, instead of a modern Ferrari, the central focus is the classic 1993 McLaren MP4/8 driven by Ayrton Senna, featuring its iconic red and white livery with 'Marlboro' branding and the racing number 8. The car is speeding along the iconic street circuit, hugging the red and white curbs. At the bottom, the text reads 'SPEED. PRECISION. GLORY. ONLY IN MONACO.'\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/24.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "data": "31/05/2026"
   }
 ]
