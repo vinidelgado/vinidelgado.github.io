@@ -486,5 +486,25 @@
       "aspect_ratio": "16:9"
     },
     "date": "31/05/2026"
+  },
+  {
+    "id": "26",
+    "title": "Infographic food image",
+    "prompt": "Prompt: Ultra-clean modern recipe infographic. Feature Borscht (rich ruby-red borscht in a deep bowl, topped with sour cream and fresh herbs; clearly visible chunks of beetroot, cabbage, and meat; gentle steam rising; thick, hearty texture; looks hot and freshly cooked) as a finished dish, shown in a slight angled perspective as the main hero visual.\r\n\r\nArrange ingredients, cooking steps, and helpful tips around the dish in a dynamic magazine-style layout, not restricted to a strict top-down view.\r\n\r\nIngredients section\r\n\r\nUse icons or mini-illustrations for each ingredient with the exact quantity. Place them as groups, lists, or circular diagrams, visually connected to the main dish.\r\n\r\nSteps section\r\n\r\nShow the cooking process using numbered panels, arrows, or connecting lines that create a clear visual route around the bowl. Add small process icons (knife, pot, stove, timer) where appropriate.\r\n\r\nOptional additional info\r\n\r\nInclude total calories, prep time + cook time, and number of servings as clean, minimal badges/bubbles near the dish.\r\n\r\nVisual style\r\n\r\nA blend of magazine infographic design and lifestyle food photography. Use bright natural food colors, soft drop shadows, clean vector icons, modern typography, and soft gradients or glassmorphism panels for the step blocks. Accent colors may highlight key information such as calories or cooking time.\r\n\r\nComposition priorities\r\n\r\n1. Finished dish (main hero)\r\n\r\n2. Cooking steps\r\n\r\n3. Ingredients\r\n\r\n4. Additional info\r\n\r\nMaintain enough negative space so the design feels light, premium, clean, and highly readable.\r\n\r\nLighting & background\r\n\r\nSoft natural studio lighting. Minimal textured or gradient background to create a premium magazine look.\r\n\r\nOutput\r\n\r\n1080×1080, ultra-sharp, optimized for social media feed, no watermarks.",
+    "negative_prompt": "",
+    "image": "images/26.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "data": "02/06/2026"
   }
 ]
