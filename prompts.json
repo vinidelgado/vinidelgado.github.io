@@ -506,5 +506,25 @@
       "aspect_ratio": "16:9"
     },
     "date": "02/06/2026"
+  },
+  {
+    "id": "27",
+    "title": "Joker in train station",
+    "prompt": "Ultra realistic cinematic photography of a jocker of batman the exact same facial identity as the reference image, preserving identical facial structure, facial proportions, hairstyle, skin tone, age appearance, facial features, and overall recognizable appearance.\r\n\r\nThe subject is walking away through a rain-soaked railway station platform during a gentle evening rain. One hand is casually tucked inside a jacket pocket while the other swings naturally with each step. The body language is calm, composed, and accepting. The subject walks with quiet confidence and emotional maturity, symbolizing the act of letting someone go with a sincere and open heart.\r\n\r\nUse a rear three-quarter camera angle (approximately 45 degrees from behind) to create a powerful sense of emotional release. Part of the reference face remains softly visible through the side profile, allowing the recognizable facial identity to be preserved while maintaining the feeling of departure. The subject continues walking forward without turning back. The visual focus is on the quiet strength of moving forward rather than on facial expression. The viewer can sense that someone important has been left behind, yet the subject's posture reflects peace rather than sorrow. Every step feels intentional, carrying gratitude, acceptance, and emotional closure.\r\n\r\nThere are no tears, no dramatic gestures, and no visible signs of heartbreak. The expression is calm, reflective, and at peace. The story is not about losing someone, but about loving deeply enough to let them go. The subject is not looking back, symbolizing a sincere farewell and the courage to embrace the future.\r\n\r\nThe railway platform is nearly empty. Warm station lights glow softly through the rain and mist, reflecting beautifully across the wet pavement. A departing train slowly moves away in the distance, slightly blurred by rainfall and atmospheric haze, serving as a subtle metaphor for a chapter of life coming to an end.\r\n\r\nRain falls gently through the golden station lights, creating cinematic reflections and emotional depth. Steam rises softly from the tracks, blending with mist and rainfall. The contrast between the cool blue-gray atmosphere of the rainy evening and the warm amber station lights creates a visually powerful emotional balance between sadness and hope.\r\n\r\nLarge areas of negative space surround the subject, emphasizing freedom, acceptance, and the beginning of a new journey. The station feels quiet, timeless, and deeply reflective. Every element of the scene reinforces the feeling of peaceful release, emotional maturity, and gratitude for what once was.\r\n\r\nMood: bittersweet acceptance, peaceful farewell, emotional closure, healing, gratitude, mature love, quiet resilience, inner peace, hope after goodbye, moving forward without regret.\r\n\r\nVisual storytelling: A person who once loved deeply chooses to let go without resentment. The rain washes away what can no longer be held, while the journey ahead remains open and full of possibility. The goodbye happens in silence, not because the feelings were small, but because they were genuine enough to be released with grace.\r\n\r\nUltra realistic photography, cinematic masterpiece, photorealistic, emotional storytelling, rain-soaked railway station, reflective wet pavement, volumetric lighting, realistic raindrops, atmospheric mist, shallow depth of field, natural film grain, HDR, soft bokeh, 85mm lens, f/1.4, natural color grading, award-winning cinematic photography, highly detailed, realistic human anatomy, dynamic composition, dramatic yet peaceful atmosphere, extraordinary emotional depth, masterpiece quality.",
+    "negative_prompt": "",
+    "image": "images/27.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "data": "03/06/2026"
   }
 ]
