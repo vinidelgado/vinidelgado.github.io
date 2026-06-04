@@ -647,5 +647,25 @@
       "aspect_ratio": "16:9"
     },
     "date": "04/06/2026"
+  },
+  {
+    "id": "31",
+    "title": "Mercedes AMG Banner",
+    "prompt": "{\r\n  \"prompt\": \"A professional automotive editorial poster featuring a high-gloss red Mercedes-AMG C63 S Coupé. The composition uses a 'Motorsport Brutalism' aesthetic with a split-background effect: textured off-white vintage paper on the left and aggressive dark smoke with red ink splatters on the right. The car is center-aligned, reflected on a dark wet surface. Dominant, large, distressed black sans-serif typography for 'C63' at the top. The design includes organized minimalist text blocks for technical performance data, a small Nürburgring track map, a barcode at the bottom right, and dynamic diagonal line patterns. Cinematic lighting, high contrast, sharp details on the car’s front fascia, professional graphic design style.\",\r\n  \"aspect_ratio\": \"9:16\",\r\n  \"style_tags\": [\r\n    \"automotive editorial\",\r\n    \"motorsport brutalism\",\r\n    \"distressed\",\r\n    \"high contrast\",\r\n    \"cinematic\",\r\n    \"graphic design\"\r\n  ]\r\n}",
+    "negative_prompt": "",
+    "image": "images/31.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "04/06/2026"
   }
 ]
