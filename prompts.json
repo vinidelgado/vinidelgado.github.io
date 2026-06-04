@@ -7,21 +7,8 @@
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
     "date": "23/05/2026",
-    "tags": [
-      "cat",
-      "cyberpunk",
-      "neon",
-      "city",
-      "rain",
-      "futuristic"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "3.5",
-      "steps": "20",
-      "seed": "4289104712",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["cat", "cyberpunk", "neon", "city", "rain", "futuristic"],
+    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "3.5", "steps": "20", "seed": "4289104712", "aspect_ratio": "16:9" }
   },
   {
     "id": "glowing-forest",
@@ -31,21 +18,8 @@
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
     "date": "23/05/2026",
-    "tags": [
-      "forest",
-      "magic",
-      "glowing",
-      "nature",
-      "night",
-      "bioluminescent"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "4.0",
-      "steps": "28",
-      "seed": "8827164920",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["forest", "magic", "glowing", "nature", "night", "bioluminescent"],
+    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "4.0", "steps": "28", "seed": "8827164920", "aspect_ratio": "16:9" }
   },
   {
     "id": "astronaut-garden",
@@ -55,21 +29,8 @@
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
     "date": "23/05/2026",
-    "tags": [
-      "astronaut",
-      "space",
-      "garden",
-      "mars",
-      "surreal",
-      "greenhouse"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "5.0",
-      "steps": "30",
-      "seed": "1098471234",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["astronaut", "space", "garden", "mars", "surreal", "greenhouse"],
+    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "5.0", "steps": "30", "seed": "1098471234", "aspect_ratio": "16:9" }
   },
   {
     "id": "claymation-robot",
@@ -79,21 +40,8 @@
     "image": "images/claymation-robot.png",
     "category": "3D Render",
     "date": "23/05/2026",
-    "tags": [
-      "robot",
-      "cute",
-      "claymation",
-      "miniature",
-      "toy",
-      "3d"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "3.0",
-      "steps": "20",
-      "seed": "991042718",
-      "aspect_ratio": "1:1"
-    }
+    "tags": ["robot", "cute", "claymation", "miniature", "toy", "3d"],
+    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "3.0", "steps": "20", "seed": "991042718", "aspect_ratio": "1:1" }
   },
   {
     "id": "cyberpunk-portrait",
@@ -103,21 +51,8 @@
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
     "date": "23/05/2026",
-    "tags": [
-      "portrait",
-      "female",
-      "neon",
-      "glow",
-      "photorealistic",
-      "cyberpunk"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "6.0",
-      "steps": "35",
-      "seed": "7729104815",
-      "aspect_ratio": "3:4"
-    }
+    "tags": ["portrait", "female", "neon", "glow", "photorealistic", "cyberpunk"],
+    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "6.0", "steps": "35", "seed": "7729104815", "aspect_ratio": "3:4" }
   },
   {
     "id": "floating-island",
@@ -127,138 +62,63 @@
     "image": "images/floating-island.png",
     "category": "Fantasy",
     "date": "25/05/2026",
-    "tags": [
-      "castle",
-      "island",
-      "floating",
-      "waterfall",
-      "sunset",
-      "fantasy"
-    ],
-    "settings": {
-      "model": "Gemini 3.5 Flash",
-      "cfg_scale": "4.5",
-      "steps": "25",
-      "seed": "551849102",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["castle", "island", "floating", "waterfall", "sunset", "fantasy"],
+    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "4.5", "steps": "25", "seed": "551849102", "aspect_ratio": "16:9" }
   },
   {
     "id": "10",
-    "title": "World Cup Player",
+    "title": "Neymar Jr - FIFA World Cup 2026 Poster",
     "prompt": "Premium urban football editorial poster for FIFA World Cup 2026. Cinematic close-up portrait of the man from the reference image, face filling most of the frame. Photorealistic warm skin tones, dramatic Rembrandt lighting, deep shadows, intense focused expression. Shoulders show the Brazil national jersey. Clean minimal background: soft off-white textured base, subtle diagonal muted gold wash, faint Brazil national color tones. Cinematic warm grading with bold graphic accents in yellow and green, including one sharp green stripe. Bold editorial typography: large 'FIFA WORLD CUP 2026' title, 'NEYMAR JR', 'BRAZIL', 'Atacante', '10'. Luxury football magazine meets street art aesthetic.",
     "negative_prompt": "-",
     "image": "images/10.jpg",
     "category": "Esportes",
     "date": "26/05/2026",
-    "tags": [
-      "neymar",
-      "world cup",
-      "fifa 2026",
-      "football",
-      "brasil"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["neymar", "world cup", "fifa 2026", "football", "brasil", "sports"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "11",
-    "title": "FIFA World Cup 2026 editorial poster",
+    "title": "Cristiano Ronaldo - FIFA World Cup 2026 Poster",
     "prompt": "Ultra-premium FIFA World Cup 2026 editorial poster design featuring Cristiano Ronaldo sitting in a powerful contemplative pose on a minimalist concrete cube. Symmetrical front-facing composition, cinematic sports photography mixed with graphic design aesthetics. Cristiano Ronaldo wearing the Portugal national team home kit for the World Cup, authentic red and green color palette, elegant gold accents, realistic fabric texture, detailed stitching, subtle geometric patterns on the jersey. Puma logo replacing Nike logo on chest, socks and boots. Number 7 prominently displayed on jersey and oversized behind and below the player in modern typography. Cristiano Ronaldo looking slightly upward with intense focused expression, dramatic Rembrandt lighting, photorealistic skin texture, highly detailed facial features, sharp jawline, athletic muscular anatomy, realistic hands clasped together. Captain armband on arm. White football boots with subtle gold details. Minimal luxury background with warm beige/off-white textured paper aesthetic, clean geometric graphic elements, thin modern line art, editorial Swiss design layout, subtle Portugal national symbols, modern World Cup visual identity style. Large oversized transparent number 7 in background with layered red and green outlines. Small Portugal crest elements positioned around composition. Elegant negative space and premium poster balance. Cinematic lighting, soft shadows, high contrast, realistic ambient occlusion, ultra detailed skin pores, realistic fabric folds, studio-quality sports campaign photography, luxury football campaign aesthetic, Behance trending sports artwork, modern football poster design, artstation quality, hyper realistic, 8k ultra HD, extremely detailed, centered composition, premium sports branding aesthetic.",
     "negative_prompt": "low quality, blurry, deformed anatomy, bad hands, extra fingers, poorly drawn face, asymmetrical eyes, unrealistic proportions, duplicate limbs, mutated body, distorted jersey, incorrect football kit, bad typography, messy composition, oversaturated colors, low resolution, pixelated, jpeg artifacts, watermark, signature, text errors, cropped head, out of frame, cartoon style, anime style, exaggerated muscles, unrealistic skin, plastic skin, overexposed lighting, underexposed shadows, noisy image, flat lighting, generic background, bad posture, floating limbs, malformed hands, poorly rendered boots, distorted Puma logo, fake football crest, extra arms, extra legs, unrealistic facial expression, stretched anatomy, tilted composition, cluttered background, cheap poster aesthetic, bad graphic design, amateur composition, incorrect perspective, low detail fabric, unrealistic shadows, inconsistent lighting, AI artifacts, duplicated elements, ugly face, crossed eyes, malformed ears, weird fingers, poor symmetry, low contrast, washed colors",
     "image": "images/11.jpg",
     "category": "Esportes",
     "date": "25/05/2026",
-    "tags": [
-      "world cup",
-      "cr7",
-      "fifa 2026",
-      "football",
-      "portugal"
-    ],
-    "settings": {
-      "model": "ChatGPT",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["world cup", "cr7", "fifa 2026", "football", "portugal", "sports"],
+    "settings": { "model": "ChatGPT", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "12",
-    "title": "Nissan GTR",
+    "title": "Nissan GT-R Rainy Evening",
     "prompt": "{\"scene\": {\"environment\": \"urban street\", \"weather\": \"rainy\", \"season\": \"autumn\", \"time_of_day\": \"evening or overcast daylight\"}, \"main_subject\": {\"type\": \"sports car\", \"model_inspiration\": \"Nissan GT-R\", \"color\": \"dark with custom decals\", \"view_angle\": \"rear three-quarter\", \"details\": {\"taillights\": \"circular red illuminated\", \"body_kit\": \"widebody\", \"exhaust\": \"dual large exhaust pipes\", \"finish\": \"wet with rain droplets\"}}, \"environment_details\": {\"street\": \"wet asphalt with reflections\", \"foliage\": \"orange autumn leaves on ground and trees\", \"buildings\": \"urban buildings with signage\", \"signage_style\": \"Japanese-style neon signs\", \"pedestrians\": \"blurred figures in background\"}, \"lighting\": {\"type\": \"cinematic\", \"sources\": [\"ambient daylight\", \"neon signs\", \"car taillights reflections\"], \"effects\": \"bokeh, reflections on wet ground\"}, \"camera\": {\"perspective\": \"low angle\", \"focus\": \"car rear\", \"depth_of_field\": \"shallow\", \"motion\": \"static shot\"}, \"mood\": \"cinematic, moody, urban, slightly melancholic\", \"style\": \"hyper-realistic, cinematic photography\"}",
     "negative_prompt": "",
     "image": "images/12.jpg",
     "category": "Automotivo",
     "date": "26/05/2026",
-    "tags": [
-      "car",
-      "nissan gtr",
-      "rain",
-      "city",
-      "jdm",
-      "sports car"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["car", "nissan gtr", "rain", "city", "jdm", "sports car", "automotive"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "13",
-    "title": "Car Night",
+    "title": "Luxury Supercar at Night",
     "prompt": "{\"scene\": {\"environment\": \"city\", \"weather\": \"clear\", \"season\": \"summer\", \"time_of_day\": \"night\"}, \"main_subject\": {\"type\": \"luxury sports car\", \"model_inspiration\": \"low-slung Italian supercar\", \"color\": \"black\", \"view_angle\": \"three-quarter\", \"details\": {\"taillights\": \"LED\", \"body_kit\": \"aerodynamic\", \"exhaust\": \"twin\", \"finish\": \"glossy\"}}, \"environment_details\": {\"street\": \"cobblestone\", \"foliage\": \"none\", \"buildings\": \"modern skyscrapers\", \"signage_style\": \"neon\", \"pedestrians\": \"none\"}, \"lighting\": {\"type\": \"artificial\", \"sources\": [\"streetlights\", \"building lights\"], \"effects\": \"high-contrast\"}, \"camera\": {\"perspective\": \"low-angle\", \"focus\": \"subject\", \"depth_of_field\": \"shallow\", \"motion\": \"slow orbit\"}, \"mood\": \"sophisticated\", \"style\": \"cinematic\"}",
     "negative_prompt": "",
     "image": "images/13.jpg",
     "category": "Automotivo",
     "date": "25/05/2026",
-    "tags": [
-      "car",
-      "luxury",
-      "city",
-      "night",
-      "supercar",
-      "ferrari"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["car", "luxury", "city", "night", "supercar", "ferrari", "automotive"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "14",
-    "title": "Promote Hamburguer",
+    "title": "Smokey Obsidian Gourmet Burger",
     "prompt": "A cinematic 9:16 vertical composition featuring a gourmet \"Smokey Obsidian\" burger. WHAT: A towering burger with a charcoal brioche bun, thick Wagyu beef patty with visible sear marks, melting aged gruyère dripping like lava, and crispy maple-glazed bacon. FEEL: An atmosphere of \"Urban Indulgence.\" Dark, moody lighting with a single warm amber spotlight. Wisps of real hickory smoke curl around the bun. The texture is hyper-realistic you can see the salt crystals on the crust and the moisture on the heirloom tomato. SHOW: The burger is captured in a \"deconstructed gravity\" moment the top bun is slightly hovering, revealing the internal layers of house-made aioli and pickled red onions. TYPOGRAPHY: Integration of ultra-bold, distressed sans-serif typeface overlapping the bottom third of the frame. The text reads \"DEFY GRAVITY\" in a raw, concrete-texture finish. TECHNICAL: 4k resolution, macro photography style, shallow depth of field, neon-noir color grading (deep blacks, warm ambers, and subtle teal highlights).",
     "negative_prompt": "",
     "image": "images/14.jpg",
     "category": "Gastronomia",
     "date": "26/05/2026",
-    "tags": [
-      "hamburguer",
-      "food",
-      "gourmet",
-      "advertising",
-      "commercial"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["hamburguer", "food", "gourmet", "advertising", "commercial", "gastronomy"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "15",
@@ -268,303 +128,150 @@
     "image": "images/15.jpg",
     "category": "Natureza",
     "date": "25/05/2026",
-    "tags": [
-      "panther",
-      "wildlife",
-      "animal",
-      "sunset",
-      "predator",
-      "gradient"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["panther", "wildlife", "animal", "sunset", "predator", "gradient", "nature"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "16",
-    "title": "Poster de desenho",
+    "title": "Cygnus Hyoga Saint Seiya Poster",
     "prompt": "High-quality digital illustration of Cygnus Hyoga from Saint Seiya in his full classic armor. The character is standing in the foreground, heroic pose. The background is an epic, golden, divine, and ethereal composition, featuring intricate celestial patterns, glowing constellations, and light rays, inspired by the style of a legendary anime poster. In the upper part, a large, majestic portrait of Hyoga’s face with a determined expression. Ornate golden frames and ancient symbolic patterns bordering the edges. The aesthetic is grand, cinematic, and god-like, with a luminous gold and ice-blue color palette, detailed armor textures, 8k resolution, masterful composition.",
     "negative_prompt": "",
     "image": "images/16.jpg",
     "category": "Anime/Ilustração",
     "date": "26/05/2026",
-    "tags": [
-      "anime",
-      "saint seiya",
-      "hyoga",
-      "illustration",
-      "poster",
-      "gold"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["anime", "saint seiya", "hyoga", "illustration", "poster", "gold", "fantasy"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "17",
-    "title": "Nissan 350z",
+    "title": "Nissan 350Z Collector Poster",
     "prompt": "{\r\n  \"project\": \"Automotive Collector Poster\",\r\n  \"subject\": \"Nissan 350Z (Nardo Gray Widebody)\",\r\n  \"concept\": \"STREET CULTURE EVOLVED\",\r\n  \"prompt_text\": \"Create a 4:5 vertical premium automotive collector poster in ultra-high-resolution 8K quality. The subject is a custom Nardo Gray Nissan 350Z with widebody fender flares, aggressive aero kit, and vibrant multi-colored racing livery stickers on the side panels. The background should be a moody, high-contrast dark urban environment at night—think rain-slicked asphalt reflecting vibrant neon city lights in deep blues and purples to make the Nardo Gray paint pop. The composition should feel like a high-end automotive magazine cover. Position the 350Z at the lower-middle, captured with a low, wide-angle lens for a powerful stance. The car features deep-dish wheels with polished chrome lips, aggressive front bumper, and track-focused setup. Use dramatic chiaroscuro lighting to emphasize the widebody contours and the intricate details of the side graphics. The typography should be bold and urban, with a massive, stylized “350Z” in the background using a clean white sans-serif font with a subtle chromatic aberration effect. Include the headline 'BUILT FOR THE STREETS' in a modern, razor-sharp font. Beneath the car, include a performance specification strip with the following stats: '300 HP', '5.4 SECONDS', and '255 KM/H' using sleek, minimal icons. Add subtle cinematic elements like light lens flares from city neons, fine atmospheric mist, and a slight grain overlay for an authentic film look. The final output must have ultra-detailed textures on the widebody kit, realistic reflections on the gray paint, and sharp typography edges, resulting in a premium collector’s edition aesthetic.\"\r\n}",
     "negative_prompt": "",
     "image": "images/17.jpg",
     "category": "Automotivo",
     "date": "26/05/2026",
-    "tags": [
-      "car",
-      "nissan 350z",
-      "jdm",
-      "widebody",
-      "poster",
-      "automotive"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["car", "nissan 350z", "jdm", "widebody", "poster", "automotive", "street culture"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "18",
-    "title": "Datailed Hambuguer",
+    "title": "X-PAMONHA Exploded View Burger",
     "prompt": "{\r\n  \"project_metadata\": {\r\n    \"reference_image\": \"image_144969.png\",\r\n    \"theme\": \"Exploded View Gastronomy\",\r\n    \"product\": \"Big Tasty\",\r\n    \"design_guidelines\": {\r\n      \"font_primary\": \"Montserrat (Bold)\",\r\n      \"font_secondary\": \"Lora (Regular)\",\r\n      \"visual_style\": \"Dark charcoal background, studio lighting\",\r\n      \"action_effect\": \"Levitation/Exploded view\"\r\n    }\r\n  },\r\n  \"menu_item\": {\r\n    \"title\": \"X-PAMONHA\",\r\n    \"description_pt\": \"Hambúrguer icônico com carne grelhada, queijo Emmental, alface, tomate, cebola e o exclusivo molho Tasty.\",\r\n    \"components\": [\r\n      {\r\n        \"id\": \"top_bun\",\r\n        \"label\": \"Pão com Gergelim\",\r\n        \"position\": {\"x\": 500, \"y\": 100},\r\n        \"description\": \"Pão macio e tostado com sementes de gergelim.\"\r\n      },\r\n      {\r\n        \"id\": \"lettuce\",\r\n        \"label\": \"Alface Crocante\",\r\n        \"position\": {\"x\": 450, \"y\": 250},\r\n        \"description\": \"Folhas frescas de alface picada.\"\r\n      },\r\n      {\r\n        \"id\": \"tomato\",\r\n        \"label\": \"Tomate Fresco\",\r\n        \"position\": {\"x\": 550, \"y\": 300},\r\n        \"description\": \"Fatia grossa de tomate vermelho suculento.\"\r\n      },\r\n      {\r\n        \"id\": \"cheese_meat\",\r\n        \"label\": \"3 Carnes e 3 Queijos\",\r\n        \"position\": {\"x\": 500, \"y\": 450},\r\n        \"description\": \"Hambúrguer grelhado coberto por queijo Emmental derretido.\"\r\n      },\r\n      {\r\n        \"id\": \"sauce\",\r\n        \"label\": \"Molho Tasty\",\r\n        \"position\": {\"x\": 400, \"y\": 550},\r\n        \"description\": \"Molho defumado exclusivo.\"\r\n      },\r\n      {\r\n        \"id\": \"bottom_bun\",\r\n        \"label\": \"Base do Pão\",\r\n        \"position\": {\"x\": 500, \"y\": 650},\r\n        \"description\": \"Base macia do pão tostado.\"\r\n      }\r\n    ]\r\n  }\r\n}",
     "negative_prompt": "",
     "image": "images/18.jpg",
     "category": "Gastronomia",
     "date": "27/05/2026",
-    "tags": [
-      "hamburguer",
-      "food",
-      "gourmet",
-      "gastronomy",
-      "exploded view"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["hamburguer", "food", "gourmet", "gastronomy", "exploded view", "advertising"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "19",
-    "title": "Ronaldo Fenômeno - Cubist Legacy",
+    "title": "Ronaldo Fenômeno - Cubist Sports Poster",
     "prompt": "{\r\n  \"prompt\": {\r\n    \"subject\": \"Ronaldo Fenômeno\",\r\n    \"style\": \"stylized geometric cubist sports poster\",\r\n    \"art_direction\": \"modern abstract vector illustration inspired by premium Behance and Dribbble artworks\",\r\n    \"composition\": {\r\n      \"focus\": \"one explosive football moment: a powerful dribble, an iconic celebration, or an explosive strike on goal\",\r\n      \"visual_elements\": [\r\n        \"elongated curved body proportions\",\r\n        \"muscular yet angular limbs\",\r\n        \"exaggerated motion\",\r\n        \"smooth flowing body lines\",\r\n        \"sharp geometric vector elements\"\r\n      ]\r\n    },\r\n    \"details\": {\r\n      \"attire\": \"classic yellow or blue football kit inspired by his peak era with clean geometric details\",\r\n      \"atmosphere\": \"iconic, elegant, powerful, and timeless\"\r\n    },\r\n    \"style_specs\": {\r\n      \"background\": \"pure white\",\r\n      \"color_palette\": \"bright clean with strong geometric shadows\",\r\n      \"shapes\": \"smooth curves mixed with sharp triangular vector elements\",\r\n      \"face\": \"minimalistic but expressive facial geometry capturing the iconic smile or intense focus\",\r\n      \"aesthetic\": \"flat modern graphic design, ultra-clean cubist vector finish\",\r\n      \"finish\": \"high-detail abstract vector illustration\",\r\n      \"layout\": \"balanced negative space, dynamic football-inspired composition\",\r\n      \"restrictions\": [\r\n        \"no text\",\r\n        \"no quotes\",\r\n        \"no watermarks\"\r\n      ],\r\n      \"mood\": \"premium sports poster atmosphere, futuristic luxury, dramatic explosive energy\",\r\n      \"emphasis\": \"speed, agility, and lethal finishing\"\r\n    }\r\n  }\r\n}",
     "negative_prompt": "",
     "image": "images/19.jpg",
     "category": "Esportes",
     "date": "27/05/2026",
-    "tags": [
-      "ronaldo",
-      "football",
-      "cubism",
-      "vector",
-      "illustration",
-      "sports"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["ronaldo", "football", "cubism", "vector", "illustration", "sports", "art"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "20",
-    "title": "Essenza Italiana",
+    "title": "Essenza Italiana Menu Poster",
     "prompt": "A minimalistic advertising poster about food in a modern Italian style with Japanese layout aesthetics, preserving the exact compositional structure: two large rounded vertical geometric color blocks arranged diagonally along the composition, food photography with a view from above. The upper left block is a hero dish: fresh tagliatelle pasta with truffle cream and parmesan cheese on a light ceramic plate, with thin slices of black truffle, olive oil and microgreens, premium restaurant service. The lower right block is the second hero dish: slow—stewed ossobuco with saffron risotto on a matte dark plate, with rich sauce, gremolata and fresh herbs, modern author's Italian cuisine. Floating side dishes and appliances are neatly arranged around each dish: vintage cutlery, linen napkins, sprigs of rosemary and thyme, cherry tomatoes, slices of parmesan, miniature saucepans with olive oil, fresh handmade focaccia, olives and spices. Large typography in modern Italian style is aligned to the upper right, the text is entirely in Russian: the name of the restaurant, the names of the dishes and the prices. Small text with prices is placed next to each dish. Airy editorial is a negative space system, a soft pastel commercial palette with shades of cream, terracotta, olive, sage and graphite. Clear asymmetrical visual hierarchy, premium restaurant branding aesthetics, cinematic soft shadows, modern menu presentation in poster format. The subtle signature in the footer is naturally integrated into the bottom of the composition. Pure vertical composition, ultra detailed, premium branding, realistic food styling, soft cinematic lighting, Italian cuisine editorial poster design, minimalism. The text is entirely in Portuguese Brazilian.",
     "negative_prompt": "",
     "image": "images/20.jpg",
     "category": "Gastronomia",
     "date": "27/05/2026",
-    "tags": [
-      "food",
-      "italian",
-      "pasta",
-      "restaurant",
-      "poster",
-      "minimalist"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["food", "italian", "pasta", "restaurant", "poster", "minimalist", "gastronomy"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "22",
-    "title": "Imagem Pixar",
+    "title": "Prisma Woman - 3D Pixar Style",
     "prompt": "Estilo caricaturesco/3D tipo Pixar, una mujer.\r\nEfecto de Prisma/Espejo: Lo más característico es que la imagen aparece \"fragmentada\" por lo que parecen ser piezas de vidrio o un prisma colocado frente al lente. Esto crea reflejos geométricos, cortes nítidos y una sensación de profundidad fracturada que distorsiona partes del rostro.\r\nIluminación: La fotografía utiliza un esquema de iluminación dual, un contraste marcado entre tonos cálidos (dorados/naranjas) que iluminan el centro del rostro, y tonos fríos (cian/azul verdoso) que dominan las sombras y los bordes.\r\nMaquillaje: Lleva un maquillaje muy cuidado y profesional. Sus ojos están realzados con sombras en tonos cálidos (melocotón y tierra) y un delineado fino, complementado con pestañas definidas. Sus labios destacan con un labial mate en un tono rosa empolvado o malva.\r\nDetalles: Lleva un collar fino que añade un toque de elegancia y delicadeza, equilibrando el impacto visual de los colores intensos.\r\nManicura: Sus uñas son largas, con forma almendrada o stiletto, y están pintadas de un color negro azabache brillante. Su mano derecha reposa delicadamente sobre su barbilla y mejilla.\r\nFuente de Luz: Existe un punto de luz brillante, casi como un destello, situado en la parte superior derecha. Esta fuente de luz es el elemento clave que da vida a la imagen, ya que al atravesar las grietas y reflejarse en los bordes rotos, crea un efecto de destello de lente (lens flare) y destellos dorados que contrastan con el fondo oscuro.\r\nContraste Cromático: Se utiliza un esquema de color minimalista pero impactante:\r\nTonos Dorados/Ámbar: Se concentran en las zonas donde la luz incide directamente sobre los bordes del vidrio.\r\nEl Efecto de Disolución: El aspecto más impactante es cómo la figura parece desvanecerse o deshacerse en el aire. La parte posterior de su cuerpo y su cabello se están transformando en una nube de partículas oscuras y pequeños fragmentos que se elevan y se dispersan hacia la derecha.\r\nContraste de Luz y Color: Entre estas partículas que se desprenden, emergen puntos de luz cálida, como chispas o brasas encendidas. Este resplandor dorado contrasta dramáticamente con la paleta de colores fríos, grises y oscuros del resto de la escena, creando una sensación de energía que emana desde el interior de la figura.\r\nGotas etéreas: Una estela de luz líquida o energía desciende por su mejilla, como si fuera una lágrima de luz, lo que añade un toque melancólico pero hermoso a la composición.\r\nPaleta de Colores: La imagen se mueve casi exclusivamente en tonos de azul profundo, gris y negro, con el contraste del halo blanco y los destellos brillantes. Esta paleta monocromática azulada crea una atmósfera fría, nocturna y solemne.\r\nEl fondo presenta una textura difusa y ahumada, que transiciona suavemente de tonos oscuros y profundos en la parte superior e izquierda, hacia una iluminación más clara y grisácea hacia el centro y la derecha.\r\nElementos flotantes: La imagen está llena de pequeñas partículas o manchas distribuidas de forma irregular. Estas parecen estar \"suspendidas\" en el aire, sugiriendo movimiento.\r\nContraste de color: Se observa una dicotomía visual marcada entre los tonos oscuros (negros y grises) y los puntos de color naranja vibrante, que contrastan fuertemente, similares a chispas o partículas de fuego que se dispersan en una columna de humo.\r\nComposición: La distribución de los elementos crea un flujo visual diagonal, moviéndose desde la parte superior izquierda hacia la parte inferior derecha, donde las manchas son más densas y aglomeradas.\r\nparada que salga así le pones házmela estilo wallpaper 9:16",
     "negative_prompt": "",
     "image": "images/22.jpg",
     "category": "3D Render",
     "date": "27/05/2026",
-    "tags": [
-      "3d",
-      "pixar",
-      "portrait",
-      "prism",
-      "character",
-      "woman"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["3d", "pixar", "portrait", "prism", "character", "woman", "digital art"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "23",
-    "title": "Jack Daniels McLaren",
+    "title": "Jack Daniel's x McLaren Collaboration",
     "prompt": "{\r\n  \"post_do_anuncio\": {\r\n    \"titulo_principal\": \"JACK DANIEL'S MCLAREN\",\r\n    \"estilo_visual\": {\r\n      \"fundo\": \"Gradiente de âmbar e creme\",\r\n      \"tema\": \"Parceria de luxo\",\r\n      \"elementos_chave\": [\"Garrafa de Tennessee Whiskey\", \"Carro de F1 McLaren\"]\r\n    },\r\n    \"copy_texto\": \"Experience the ultimate partnership. Legendary Tennessee Whiskey meets cutting-edge F1 technology for speed and smoothness.\",\r\n    \"elementos_interativos\": [\r\n      { \"rotulo\": \"TENNESSEE WHISKEY\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"MCLAREN RACING\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"LIMITED EDITION\", \"icone\": \"+\" },\r\n      { \"rotulo\": \"SPEED & SMOOTHNESS\", \"icone\": \"+\" }\r\n    ],\r\n    \"detalhes_de_composicao\": {\r\n      \"tipografia\": \"Serifada em bloco para o título, sans-serif para o corpo\",\r\n      \"dinamismo\": \"Explosão de líquido e marcas de pneus na pista\",\r\n      \"disposicao\": \"Vertical\"\r\n    }\r\n  }\r\n}",
     "negative_prompt": "",
     "image": "images/23.jpg",
     "category": "Bebidas",
     "date": "28/05/2026",
-    "tags": [
-      "drink",
-      "bebida"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    }
+    "tags": ["drink", "bebida", "whiskey", "mclaren", "f1", "advertising"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "24",
-    "title": "Poster F1",
+    "title": "Monaco Grand Prix Vintage F1 Poster",
     "prompt": "{\r\n  \"prompt\": \"An artistic Formula 1 poster in a vintage, textured style celebrating the Monaco Grand Prix. At the top, the bold text reads 'MONACO GRAND PRIX' with the subtitle 'THE JEWEL OF FORMULA 1' and the Monaco flag. The background captures the iconic Monaco landscape: a dramatic sun, rocky mountains, luxury yachts docked in the harbor, and high-rise buildings climbing up the hills under a hazy sky. On the race track, instead of a modern Ferrari, the central focus is the classic 1993 McLaren MP4/8 driven by Ayrton Senna, featuring its iconic red and white livery with 'Marlboro' branding and the racing number 8. The car is speeding along the iconic street circuit, hugging the red and white curbs. At the bottom, the text reads 'SPEED. PRECISION. GLORY. ONLY IN MONACO.'\"\r\n}",
     "negative_prompt": "",
     "image": "images/24.jpg",
     "category": "Automotivo",
-    "tags": [
-      "f1",
-      "monaco"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    },
-    "date": "31/05/2026"
+    "date": "31/05/2026",
+    "tags": ["f1", "monaco", "racing", "vintage", "poster", "ayrton senna", "automotive"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "25",
-    "title": "Hot Wheels",
+    "title": "Hot Wheels Ford Corcel II",
     "prompt": "Ultra-realistic product photo of a Hot Wheels 1:64 scale die-cast car packaged in official retail blister packaging.\r\n\r\nThe miniature car is a Ford Corcel (Equal image) with chrome accents, classic five-spoke wheels, and the long-nose fastback body. Add subtle metallic reflections and accurate detailing like the headlight housings, mirrors, and bumper lines.\r\n\r\nThe car sits inside a clear plastic blister shell that realistically reflects studio lighting. The backing card features the iconic red-and-yellow Hot Wheels flame logo against a cool blue gradient background.\r\n\r\nThe illustrated version of the Z appears above the blister in a dynamic Tokyo night scene, neon lights glinting off its paint.\r\n\r\nInclude authentic Hot Wheels details:\r\n\r\nCollector number: 12/250\r\n\r\nSeries tag: HW J-Imports or JDM Legends\r\n\r\nYear badge: 1977\r\n\r\nBottom text area: “FORD CORCEL II”\r\n\r\nRed Mattel logo in corner\r\n\r\nSoft reflections and clean studio shadows\r\n\r\nLighting: Crisp, professional studio lighting with subtle highlights on the metallic surfaces and clear blister.\r\n\r\nStyle: Ultra-realistic packaging photograph, 4:5 ratio.\r\n\r\nMood: Premium JDM collectible Hot Wheels – sleek, classic, and cinematic.",
     "negative_prompt": "",
     "image": "images/25.jpg",
     "category": "Automotivo",
-    "tags": [
-      "hotwheels",
-      "jdm"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    },
-    "date": "31/05/2026"
+    "date": "31/05/2026",
+    "tags": ["hotwheels", "jdm", "collectible", "ford corcel", "toy", "automotive"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "26",
-    "title": "Infographic food image",
+    "title": "Borscht Recipe Infographic",
     "prompt": "Prompt: Ultra-clean modern recipe infographic. Feature Borscht (rich ruby-red borscht in a deep bowl, topped with sour cream and fresh herbs; clearly visible chunks of beetroot, cabbage, and meat; gentle steam rising; thick, hearty texture; looks hot and freshly cooked) as a finished dish, shown in a slight angled perspective as the main hero visual.\r\n\r\nArrange ingredients, cooking steps, and helpful tips around the dish in a dynamic magazine-style layout, not restricted to a strict top-down view.\r\n\r\nIngredients section\r\n\r\nUse icons or mini-illustrations for each ingredient with the exact quantity. Place them as groups, lists, or circular diagrams, visually connected to the main dish.\r\n\r\nSteps section\r\n\r\nShow the cooking process using numbered panels, arrows, or connecting lines that create a clear visual route around the bowl. Add small process icons (knife, pot, stove, timer) where appropriate.\r\n\r\nOptional additional info\r\n\r\nInclude total calories, prep time + cook time, and number of servings as clean, minimal badges/bubbles near the dish.\r\n\r\nVisual style\r\n\r\nA blend of magazine infographic design and lifestyle food photography. Use bright natural food colors, soft drop shadows, clean vector icons, modern typography, and soft gradients or glassmorphism panels for the step blocks. Accent colors may highlight key information such as calories or cooking time.\r\n\r\nComposition priorities\r\n\r\n1. Finished dish (main hero)\r\n\r\n2. Cooking steps\r\n\r\n3. Ingredients\r\n\r\n4. Additional info\r\n\r\nMaintain enough negative space so the design feels light, premium, clean, and highly readable.\r\n\r\nLighting & background\r\n\r\nSoft natural studio lighting. Minimal textured or gradient background to create a premium magazine look.\r\n\r\nOutput\r\n\r\n1080×1080, ultra-sharp, optimized for social media feed, no watermarks.",
     "negative_prompt": "",
     "image": "images/26.jpg",
-    "category": "Cyberpunk",
-    "tags": [
-      "neon",
-      "city"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    },
-    "date": "02/06/2026"
+    "category": "Gastronomia",
+    "date": "02/06/2026",
+    "tags": ["infographic", "recipe", "borscht", "food", "design", "gastronomy"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "27",
-    "title": "Joker in train station",
+    "title": "Joker - Cinematic Farewell",
     "prompt": "Ultra realistic cinematic photography of a jocker of batman the exact same facial identity as the reference image, preserving identical facial structure, facial proportions, hairstyle, skin tone, age appearance, facial features, and overall recognizable appearance.\r\n\r\nThe subject is walking away through a rain-soaked railway station platform during a gentle evening rain. One hand is casually tucked inside a jacket pocket while the other swings naturally with each step. The body language is calm, composed, and accepting. The subject walks with quiet confidence and emotional maturity, symbolizing the act of letting someone go with a sincere and open heart.\r\n\r\nUse a rear three-quarter camera angle (approximately 45 degrees from behind) to create a powerful sense of emotional release. Part of the reference face remains softly visible through the side profile, allowing the recognizable facial identity to be preserved while maintaining the feeling of departure. The subject continues walking forward without turning back. The visual focus is on the quiet strength of moving forward rather than on facial expression. The viewer can sense that someone important has been left behind, yet the subject's posture reflects peace rather than sorrow. Every step feels intentional, carrying gratitude, acceptance, and emotional closure.\r\n\r\nThere are no tears, no dramatic gestures, and no visible signs of heartbreak. The expression is calm, reflective, and at peace. The story is not about losing someone, but about loving deeply enough to let them go. The subject is not looking back, symbolizing a sincere farewell and the courage to embrace the future.\r\n\r\nThe railway platform is nearly empty. Warm station lights glow softly through the rain and mist, reflecting beautifully across the wet pavement. A departing train slowly moves away in the distance, slightly blurred by rainfall and atmospheric haze, serving as a subtle metaphor for a chapter of life coming to an end.\r\n\r\nRain falls gently through the golden station lights, creating cinematic reflections and emotional depth. Steam rises softly from the tracks, blending with mist and rainfall. The contrast between the cool blue-gray atmosphere of the rainy evening and the warm amber station lights creates a visually powerful emotional balance between sadness and hope.\r\n\r\nLarge areas of negative space surround the subject, emphasizing freedom, acceptance, and the beginning of a new journey. The station feels quiet, timeless, and deeply reflective. Every element of the scene reinforces the feeling of peaceful release, emotional maturity, and gratitude for what once was.\r\n\r\nMood: bittersweet acceptance, peaceful farewell, emotional closure, healing, gratitude, mature love, quiet resilience, inner peace, hope after goodbye, moving forward without regret.\r\n\r\nVisual storytelling: A person who once loved deeply chooses to let go without resentment. The rain washes away what can no longer be held, while the journey ahead remains open and full of possibility. The goodbye happens in silence, not because the feelings were small, but because they were genuine enough to be released with grace.\r\n\r\nUltra realistic photography, cinematic masterpiece, photorealistic, emotional storytelling, rain-soaked railway station, reflective wet pavement, volumetric lighting, realistic raindrops, atmospheric mist, shallow depth of field, natural film grain, HDR, soft bokeh, 85mm lens, f/1.4, natural color grading, award-winning cinematic photography, highly detailed, realistic human anatomy, dynamic composition, dramatic yet peaceful atmosphere, extraordinary emotional depth, masterpiece quality.",
     "negative_prompt": "",
     "image": "images/27.jpg",
-    "category": "Cyberpunk",
-    "tags": [
-      "neon",
-      "city"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    },
-    "date": "03/06/2026"
+    "category": "Cinema",
+    "date": "03/06/2026",
+    "tags": ["joker", "batman", "cinematic", "photography", "emotional", "farewell"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "28",
-    "title": "Monster + Nissan GTR",
-    "prompt": "{\r\n  \"prompt\": {\r\n    \"title\": \"Monster Energy x Nissan GT-R Instagram Banner\",\r\n    \"format\": \"Instagram promotional banner\",\r\n    \"aspect_ratio\": \"4:5\",\r\n    \"style\": \"ultra-premium automotive advertising, hyper-realistic, cinematic, commercial photography, high-end product launch campaign\",\r\n    \"scene\": {\r\n      \"background\": \"deep black textured backdrop with subtle carbon fiber patterns, green smoke, neon energy particles, dramatic lighting, wet reflective floor\",\r\n      \"lighting\": \"studio-grade rim lighting, green neon accents, volumetric fog, high contrast highlights and shadows\"\r\n    },\r\n    \"products\": {\r\n      \"energy_drink\": {\r\n        \"type\": \"exclusive collaboration can\",\r\n        \"position\": \"left foreground\",\r\n        \"appearance\": {\r\n          \"body_color\": \"matte black\",\r\n          \"finish\": \"cold aluminum with water droplets\",\r\n          \"branding\": [\r\n            \"Monster Energy logo large and centered\",\r\n            \"Nissan GT-R logo visible below Monster logo\"\r\n          ],\r\n          \"colors\": [\r\n            \"black\",\r\n            \"Monster green\",\r\n            \"GT-R red metallic accents\"\r\n          ]\r\n        }\r\n      },\r\n      \"vehicle\": {\r\n        \"model\": \"Nissan GT-R R",
+    "title": "Monster Energy x Nissan GT-R Banner",
+    "prompt": "{\r\n  \"prompt\": {\r\n    \"title\": \"Monster Energy x Nissan GT-R Instagram Banner\",\r\n    \"format\": \"Instagram promotional banner\",\r\n    \"aspect_ratio\": \"4:5\",\r\n    \"style\": \"ultra-premium automotive advertising, hyper-realistic, cinematic, commercial photography, high-end product launch campaign\",\r\n    \"scene\": {\r\n      \"background\": \"deep black textured backdrop with subtle carbon fiber patterns, green smoke, neon energy particles, dramatic lighting, wet reflective floor\",\r\n      \"lighting\": \"studio-grade rim lighting, green neon accents, volumetric fog, high contrast highlights and shadows\"\r\n    },\r\n    \"products\": {\r\n      \"energy_drink\": {\r\n        \"type\": \"exclusive collaboration can\",\r\n        \"position\": \"left foreground\",\r\n        \"appearance\": {\r\n          \"body_color\": \"matte black\",\r\n          \"finish\": \"cold aluminum with water droplets\",\r\n          \"branding\": [\r\n            \"Monster Energy logo large and centered\",\r\n            \"Nissan GT-R logo visible below Monster logo\"\r\n          ],\r\n          \"colors\": [\r\n            \"black\",\r\n            \"Monster green\",\r\n            \"GT-R red metallic accents\"\r\n          ]\r\n        }\r\n      },\r\n      \"vehicle\": {\r\n        \"model\": \"Nissan GT-R R\"\r\n      }\r\n    }\r\n  }\r\n}",
     "negative_prompt": "",
     "image": "images/28.jpg",
-    "category": "Cyberpunk",
-    "tags": [
-      "neon",
-      "city"
-    ],
-    "settings": {
-      "model": "ChatGPT",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    },
-    "date": "04/06/2026"
+    "category": "Automotivo",
+    "date": "04/06/2026",
+    "tags": ["monster energy", "nissan gtr", "collaboration", "advertising", "automotive", "energy drink"],
+    "settings": { "model": "ChatGPT", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   },
   {
     "id": "29",
-    "title": "Cenário Apocalíptico",
-    "prompt": "Prompt\r\nUltra-photorealistic post-apocalyptic cinematic photograph. A lone man casually leaning against the remains of a destroyed bar counter, completely relaxed, one elbow resting on the counter, holding a crystal whiskey glass. Calm expression. Slight smirk. Totally unbothered by the apocalypse around him.\r\n\r\nOnly a small surviving section of the original wooden bar remains. The rest has been completely obliterated. No walls. No roof. No windows. Only half of the damaged bar counter still stands among the ruins.\r\n\r\nA nearly full premium whiskey bottle sits beside him on the shattered counter. Empty bottles and broken glasses scattered across the debris. Overturned bar stools partially buried under concrete and twisted metal.\r\n\r\nThe man stands exactly like a regular customer having a drink after work. One foot crossed over the other. Relaxed posture. Looking into the distance while casually sipping whiskey as if nothing unusual is happening.\r\n\r\nThe city around him is completely destroyed. Burning skyscrapers. Massive smoke columns. Collapsed buildings. Flipped cars. Crashed buses. Rubble covering the streets. Small fires everywhere. Sparks drifting through the air. Volumetric sunlight piercing through thick dust clouds.\r\n\r\nDark tailored suit with loosened tie. Slightly dusty clothing. No injuries. No panic. No fear.\r\n\r\nLarge cinematic poster text in the upper left corner:\r\n\r\n\"NOT MY PROBLEM.\"\r\n\r\nMinimalist typography. White capital letters. Clean spacing. Luxury movie poster design. The text feels iconic and effortless.\r\n\r\nCinematic contrast between his complete calmness and the total devastation surrounding him.\r\n\r\nShot from bar height. Medium-wide composition. Low angle. Ultra realistic destruction physics. Practical effects. Natural smoke simulation. Realistic fire behavior. Realistic reflections in the whiskey glass. HDR lighting.\r\n\r\nARRI Alexa 65. IMAX photography. Hyperrealistic textures. Documentary realism. Award-winning cinematic photography. 8K. Photorealistic.\r\n\r\nNegative prompt:\r\nCGI, cartoon, fantasy, zombies, monsters, superheroes, sci-fi armor, unrealistic fire, fake smoke, blurry, low detail, plastic skin, bad anatomy, extra limbs, digital art, illustration, video game graphics, oversaturated colors, futuristic architecture, clean environment, text errors, watermark, logo.",
+    "title": "Post-Apocalyptic Bar",
+    "prompt": "Ultra-photorealistic post-apocalyptic cinematic photograph. A lone man casually leaning against the remains of a destroyed bar counter, completely relaxed, one elbow resting on the counter, holding a crystal whiskey glass. Calm expression. Slight smirk. Totally unbothered by the apocalypse around him.\r\n\r\nOnly a small surviving section of the original wooden bar remains. The rest has been completely obliterated. No walls. No roof. No windows. Only half of the damaged bar counter still stands among the ruins.\r\n\r\nA nearly full premium whiskey bottle sits beside him on the shattered counter. Empty bottles and broken glasses scattered across the debris. Overturned bar stools partially buried under concrete and twisted metal.\r\n\r\nThe man stands exactly like a regular customer having a drink after work. One foot crossed over the other. Relaxed posture. Looking into the distance while casually sipping whiskey as if nothing unusual is happening.\r\n\r\nThe city around him is completely destroyed. Burning skyscrapers. Massive smoke columns. Collapsed buildings. Flipped cars. Crashed buses. Rubble covering the streets. Small fires everywhere. Sparks drifting through the air. Volumetric sunlight piercing through thick dust clouds.\r\n\r\nDark tailored suit with loosened tie. Slightly dusty clothing. No injuries. No panic. No fear.\r\n\r\nLarge cinematic poster text in the upper left corner:\r\n\r\n\"NOT MY PROBLEM.\"\r\n\r\nMinimalist typography. White capital letters. Clean spacing. Luxury movie poster design. The text feels iconic and effortless.\r\n\r\nCinematic contrast between his complete calmness and the total devastation surrounding him.\r\n\r\nShot from bar height. Medium-wide composition. Low angle. Ultra realistic destruction physics. Practical effects. Natural smoke simulation. Realistic fire behavior. Realistic reflections in the whiskey glass. HDR lighting.\r\n\r\nARRI Alexa 65. IMAX photography. Hyperrealistic textures. Documentary realism. Award-winning cinematic photography. 8K. Photorealistic.\r\n\r\nNegative prompt:\r\nCGI, cartoon, fantasy, zombies, monsters, superheroes, sci-fi armor, unrealistic fire, fake smoke, blurry, low detail, plastic skin, bad anatomy, extra limbs, digital art, illustration, video game graphics, oversaturated colors, futuristic architecture, clean environment, text errors, watermark, logo.",
     "negative_prompt": "",
     "image": "images/29.jpg",
-    "category": "Cyberpunk",
-    "tags": [
-      "neon",
-      "city"
-    ],
-    "settings": {
-      "model": "Gemini",
-      "cfg_scale": "4.0",
-      "steps": "25",
-      "seed": "123456789",
-      "aspect_ratio": "16:9"
-    },
-    "date": "04/06/2026"
+    "category": "Cinema",
+    "date": "04/06/2026",
+    "tags": ["apocalypse", "cinematic", "whiskey", "destruction", "drama", "poster"],
+    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
   }
 ]
