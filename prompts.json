@@ -627,5 +627,25 @@
       "aspect_ratio": "16:9"
     },
     "date": "04/06/2026"
+  },
+  {
+    "id": "32",
+    "title": "Joker",
+    "prompt": "{\r\n  \"prompt\": \"Create a high-quality, cinematic full-body portrait inspired by the character in 'Change_man_to_joker_202606041558.jpeg'. The subject is a man styled as the Joker, featuring iconic white face paint with smeared red lipstick and green messy hair. He is wearing a detailed purple suit jacket, a green vest over a patterned dress shirt, and distressed, ripped purple trousers. He is wearing white athletic sneakers. The character is leaning against a graffiti-covered brick wall in an urban alleyway. The background includes vibrant graffiti with repeated 'HA HA' lettering and stylized playing card imagery, specifically a Jack of Spades. Several playing cards are scattered on the ground and floating in the air around him. The lighting is dramatic and moody, reflecting an alleyway atmosphere with sharp focus on the character and a slightly shallow depth of field.\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/32.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "04/06/2026"
   }
 ]
