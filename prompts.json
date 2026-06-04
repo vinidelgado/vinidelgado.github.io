@@ -7,8 +7,21 @@
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
     "date": "23/05/2026",
-    "tags": ["cat", "cyberpunk", "neon", "city", "rain", "futuristic"],
-    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "3.5", "steps": "20", "seed": "4289104712", "aspect_ratio": "16:9" }
+    "tags": [
+      "cat",
+      "cyberpunk",
+      "neon",
+      "city",
+      "rain",
+      "futuristic"
+    ],
+    "settings": {
+      "model": "Gemini 3.5 Flash",
+      "cfg_scale": "3.5",
+      "steps": "20",
+      "seed": "4289104712",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "glowing-forest",
@@ -18,8 +31,21 @@
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
     "date": "23/05/2026",
-    "tags": ["forest", "magic", "glowing", "nature", "night", "bioluminescent"],
-    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "4.0", "steps": "28", "seed": "8827164920", "aspect_ratio": "16:9" }
+    "tags": [
+      "forest",
+      "magic",
+      "glowing",
+      "nature",
+      "night",
+      "bioluminescent"
+    ],
+    "settings": {
+      "model": "Gemini 3.5 Flash",
+      "cfg_scale": "4.0",
+      "steps": "28",
+      "seed": "8827164920",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "astronaut-garden",
@@ -29,8 +55,21 @@
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
     "date": "23/05/2026",
-    "tags": ["astronaut", "space", "garden", "mars", "surreal", "greenhouse"],
-    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "5.0", "steps": "30", "seed": "1098471234", "aspect_ratio": "16:9" }
+    "tags": [
+      "astronaut",
+      "space",
+      "garden",
+      "mars",
+      "surreal",
+      "greenhouse"
+    ],
+    "settings": {
+      "model": "Gemini 3.5 Flash",
+      "cfg_scale": "5.0",
+      "steps": "30",
+      "seed": "1098471234",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "claymation-robot",
@@ -40,8 +79,21 @@
     "image": "images/claymation-robot.png",
     "category": "3D Render",
     "date": "23/05/2026",
-    "tags": ["robot", "cute", "claymation", "miniature", "toy", "3d"],
-    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "3.0", "steps": "20", "seed": "991042718", "aspect_ratio": "1:1" }
+    "tags": [
+      "robot",
+      "cute",
+      "claymation",
+      "miniature",
+      "toy",
+      "3d"
+    ],
+    "settings": {
+      "model": "Gemini 3.5 Flash",
+      "cfg_scale": "3.0",
+      "steps": "20",
+      "seed": "991042718",
+      "aspect_ratio": "1:1"
+    }
   },
   {
     "id": "cyberpunk-portrait",
@@ -51,8 +103,21 @@
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
     "date": "23/05/2026",
-    "tags": ["portrait", "female", "neon", "glow", "photorealistic", "cyberpunk"],
-    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "6.0", "steps": "35", "seed": "7729104815", "aspect_ratio": "3:4" }
+    "tags": [
+      "portrait",
+      "female",
+      "neon",
+      "glow",
+      "photorealistic",
+      "cyberpunk"
+    ],
+    "settings": {
+      "model": "Gemini 3.5 Flash",
+      "cfg_scale": "6.0",
+      "steps": "35",
+      "seed": "7729104815",
+      "aspect_ratio": "3:4"
+    }
   },
   {
     "id": "floating-island",
@@ -62,8 +127,21 @@
     "image": "images/floating-island.png",
     "category": "Fantasy",
     "date": "25/05/2026",
-    "tags": ["castle", "island", "floating", "waterfall", "sunset", "fantasy"],
-    "settings": { "model": "Gemini 3.5 Flash", "cfg_scale": "4.5", "steps": "25", "seed": "551849102", "aspect_ratio": "16:9" }
+    "tags": [
+      "castle",
+      "island",
+      "floating",
+      "waterfall",
+      "sunset",
+      "fantasy"
+    ],
+    "settings": {
+      "model": "Gemini 3.5 Flash",
+      "cfg_scale": "4.5",
+      "steps": "25",
+      "seed": "551849102",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "10",
@@ -73,8 +151,21 @@
     "image": "images/10.jpg",
     "category": "Esportes",
     "date": "26/05/2026",
-    "tags": ["neymar", "world cup", "fifa 2026", "football", "brasil", "sports"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "neymar",
+      "world cup",
+      "fifa 2026",
+      "football",
+      "brasil",
+      "sports"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "11",
@@ -84,8 +175,21 @@
     "image": "images/11.jpg",
     "category": "Esportes",
     "date": "25/05/2026",
-    "tags": ["world cup", "cr7", "fifa 2026", "football", "portugal", "sports"],
-    "settings": { "model": "ChatGPT", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "world cup",
+      "cr7",
+      "fifa 2026",
+      "football",
+      "portugal",
+      "sports"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "12",
@@ -95,8 +199,22 @@
     "image": "images/12.jpg",
     "category": "Automotivo",
     "date": "26/05/2026",
-    "tags": ["car", "nissan gtr", "rain", "city", "jdm", "sports car", "automotive"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "car",
+      "nissan gtr",
+      "rain",
+      "city",
+      "jdm",
+      "sports car",
+      "automotive"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "13",
@@ -106,8 +224,22 @@
     "image": "images/13.jpg",
     "category": "Automotivo",
     "date": "25/05/2026",
-    "tags": ["car", "luxury", "city", "night", "supercar", "ferrari", "automotive"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "car",
+      "luxury",
+      "city",
+      "night",
+      "supercar",
+      "ferrari",
+      "automotive"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "14",
@@ -117,8 +249,21 @@
     "image": "images/14.jpg",
     "category": "Gastronomia",
     "date": "26/05/2026",
-    "tags": ["hamburguer", "food", "gourmet", "advertising", "commercial", "gastronomy"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "hamburguer",
+      "food",
+      "gourmet",
+      "advertising",
+      "commercial",
+      "gastronomy"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "15",
@@ -128,8 +273,22 @@
     "image": "images/15.jpg",
     "category": "Natureza",
     "date": "25/05/2026",
-    "tags": ["panther", "wildlife", "animal", "sunset", "predator", "gradient", "nature"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "panther",
+      "wildlife",
+      "animal",
+      "sunset",
+      "predator",
+      "gradient",
+      "nature"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "16",
@@ -139,8 +298,22 @@
     "image": "images/16.jpg",
     "category": "Anime/Ilustração",
     "date": "26/05/2026",
-    "tags": ["anime", "saint seiya", "hyoga", "illustration", "poster", "gold", "fantasy"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "anime",
+      "saint seiya",
+      "hyoga",
+      "illustration",
+      "poster",
+      "gold",
+      "fantasy"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "17",
@@ -150,8 +323,22 @@
     "image": "images/17.jpg",
     "category": "Automotivo",
     "date": "26/05/2026",
-    "tags": ["car", "nissan 350z", "jdm", "widebody", "poster", "automotive", "street culture"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "car",
+      "nissan 350z",
+      "jdm",
+      "widebody",
+      "poster",
+      "automotive",
+      "street culture"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "18",
@@ -161,8 +348,21 @@
     "image": "images/18.jpg",
     "category": "Gastronomia",
     "date": "27/05/2026",
-    "tags": ["hamburguer", "food", "gourmet", "gastronomy", "exploded view", "advertising"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "hamburguer",
+      "food",
+      "gourmet",
+      "gastronomy",
+      "exploded view",
+      "advertising"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "19",
@@ -172,8 +372,22 @@
     "image": "images/19.jpg",
     "category": "Esportes",
     "date": "27/05/2026",
-    "tags": ["ronaldo", "football", "cubism", "vector", "illustration", "sports", "art"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "ronaldo",
+      "football",
+      "cubism",
+      "vector",
+      "illustration",
+      "sports",
+      "art"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "20",
@@ -183,8 +397,22 @@
     "image": "images/20.jpg",
     "category": "Gastronomia",
     "date": "27/05/2026",
-    "tags": ["food", "italian", "pasta", "restaurant", "poster", "minimalist", "gastronomy"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "food",
+      "italian",
+      "pasta",
+      "restaurant",
+      "poster",
+      "minimalist",
+      "gastronomy"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "22",
@@ -194,8 +422,22 @@
     "image": "images/22.jpg",
     "category": "3D Render",
     "date": "27/05/2026",
-    "tags": ["3d", "pixar", "portrait", "prism", "character", "woman", "digital art"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "3d",
+      "pixar",
+      "portrait",
+      "prism",
+      "character",
+      "woman",
+      "digital art"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "23",
@@ -205,8 +447,21 @@
     "image": "images/23.jpg",
     "category": "Bebidas",
     "date": "28/05/2026",
-    "tags": ["drink", "bebida", "whiskey", "mclaren", "f1", "advertising"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "drink",
+      "bebida",
+      "whiskey",
+      "mclaren",
+      "f1",
+      "advertising"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "24",
@@ -216,8 +471,22 @@
     "image": "images/24.jpg",
     "category": "Automotivo",
     "date": "31/05/2026",
-    "tags": ["f1", "monaco", "racing", "vintage", "poster", "ayrton senna", "automotive"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "f1",
+      "monaco",
+      "racing",
+      "vintage",
+      "poster",
+      "ayrton senna",
+      "automotive"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "25",
@@ -227,8 +496,21 @@
     "image": "images/25.jpg",
     "category": "Automotivo",
     "date": "31/05/2026",
-    "tags": ["hotwheels", "jdm", "collectible", "ford corcel", "toy", "automotive"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "hotwheels",
+      "jdm",
+      "collectible",
+      "ford corcel",
+      "toy",
+      "automotive"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "26",
@@ -238,8 +520,21 @@
     "image": "images/26.jpg",
     "category": "Gastronomia",
     "date": "02/06/2026",
-    "tags": ["infographic", "recipe", "borscht", "food", "design", "gastronomy"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "infographic",
+      "recipe",
+      "borscht",
+      "food",
+      "design",
+      "gastronomy"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "27",
@@ -249,8 +544,21 @@
     "image": "images/27.jpg",
     "category": "Cinema",
     "date": "03/06/2026",
-    "tags": ["joker", "batman", "cinematic", "photography", "emotional", "farewell"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "joker",
+      "batman",
+      "cinematic",
+      "photography",
+      "emotional",
+      "farewell"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "28",
@@ -260,8 +568,21 @@
     "image": "images/28.jpg",
     "category": "Automotivo",
     "date": "04/06/2026",
-    "tags": ["monster energy", "nissan gtr", "collaboration", "advertising", "automotive", "energy drink"],
-    "settings": { "model": "ChatGPT", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "monster energy",
+      "nissan gtr",
+      "collaboration",
+      "advertising",
+      "automotive",
+      "energy drink"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
   },
   {
     "id": "29",
@@ -271,7 +592,40 @@
     "image": "images/29.jpg",
     "category": "Cinema",
     "date": "04/06/2026",
-    "tags": ["apocalypse", "cinematic", "whiskey", "destruction", "drama", "poster"],
-    "settings": { "model": "Gemini", "cfg_scale": "4.0", "steps": "25", "seed": "123456789", "aspect_ratio": "16:9" }
+    "tags": [
+      "apocalypse",
+      "cinematic",
+      "whiskey",
+      "destruction",
+      "drama",
+      "poster"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    }
+  },
+  {
+    "id": "30",
+    "title": "Mercedes AMG",
+    "prompt": "A hyper-realistic photographic shot of a metallic charcoal gray Mercedes-AMG GT Black Series parked on a wet city street at night. Bright neon reflections of blue and purple lights on the puddles and the car's body. Aggressive front grille, sharp LED headlights turned on, carbon fiber rear wing. High contrast, cinematic lighting, dramatic atmosphere, 8k resolution, shot on 35mm lens.",
+    "negative_prompt": "",
+    "image": "images/30.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "04/06/2026"
   }
 ]
