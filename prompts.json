@@ -687,5 +687,25 @@
       "aspect_ratio": "16:9"
     },
     "date": "04/06/2026"
+  },
+  {
+    "id": "35",
+    "title": "Nike",
+    "prompt": "{\r\n  \"analise_geral\": \"Uma composição abstrata e dinâmica do logotipo da Nike centralizado sobre um fundo de fragmentos geométricos escuros com efeito de luz incandescente.\",\r\n  \"objetos\": [\r\n    {\r\n      \"item\": \"Logotipo da Nike (Swoosh)\",\r\n      \"detalhes\": \"O ícone icônico da marca posicionado centralmente, parecendo estar em relevo ou brilhando intensamente.\",\r\n      \"cor\": \"Vermelho alaranjado neon vibrante\"\r\n    },\r\n    {\r\n      \"item\": \"Fragmentos/Placas\",\r\n      \"detalhes\": \"Placas geométricas fragmentadas com bordas angulares e superfícies lisas que criam uma textura de rachadura ou explosão.\",\r\n      \"cor\": \"Preto fosco a cinza chumbo\"\r\n    },\r\n    {\r\n      \"item\": \"Efeitos de iluminação\",\r\n      \"detalhes\": \"Faíscas ou frestas de luz que emergem entre os fragmentos e abaixo da superfície principal.\",\r\n      \"cor\": \"Laranja neon\"\r\n    }\r\n  ],\r\n  \"texto_detectado\": [],\r\n  \"contexto_e_ambiente\": \"Ambiente abstrato, escuro e industrial, sugerindo um conceito de 'energia contida' ou 'ruptura'. A iluminação é de alto contraste, utilizando o efeito 'rim light' e brilho emissivo para destacar as formas em relação ao fundo escuro.\",\r\n  \"metadados\": {\r\n    \"estilo\": \"Design gráfico abstrato 3D, estilo wallpaper minimalista e agressivo.\",\r\n    \"proporcao\": \"9:16 (Vertical)\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/35.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "04/06/2026"
   }
 ]
