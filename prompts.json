@@ -526,5 +526,25 @@
       "aspect_ratio": "16:9"
     },
     "data": "03/06/2026"
+  },
+  {
+    "id": "28",
+    "title": "Monster + Nissan GTR",
+    "prompt": "{\r\n  \"prompt\": {\r\n    \"title\": \"Monster Energy x Nissan GT-R Instagram Banner\",\r\n    \"format\": \"Instagram promotional banner\",\r\n    \"aspect_ratio\": \"4:5\",\r\n    \"style\": \"ultra-premium automotive advertising, hyper-realistic, cinematic, commercial photography, high-end product launch campaign\",\r\n    \"scene\": {\r\n      \"background\": \"deep black textured backdrop with subtle carbon fiber patterns, green smoke, neon energy particles, dramatic lighting, wet reflective floor\",\r\n      \"lighting\": \"studio-grade rim lighting, green neon accents, volumetric fog, high contrast highlights and shadows\"\r\n    },\r\n    \"products\": {\r\n      \"energy_drink\": {\r\n        \"type\": \"exclusive collaboration can\",\r\n        \"position\": \"left foreground\",\r\n        \"appearance\": {\r\n          \"body_color\": \"matte black\",\r\n          \"finish\": \"cold aluminum with water droplets\",\r\n          \"branding\": [\r\n            \"Monster Energy logo large and centered\",\r\n            \"Nissan GT-R logo visible below Monster logo\"\r\n          ],\r\n          \"colors\": [\r\n            \"black\",\r\n            \"Monster green\",\r\n            \"GT-R red metallic accents\"\r\n          ]\r\n        }\r\n      },\r\n      \"vehicle\": {\r\n        \"model\": \"Nissan GT-R R",
+    "negative_prompt": "",
+    "image": "images/28.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "insta": "04/06/2026"
   }
 ]
