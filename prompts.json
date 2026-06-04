@@ -546,5 +546,25 @@
       "aspect_ratio": "16:9"
     },
     "date": "04/06/2026"
+  },
+  {
+    "id": "29",
+    "title": "Cenário Apocalíptico",
+    "prompt": "Prompt\r\nUltra-photorealistic post-apocalyptic cinematic photograph. A lone man casually leaning against the remains of a destroyed bar counter, completely relaxed, one elbow resting on the counter, holding a crystal whiskey glass. Calm expression. Slight smirk. Totally unbothered by the apocalypse around him.\r\n\r\nOnly a small surviving section of the original wooden bar remains. The rest has been completely obliterated. No walls. No roof. No windows. Only half of the damaged bar counter still stands among the ruins.\r\n\r\nA nearly full premium whiskey bottle sits beside him on the shattered counter. Empty bottles and broken glasses scattered across the debris. Overturned bar stools partially buried under concrete and twisted metal.\r\n\r\nThe man stands exactly like a regular customer having a drink after work. One foot crossed over the other. Relaxed posture. Looking into the distance while casually sipping whiskey as if nothing unusual is happening.\r\n\r\nThe city around him is completely destroyed. Burning skyscrapers. Massive smoke columns. Collapsed buildings. Flipped cars. Crashed buses. Rubble covering the streets. Small fires everywhere. Sparks drifting through the air. Volumetric sunlight piercing through thick dust clouds.\r\n\r\nDark tailored suit with loosened tie. Slightly dusty clothing. No injuries. No panic. No fear.\r\n\r\nLarge cinematic poster text in the upper left corner:\r\n\r\n\"NOT MY PROBLEM.\"\r\n\r\nMinimalist typography. White capital letters. Clean spacing. Luxury movie poster design. The text feels iconic and effortless.\r\n\r\nCinematic contrast between his complete calmness and the total devastation surrounding him.\r\n\r\nShot from bar height. Medium-wide composition. Low angle. Ultra realistic destruction physics. Practical effects. Natural smoke simulation. Realistic fire behavior. Realistic reflections in the whiskey glass. HDR lighting.\r\n\r\nARRI Alexa 65. IMAX photography. Hyperrealistic textures. Documentary realism. Award-winning cinematic photography. 8K. Photorealistic.\r\n\r\nNegative prompt:\r\nCGI, cartoon, fantasy, zombies, monsters, superheroes, sci-fi armor, unrealistic fire, fake smoke, blurry, low detail, plastic skin, bad anatomy, extra limbs, digital art, illustration, video game graphics, oversaturated colors, futuristic architecture, clean environment, text errors, watermark, logo.",
+    "negative_prompt": "",
+    "image": "images/29.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "04/06/2026"
   }
 ]
