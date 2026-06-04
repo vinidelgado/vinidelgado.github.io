@@ -667,5 +667,25 @@
       "aspect_ratio": "16:9"
     },
     "date": "04/06/2026"
+  },
+  {
+    "id": "34",
+    "title": "Odin",
+    "prompt": "{\r\n  \"subject\": \"A stylized, Norse-inspired representation of Odin as the 'Allfather'. He is depicted as a tall, bearded man wearing a wide-brimmed, pointed wizard-like hat and a dark, feathered cloak over intricate, dark armored plating. One eye glows with a bright, fiery orange light, suggesting power or mystical insight. He is flanked by three dark ravens in dynamic flight poses.\",\r\n  \"environment\": \"The background is an abstract, chaotic environment consisting of sharp, geometric shapes and energetic paint splatters in vibrant neon colors, creating a sense of movement and intensity behind the central figure.\",\r\n  \"lighting\": \"Dramatic, high-contrast lighting. The primary light source appears to be the internal glow from Odin's eye, which casts a warm, fiery highlight on his face, contrasting against the cool, dark tones of the foreground and the vibrant, saturated background.\",\r\n  \"composition\": \"Centered portrait composition. The figure of Odin is the dominant focal point, positioned centrally, with the ravens balanced around him, creating a triangular visual flow. The text 'ALLFATHER ODIN' is prominently displayed on the left side in bold, white, sans-serif typography.\",\r\n  \"style_and_mood\": \"Contemporary digital illustration with a heavy emphasis on graphic, comic-book-influenced aesthetics. The mood is intense, mystical, powerful, and slightly dark, balancing ancient mythology with modern street-art sensibilities.\",\r\n  \"technical_details\": \"Highly detailed digital art with sharp, clean lines and textured ink-like strokes. Predominant color palette of neon pink, electric blue, and vibrant orange contrasting with deep, near-black shadows. Includes high-fidelity rendering, bold typography, and a layered, poster-like aesthetic.\",\r\n  \"mj_prompt\": \"Digital art illustration of the Norse god Odin, central composition, wearing a wide-brimmed hat, intricate dark plate armor, feathered cloak, one glowing orange mystical eye, surrounded by three flying ravens. Background features explosive, chaotic abstract geometric shapes and vibrant neon pink, electric blue, and orange paint splatters. Bold modern graphic style, high contrast, sharp lines, cinematic lighting, intense mood, intricate details, professional comic book aesthetic --ar 4:3 --v 6.0\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/34.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "neon",
+      "city"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "04/06/2026"
   }
 ]
