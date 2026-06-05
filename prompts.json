@@ -732,5 +732,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "05/06/2026"
+  },
+  {
+    "id": "37",
+    "title": "Scorpion: Fúria Mortal",
+    "prompt": "{\r\n  \"analise_geral\": \"Ilustração estilizada de Scorpion de Mortal Kombat, com foco em pose de combate e texto icônico.\",\r\n  \"objetos\": [\r\n    {\r\n      \"item\": \"Scorpion\",\r\n      \"detalhes\": \"Personagem principal em pose dinâmica, usando máscara de crânio, capuz e roupão amarelo. Olhos brilhantes e expressão ameaçadora.\",\r\n      \"cor\": \"Preto, Cinza, Amarelo\"\r\n    },\r\n    {\r\n      \"item\": \"Mão direita\",\r\n      \"detalhes\": \"Mão em primeiro plano, estendida em direção ao observador, segurando a corrente.\",\r\n      \"cor\": \"Cinza escuro\"\r\n    },\r\n    {\r\n      \"item\": \"Corrente\",\r\n      \"detalhes\": \"Corrente metálica ligada à mão direita e enrolada ao redor do texto, terminando com o kunai (dardo pontiagudo) na parte inferior.\",\r\n      \"cor\": \"Cinza metálico\"\r\n    },\r\n    {\r\n      \"item\": \"Kunai\",\r\n      \"detalhes\": \"Ponta de lança afiada (dardo de kunai) na extremidade da corrente, na parte inferior direita, manchada com o líquido vermelho.\",\r\n      \"cor\": \"Preto, Cinza, Vermelho\"\r\n    },\r\n    {\r\n      \"item\": \"Espingos de líquido\",\r\n      \"detalhes\": \"Espingos e rastros de líquido vermelho ao redor da figura e do texto, sugerindo sangue.\",\r\n      \"cor\": \"Vermelho vibrante\"\r\n    }\r\n  ],\r\n  \"texto_detectado\": [\r\n    \"GET OVER\",\r\n    \"HERE!\",\r\n    \"@vdelgado\"\r\n  ],\r\n  \"contexto_e_ambiente\": \"A ilustração é ambientada sobre um fundo preto sólido, com os espatifos vermelhos criando uma atmosfera de violência e ação. A iluminação parece vir de dentro, realçando as bordas vermelhas e os detalhes da máscara.\",\r\n  \"metadados\": {\r\n    \"estilo\": \"Ilustração digital de quadrinhos com textura de estêncil/grunge e hachuras.\",\r\n    \"proporcao\": \"Aproximadamente 4:5 (vertical)\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/37.jpg",
+    "category": "Ilustração de Quadrinhos",
+    "tags": [
+      "mortal kombat",
+      "scorpion",
+      "ilustracao",
+      "quadrinhos",
+      "arte digital",
+      "estilo grunge",
+      "personagem",
+      "combate"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "05/06/2026"
   }
 ]
