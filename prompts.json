@@ -758,5 +758,29 @@
       "aspect_ratio": "16:9"
     },
     "date": "05/06/2026"
+  },
+  {
+    "id": "38",
+    "title": "Café ao Nascer do Sol",
+    "prompt": "{\r\n  \"analise_geral\": \"Uma fotografia serena e atmosférica de uma xícara de café quente em um píer de madeira à beira de um lago durante o nascer do sol.\",\r\n  \"objetos\": [\r\n    {\r\n      \"item\": \"xícara de café\",\r\n      \"detalhes\": \"xícara de cerâmica escura com vapor subindo, centralizada em primeiro plano\",\r\n      \"cor\": \"marrom escuro/preto\"\r\n    },\r\n    {\r\n      \"item\": \"pires\",\r\n      \"detalhes\": \"pires combinando sob a xícara\",\r\n      \"cor\": \"marrom escuro\"\r\n    },\r\n    {\r\n      \"item\": \"píer de madeira\",\r\n      \"detalhes\": \"superfície de madeira envelhecida, texturizada, ocupando a parte inferior\",\r\n      \"cor\": \"marrom escuro/cinza\"\r\n    },\r\n    {\r\n      \"item\": \"tecido/pano\",\r\n      \"detalhes\": \"peça de tecido claro dobrada no canto inferior esquerdo\",\r\n      \"cor\": \"creme/bege\"\r\n    },\r\n    {\r\n      \"item\": \"lago\",\r\n      \"detalhes\": \"água calma refletindo as montanhas e o céu ao fundo\",\r\n      \"cor\": \"tons de laranja e azul profundo\"\r\n    },\r\n    {\r\n      \"item\": \"montanhas\",\r\n      \"detalhes\": \"silhuetas de cordilheiras ao fundo\",\r\n      \"cor\": \"azul acinzentado\"\r\n    },\r\n    {\r\n      \"item\": \"sol\",\r\n      \"detalhes\": \"sol grande e brilhante nascendo atrás do pico mais alto\",\r\n      \"cor\": \"amarelo dourado\"\r\n    }\r\n  ],\r\n  \"texto_detectado\": [\r\n    \"GOD ART\"\r\n  ],\r\n  \"contexto_e_ambiente\": \"Cena ao ar livre durante o nascer do sol. A iluminação é quente e direcional, criando um forte contraste entre a silhueta das montanhas e o brilho do sol. A atmosfera é calma, contemplativa e matinal.\",\r\n  \"metadados\": {\r\n    \"estilo\": \"fotorealista com iluminação cinematográfica\",\r\n    \"proporcao\": \"9:16 (retrato)\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/38.jpg",
+    "category": "Fotorealista",
+    "tags": [
+      "nascer do sol",
+      "lago",
+      "pier de madeira",
+      "xicara de cafe",
+      "atmosfera serena",
+      "fotografia ao ar livre"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "05/06/2026"
   }
 ]
