@@ -782,5 +782,30 @@
       "aspect_ratio": "16:9"
     },
     "date": "05/06/2026"
+  },
+  {
+    "id": "39",
+    "title": "Tributo a Chester Bennington",
+    "prompt": "{\r\n  \"analise_geral\": \"Uma imagem artística de tributo a Chester Bennington, vocalista do Linkin Park, retratando-o cantando em um palco enquanto se desintegra em partículas, com o público abaixo.\",\r\n  \"objetos\": [\r\n    {\r\n      \"item\": \"Vocalista (Chester Bennington)\",\r\n      \"detalhes\": \"Figura masculina em perfil, gritando em um microfone, com a parte de trás do tronco e ombros se dissolvendo em inúmeros fragmentos de partículas.\",\r\n      \"cor\": \"Preto e tons de cinza com iluminação azulada\"\r\n    },\r\n    {\r\n      \"item\": \"Microfone\",\r\n      \"detalhes\": \"Segurado pela mão direita do vocalista em direção à boca.\",\r\n      \"cor\": \"Preto\"\r\n    },\r\n    {\r\n      \"item\": \"Público\",\r\n      \"detalhes\": \"Múltiplas mãos erguidas de uma multidão em silhueta na parte inferior, focadas na performance.\",\r\n      \"cor\": \"Preto e tons escuros\"\r\n    },\r\n    {\r\n      \"item\": \"Partículas/Fragmentos\",\r\n      \"detalhes\": \"Efeito visual de dispersão emanando das costas e ombros do vocalista.\",\r\n      \"cor\": \"Ciano claro e branco\"\r\n    }\r\n  ],\r\n  \"texto_detectado\": [\r\n    \"LINKIN PARK\",\r\n    \"CHESTER\"\r\n  ],\r\n  \"contexto_e_ambiente\": \"Ambiente de concerto musical (estádio ou grande teatro). A iluminação é dramática, com um foco de luz vindo de trás ou de cima, criando um efeito de silhueta e destacando as partículas em suspensão.\",\r\n  \"metadados\": {\r\n    \"estilo\": \"Arte digital, estilo conceitual com efeito de dispersão (disintegration effect), iluminação cinematográfica.\",\r\n    \"proporcao\": \"Vertical (9:16)\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/39.jpg",
+    "category": "Arte Conceitual",
+    "tags": [
+      "chester bennington",
+      "linkin park",
+      "arte digital",
+      "conceitual",
+      "disintegration effect",
+      "iluminação cinematográfica",
+      "musica"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "05/06/2026"
   }
 ]
