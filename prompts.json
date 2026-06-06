@@ -832,5 +832,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "06/06/2026"
+  },
+  {
+    "id": "40",
+    "title": "Cyberpunk Rainy Night",
+    "prompt": "{\r\n  \"analise_geral\": \"Retrato em close-up de uma jovem com estética cyberpunk em um ambiente urbano chuvoso à noite.\",\r\n  \"objetos\": [\r\n    {\r\n      \"item\": \"Mulher\",\r\n      \"detalhes\": \"Rosto com expressão séria, sardas, olhos brilhantes cor-de-rosa, cabelos longos em tons de azul e roxo, vestindo um capuz preto molhado.\",\r\n      \"cor\": \"Cabelo azul/roxo, olhos rosa, pele clara\"\r\n    },\r\n    {\r\n      \"item\": \"Capuz\",\r\n      \"detalhes\": \"Tecido escuro, brilhante, coberto por gotas de chuva.\",\r\n      \"cor\": \"Preto\"\r\n    },\r\n    {\r\n      \"item\": \"Emblema no peito\",\r\n      \"detalhes\": \"Símbolo em formato de 'X' com iluminação neon ciano.\",\r\n      \"cor\": \"Ciano brilhante\"\r\n    },\r\n    {\r\n      \"item\": \"Placas de sinalização\",\r\n      \"detalhes\": \"Letreiros de neon desfocados ao fundo.\",\r\n      \"cor\": \"Rosa vibrante, azul\"\r\n    }\r\n  ],\r\n  \"texto_detectado\": [\r\n    \"Z\",\r\n    \"ホテル\"\r\n  ],\r\n  \"contexto_e_ambiente\": \"Cena noturna de estilo cyberpunk, chuvosa, com iluminação de alto contraste vinda de placas neon (rosa e azul). O foco está centralizado no rosto da personagem, com profundidade de campo rasa que desfoca o fundo urbano.\",\r\n  \"metadados\": {\r\n    \"estilo\": \"Cyberpunk, realismo cinematográfico, arte digital\",\r\n    \"proporcao\": \"9:16 (vertical)\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/40.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "urbano",
+      "noite",
+      "chuva",
+      "neon",
+      "estetica",
+      "fotorealista",
+      "mulher"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "06/06/2026"
   }
 ]
