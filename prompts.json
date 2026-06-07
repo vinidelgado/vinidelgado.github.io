@@ -858,5 +858,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "06/06/2026"
+  },
+  {
+    "id": "42",
+    "title": "Godzilla GT-R: Sakura Storm",
+    "prompt": "{\r\n  \"prompt\": \"Ultra-realistic professional automotive photography of a customized white Nissan GT-R R35, parked on a wet Japanese street during cherry blossom season. The vehicle features an exclusive premium wrap design celebrating the legendary 'Godzilla' nickname and Nissan's Japanese heritage. A massive, highly detailed Godzilla illustration emerges from the rear quarter panel, seamlessly integrated into the bodywork with subtle grayscale shading and realistic texture. Elegant pink sakura branches flow organically across the hood, front fenders, doors, roof, and rear panels, creating a harmonious blend of power and beauty. The artwork appears professionally airbrushed and perfectly integrated into the paint. The GT-R features aggressive stance, carbon fiber front splitter, side skirts, rear diffuser, forged black wheels, large performance brakes, tinted windows, and glossy paint reflections. The setting is a quiet Japanese avenue lined with fully bloomed cherry blossom trees. The asphalt is wet from recent rain, producing cinematic reflections of the car and surrounding sakura trees. Soft pink petals are scattered across the ground and floating gently in the air. Shot with a professional full-frame camera using an 85mm lens, f/1.8 aperture, shallow depth of field, razor-sharp focus on the car, creamy bokeh background. Dramatic overcast lighting with subtle ambient reflections highlighting the body contours. Magazine-quality automotive photography, hyperrealistic textures, realistic reflections, ultra-detailed wrap design, premium tuning showcase, luxury automotive advertisement, 8K resolution, HDR, photorealistic, award-winning automotive photography, no CGI appearance, indistinguishable from a real photograph.\",\r\n  \"style\": \"hyperrealistic automotive photography\",\r\n  \"camera\": {\r\n    \"body\": \"Sony A7R V\",\r\n    \"lens\": \"85mm f/1.8\",\r\n    \"aperture\": \"f/1.8\",\r\n    \"shutter_speed\": \"1/500\",\r\n    \"iso\": 100\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"front three-quarter view\",\r\n    \"height\": \"low angle\",\r\n    \"framing\": \"full vehicle\",\r\n    \"depth_of_field\": \"shallow\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"natural overcast cinematic light\",\r\n    \"reflections\": \"wet pavement reflections\",\r\n    \"mood\": \"elegant, powerful, premium\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"Japanese cherry blossom avenue\",\r\n    \"weather\": \"after rain\",\r\n    \"season\": \"spring sakura bloom\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"extreme\",\r\n    \"photorealism\": \"maximum\"\r\n  }\r\n}",
+    "negative_prompt": "\"negative_prompt\": \"cartoon, anime, illustration, drawing, painting, CGI, 3D render, low resolution, blurry, pixelated, unrealistic reflections, distorted wheels, bad proportions, duplicate elements, excessive stickers, text, watermark, logo, people, traffic, damaged car, dirty car, oversaturated colors, unrealistic Godzilla, toy car, video game graphics, artificial lighting, overexposed, underexposed\"",
+    "image": "images/42.jpg",
+    "category": "Hyperrealistic",
+    "tags": [
+      "japanese",
+      "cherryblossom",
+      "nissangtr",
+      "godzilla",
+      "hyperrealistic",
+      "automotive",
+      "photography",
+      "luxury"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "07/06/2026, 19:32:42"
   }
 ]
