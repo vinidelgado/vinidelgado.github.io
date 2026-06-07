@@ -6,7 +6,7 @@
     "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, human",
     "image": "images/cyberpunk-cat.png",
     "category": "Cyberpunk",
-    "date": "23/05/2026",
+    "date": "23/05/2026, 00:00:00",
     "tags": [
       "cat",
       "cyberpunk",
@@ -30,7 +30,7 @@
     "negative_prompt": "daylight, sun, bright, low detail, human, buildings",
     "image": "images/glowing-forest.png",
     "category": "Fantasy",
-    "date": "23/05/2026",
+    "date": "23/05/2026, 00:00:00",
     "tags": [
       "forest",
       "magic",
@@ -54,7 +54,7 @@
     "negative_prompt": "indoor, house, normal plants, low quality, blurry",
     "image": "images/astronaut-garden.png",
     "category": "Sci-Fi",
-    "date": "23/05/2026",
+    "date": "23/05/2026, 00:00:00",
     "tags": [
       "astronaut",
       "space",
@@ -78,7 +78,7 @@
     "negative_prompt": "photorealistic, metal robot, scary, dark, high contrast",
     "image": "images/claymation-robot.png",
     "category": "3D Render",
-    "date": "23/05/2026",
+    "date": "23/05/2026, 00:00:00",
     "tags": [
       "robot",
       "cute",
@@ -102,7 +102,7 @@
     "negative_prompt": "deformed, bad eyes, low resolution, multiple people, rendering art, drawings",
     "image": "images/cyberpunk-portrait.png",
     "category": "Cyberpunk",
-    "date": "23/05/2026",
+    "date": "23/05/2026, 00:00:00",
     "tags": [
       "portrait",
       "female",
@@ -126,7 +126,7 @@
     "negative_prompt": "modern buildings, cars, city, low quality, black and white",
     "image": "images/floating-island.png",
     "category": "Fantasy",
-    "date": "25/05/2026",
+    "date": "25/05/2026, 00:00:00",
     "tags": [
       "castle",
       "island",
@@ -150,7 +150,7 @@
     "negative_prompt": "-",
     "image": "images/10.jpg",
     "category": "Esportes",
-    "date": "26/05/2026",
+    "date": "26/05/2026, 00:00:00",
     "tags": [
       "neymar",
       "world cup",
@@ -174,7 +174,7 @@
     "negative_prompt": "low quality, blurry, deformed anatomy, bad hands, extra fingers, poorly drawn face, asymmetrical eyes, unrealistic proportions, duplicate limbs, mutated body, distorted jersey, incorrect football kit, bad typography, messy composition, oversaturated colors, low resolution, pixelated, jpeg artifacts, watermark, signature, text errors, cropped head, out of frame, cartoon style, anime style, exaggerated muscles, unrealistic skin, plastic skin, overexposed lighting, underexposed shadows, noisy image, flat lighting, generic background, bad posture, floating limbs, malformed hands, poorly rendered boots, distorted Puma logo, fake football crest, extra arms, extra legs, unrealistic facial expression, stretched anatomy, tilted composition, cluttered background, cheap poster aesthetic, bad graphic design, amateur composition, incorrect perspective, low detail fabric, unrealistic shadows, inconsistent lighting, AI artifacts, duplicated elements, ugly face, crossed eyes, malformed ears, weird fingers, poor symmetry, low contrast, washed colors",
     "image": "images/11.jpg",
     "category": "Esportes",
-    "date": "25/05/2026",
+    "date": "25/05/2026, 00:00:00",
     "tags": [
       "world cup",
       "cr7",
@@ -198,7 +198,7 @@
     "negative_prompt": "",
     "image": "images/12.jpg",
     "category": "Automotivo",
-    "date": "26/05/2026",
+    "date": "26/05/2026, 00:00:00",
     "tags": [
       "car",
       "nissan gtr",
@@ -223,7 +223,7 @@
     "negative_prompt": "",
     "image": "images/13.jpg",
     "category": "Automotivo",
-    "date": "25/05/2026",
+    "date": "25/05/2026, 00:00:00",
     "tags": [
       "car",
       "luxury",
@@ -248,7 +248,7 @@
     "negative_prompt": "",
     "image": "images/14.jpg",
     "category": "Gastronomia",
-    "date": "26/05/2026",
+    "date": "26/05/2026, 00:00:00",
     "tags": [
       "hamburguer",
       "food",
@@ -272,7 +272,7 @@
     "negative_prompt": "",
     "image": "images/15.jpg",
     "category": "Natureza",
-    "date": "25/05/2026",
+    "date": "25/05/2026, 00:00:00",
     "tags": [
       "panther",
       "wildlife",
@@ -297,7 +297,7 @@
     "negative_prompt": "",
     "image": "images/16.jpg",
     "category": "Anime/Ilustração",
-    "date": "26/05/2026",
+    "date": "26/05/2026, 00:00:00",
     "tags": [
       "anime",
       "saint seiya",
@@ -322,7 +322,7 @@
     "negative_prompt": "",
     "image": "images/17.jpg",
     "category": "Automotivo",
-    "date": "26/05/2026",
+    "date": "26/05/2026, 00:00:00",
     "tags": [
       "car",
       "nissan 350z",
@@ -347,7 +347,7 @@
     "negative_prompt": "",
     "image": "images/18.jpg",
     "category": "Gastronomia",
-    "date": "27/05/2026",
+    "date": "27/05/2026, 00:00:00",
     "tags": [
       "hamburguer",
       "food",
@@ -371,7 +371,7 @@
     "negative_prompt": "",
     "image": "images/19.jpg",
     "category": "Esportes",
-    "date": "27/05/2026",
+    "date": "27/05/2026, 00:00:00",
     "tags": [
       "ronaldo",
       "football",
@@ -396,7 +396,7 @@
     "negative_prompt": "",
     "image": "images/20.jpg",
     "category": "Gastronomia",
-    "date": "27/05/2026",
+    "date": "27/05/2026, 00:00:00",
     "tags": [
       "food",
       "italian",
@@ -421,7 +421,7 @@
     "negative_prompt": "",
     "image": "images/22.jpg",
     "category": "3D Render",
-    "date": "27/05/2026",
+    "date": "27/05/2026, 00:00:00",
     "tags": [
       "3d",
       "pixar",
@@ -446,7 +446,7 @@
     "negative_prompt": "",
     "image": "images/23.jpg",
     "category": "Bebidas",
-    "date": "28/05/2026",
+    "date": "28/05/2026, 00:00:00",
     "tags": [
       "drink",
       "bebida",
@@ -470,7 +470,7 @@
     "negative_prompt": "",
     "image": "images/24.jpg",
     "category": "Automotivo",
-    "date": "31/05/2026",
+    "date": "31/05/2026, 00:00:00",
     "tags": [
       "f1",
       "monaco",
@@ -495,7 +495,7 @@
     "negative_prompt": "",
     "image": "images/25.jpg",
     "category": "Automotivo",
-    "date": "31/05/2026",
+    "date": "31/05/2026, 00:00:00",
     "tags": [
       "hotwheels",
       "jdm",
@@ -519,7 +519,7 @@
     "negative_prompt": "",
     "image": "images/26.jpg",
     "category": "Gastronomia",
-    "date": "02/06/2026",
+    "date": "02/06/2026, 00:00:00",
     "tags": [
       "infographic",
       "recipe",
@@ -543,7 +543,7 @@
     "negative_prompt": "",
     "image": "images/27.jpg",
     "category": "Cinema",
-    "date": "03/06/2026",
+    "date": "03/06/2026, 00:00:00",
     "tags": [
       "joker",
       "batman",
@@ -567,7 +567,7 @@
     "negative_prompt": "",
     "image": "images/28.jpg",
     "category": "Automotivo",
-    "date": "04/06/2026",
+    "date": "04/06/2026, 00:00:00",
     "tags": [
       "monster energy",
       "nissan gtr",
@@ -591,7 +591,7 @@
     "negative_prompt": "",
     "image": "images/29.jpg",
     "category": "Cinema",
-    "date": "04/06/2026",
+    "date": "04/06/2026, 00:00:00",
     "tags": [
       "apocalypse",
       "cinematic",
@@ -626,7 +626,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "04/06/2026"
+    "date": "04/06/2026, 00:00:00"
   },
   {
     "id": "32",
@@ -646,7 +646,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "04/06/2026"
+    "date": "04/06/2026, 00:00:00"
   },
   {
     "id": "31",
@@ -666,7 +666,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "04/06/2026"
+    "date": "04/06/2026, 00:00:00"
   },
   {
     "id": "34",
@@ -686,7 +686,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "04/06/2026"
+    "date": "04/06/2026, 00:00:00"
   },
   {
     "id": "35",
@@ -706,7 +706,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "04/06/2026"
+    "date": "04/06/2026, 00:00:00"
   },
   {
     "id": "36",
@@ -731,7 +731,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "05/06/2026"
+    "date": "05/06/2026, 00:00:00"
   },
   {
     "id": "37",
@@ -757,7 +757,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "05/06/2026"
+    "date": "05/06/2026, 00:00:00"
   },
   {
     "id": "38",
@@ -781,7 +781,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "05/06/2026"
+    "date": "05/06/2026, 00:00:00"
   },
   {
     "id": "39",
@@ -806,7 +806,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "05/06/2026"
+    "date": "05/06/2026, 00:00:00"
   },
   {
     "id": "41",
@@ -831,7 +831,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "06/06/2026"
+    "date": "06/06/2026, 00:00:00"
   },
   {
     "id": "40",
@@ -857,7 +857,7 @@
       "seed": "123456789",
       "aspect_ratio": "16:9"
     },
-    "date": "06/06/2026"
+    "date": "06/06/2026, 00:00:00"
   },
   {
     "id": "42",

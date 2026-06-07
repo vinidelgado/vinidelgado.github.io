@@ -161,7 +161,16 @@ async function bootstrapApp() {
 
 function parseDate(dateStr) {
   if (!dateStr) return new Date(0);
-  const [day, month, year] = dateStr.split('/').map(Number);
+  const cleanStr = dateStr.replace(',', ' ').trim();
+  const parts = cleanStr.split(/\s+/);
+  const datePart = parts[0];
+  const timePart = parts[1];
+  
+  const [day, month, year] = datePart.split('/').map(Number);
+  if (timePart) {
+    const [hour, minute, second] = timePart.split(':').map(Number);
+    return new Date(year, month - 1, day, hour, minute, second || 0);
+  }
   return new Date(year, month - 1, day);
 }
 
