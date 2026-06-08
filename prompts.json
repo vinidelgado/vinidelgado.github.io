@@ -910,5 +910,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "07/06/2026, 19:41:40"
+  },
+  {
+    "id": "44",
+    "title": "Nocturnal GT-R",
+    "prompt": "{\r\n  \"prompt\": \"Professional cinematic automotive photography of a deep blue Nissan GT-R R35 parked from a rear three-quarter angle. The car features its iconic round LED taillights illuminated in a glowing, vibrant red. The exterior is a metallic deep blue finish with highly reflective surfaces, showcasing the car's sleek curves and aggressive wide-body stance. The background is a breathtaking, ultra-detailed night sky filled with a dense, glittering Milky Way galaxy, featuring vibrant shades of deep blue, violet, and sparkling white stars. The ground is a dark, wet asphalt surface reflecting the car's glowing taillights and the celestial light from above. The scene has a surreal, dreamlike atmosphere with high contrast between the glowing red lights, the dark blue car, and the vast starry sky. Photorealistic, 8K resolution, sharp details, cinematic lighting, dramatic mood, long exposure astrophotography style, masterful composition, clean and crisp reflections.\",\r\n  \"negative_prompt\": \"daylight, sun, clouds, buildings, people, blurry, low resolution, distorted car, deformed taillights, amateur photography, noisy, grainy, watermark, text, signature, oversaturated, cartoon, drawing, painting, 3D render, low quality, bad anatomy, broken geometry\",\r\n  \"style\": \"Cinematic Night Automotive Astrophotography\",\r\n  \"camera\": {\r\n    \"body\": \"Sony A7R V\",\r\n    \"lens\": \"24mm f/1.4\",\r\n    \"aperture\": \"f/1.4\",\r\n    \"shutter_speed\": \"20 seconds\",\r\n    \"iso\": 1600\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"rear three-quarter view\",\r\n    \"height\": \"low angle\",\r\n    \"framing\": \"full vehicle with expansive sky\",\r\n    \"depth_of_field\": \"deep focus to capture stars\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"natural starlight and vehicle light\",\r\n    \"reflections\": \"glowing taillight reflections on wet asphalt\",\r\n    \"mood\": \"serene, awe-inspiring, nocturnal, powerful\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"secluded location under a clear night sky\",\r\n    \"weather\": \"clear night\",\r\n    \"elements\": \"Milky Way, starry sky, wet ground\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"extreme\",\r\n    \"photorealism\": \"high\"\r\n  },\r\n  \"text_transcription\": \"C5-5M YM5 6KY\"\r\n}",
+    "negative_prompt": "",
+    "image": "images/44.jpg",
+    "category": "Fotorealista",
+    "tags": [
+      "nocturno",
+      "automotivo",
+      "estrelas",
+      "reflexos",
+      "carro",
+      "azul",
+      "vermelho",
+      "cinematografico"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "08/06/2026, 06:00:12"
   }
 ]
