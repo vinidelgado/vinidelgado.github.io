@@ -987,5 +987,30 @@
       "aspect_ratio": "16:9"
     },
     "date": "09/06/2026, 06:19:34"
+  },
+  {
+    "id": "47",
+    "title": "Crânio Caótico",
+    "prompt": "{\r\n  \"prompt\": \"A striking, high-contrast urban street art mural of a human skull, centered in a portrait orientation. The style is a mix of gritty street art, graffiti, and expressive abstract sketch. The skull is rendered in shades of monochromatic off-white, grey, and deep black, with intricate hatching and cross-hatching detail. Surrounding the skull and integrated into its structure are explosive bursts of vibrant orange, fiery red, and hints of teal, suggesting a chaotic, deconstructed atmosphere. Elements of geometric shapes, abstract lines, drips of paint, and industrial structures blend into the skull's cranium and jaw, giving it a cybernetic or architectural appearance. The background is a weathered, textured concrete wall with splatters and drips of paint. The overall aesthetic is dark, raw, intense, and highly detailed, emphasizing texture, contrast, and dramatic lighting effects.\",\r\n  \"negative_prompt\": \"photorealistic, soft edges, blurry, low resolution, simple, flat color, peaceful, cartoonish, watermark, logo, text, human, body, realistic skin, bright natural sunlight, landscape\",\r\n  \"style\": \"gritty street art, graffiti, abstract expressionism, ink sketch fusion\",\r\n  \"camera\": {\r\n    \"body\": \"N/A - Mural/Digital Artwork\",\r\n    \"lens\": \"N/A\",\r\n    \"aperture\": \"N/A\",\r\n    \"shutter_speed\": \"N/A\",\r\n    \"iso\": \"N/A\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"eye-level, straight on\",\r\n    \"height\": \"centered\",\r\n    \"framing\": \"tight portrait crop\",\r\n    \"depth_of_field\": \"flat\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"dramatic, high-contrast, spotlighting on the cranium\",\r\n    \"reflections\": \"none\",\r\n    \"mood\": \"intense, edgy, chaotic\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"urban concrete wall\",\r\n    \"weather\": \"N/A\",\r\n    \"season\": \"N/A\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"extreme, intricate linework and textures\",\r\n    \"photorealism\": \"not applicable (stylized art)\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/47.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "arte_de_rua",
+      "graffiti",
+      "abstrato",
+      "crânio_cibernético",
+      "texturas_intensas",
+      "iluminação_dramática",
+      "arte_urbana"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "09/06/2026, 06:21:09"
   }
 ]
