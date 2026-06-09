@@ -962,5 +962,30 @@
       "aspect_ratio": "16:9"
     },
     "date": "08/06/2026, 06:02:33"
+  },
+  {
+    "id": "46",
+    "title": "Luffy: O Pirata Mais Procurado",
+    "prompt": "{\r\n  \"prompt\": \"Professional anime-style digital art poster of Monkey D. Luffy from One Piece. Central focus is a side-profile silhouette of Luffy wearing his iconic straw hat, rendered with deep red and black duotone coloring. A massive, textured red moon sits behind him, surrounded by falling cherry blossom petals. The design follows a structured UI layout with technical data boxes. Left side: 'WANTED' poster snippet, Straw Hat Pirates Jolly Roger icon, Haki status indicators, and Gomu Gomu no Mi fruit illustration with text descriptions. Right side: dynamic action panel of Gear Five Sun God Nika, a fist punch, ship at sea, and a close-up of Luffy's intense eye. Bottom: 'MONKEY D. LUFFY' bold text, Japanese log entry details, and map coordinates. High-contrast, gritty halftone texture, red and black aesthetic, dark atmosphere, intricate typography, cinematic manga cover design, 8K resolution, sharp details, minimalist color palette.\",\r\n  \"negative_prompt\": \"photorealistic, photograph, 3D render, low quality, blurred, distorted, bright colors, rainbow colors, messy layout, missing text, watermark, bad anatomy, deformed, plain background, low resolution, desaturated, grainy\",\r\n  \"style\": \"Anime manga poster design, graphical interface layout\",\r\n  \"camera\": {\r\n    \"body\": \"N/A - Digital Illustration\",\r\n    \"lens\": \"N/A\",\r\n    \"aperture\": \"N/A\",\r\n    \"shutter_speed\": \"N/A\",\r\n    \"iso\": \"N/A\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"Profile view\",\r\n    \"height\": \"Eye level\",\r\n    \"framing\": \"Symmetrical centered composition with surrounding data panels\",\r\n    \"depth_of_field\": \"Flat design\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"Backlit, high-contrast duo-tone lighting\",\r\n    \"reflections\": \"None\",\r\n    \"mood\": \"Intense, epic, dark\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"Graphic design canvas\",\r\n    \"weather\": \"None\",\r\n    \"season\": \"Spring (cherry blossoms)\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"High-detail vector-style illustration\",\r\n    \"photorealism\": \"None\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/46.jpg",
+    "category": "Anime",
+    "tags": [
+      "anime",
+      "one piece",
+      "luffy",
+      "pirata",
+      "manga",
+      "poster",
+      "digital art"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "09/06/2026, 06:19:34"
   }
 ]
