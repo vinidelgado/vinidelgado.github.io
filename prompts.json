@@ -1012,5 +1012,30 @@
       "aspect_ratio": "16:9"
     },
     "date": "09/06/2026, 06:21:09"
+  },
+  {
+    "id": "48",
+    "title": "Fitness no Pôr do Sol",
+    "prompt": "{\r\n  \"prompt\": \"Professional fitness advertisement photography of a fit young woman standing on a rooftop in New York City at sunset. The subject is a female athlete with a toned physique, wearing a black Nike Pro sports bra and matching black leggings with small white swoosh logos. She has her hair pulled back in a sleek ponytail and is looking confidently toward the right of the frame. In the background, the iconic Manhattan skyline, including the Empire State Building, is silhouetted against a warm, golden sunset sky. The lighting is dramatic, characterized by golden hour rim light highlighting the subject's muscular definition. The text 'EARN EVERY MILE' is written in a bold, white, distressed sans-serif typeface on the left side of the image, with a white Nike swoosh logo placed below the text. The composition is a vertical full-body portrait, shot with a professional DSLR, shallow depth of field, sharp focus on the subject, cinematic color grading, high contrast, commercial advertising style.\",\r\n  \"negative_prompt\": \"cartoon, illustration, painting, low quality, blurry, distorted face, messy hair, poorly rendered text, inconsistent lighting, overexposed, underexposed, crowded background, messy composition, distorted body proportions, low resolution, watermark, frame, extra limbs\",\r\n  \"style\": \"professional fitness commercial photography\",\r\n  \"camera\": {\r\n    \"body\": \"Canon EOS R5\",\r\n    \"lens\": \"85mm f/1.2\",\r\n    \"aperture\": \"f/2.8\",\r\n    \"shutter_speed\": \"1/1000\",\r\n    \"iso\": \"100\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"eye-level\",\r\n    \"height\": \"full body\",\r\n    \"framing\": \"vertical\",\r\n    \"depth_of_field\": \"medium\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"golden hour natural lighting\",\r\n    \"reflections\": \"sun glint on building edges\",\r\n    \"mood\": \"inspirational, strong, determined\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"New York City rooftop\",\r\n    \"weather\": \"clear\",\r\n    \"time_of_day\": \"sunset\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"high\",\r\n    \"photorealism\": \"high\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/48.jpg",
+    "category": "Fotorealista",
+    "tags": [
+      "fitness",
+      "newyork",
+      "por-do-sol",
+      "fotografia-comercial",
+      "esportes",
+      "mulher-atleta",
+      "nike"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "10/06/2026, 21:39:59"
   }
 ]
