@@ -1037,5 +1037,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "10/06/2026, 21:39:59"
+  },
+  {
+    "id": "49",
+    "title": "Tributo a Kobe Bryant",
+    "prompt": "{\r\n  \"prompt\": \"A high-quality artistic tribute poster featuring Kobe Bryant. The composition is vertically oriented, dominated by a large, expressive, semi-transparent portrait of Kobe Bryant's face in the upper left, rendered in shades of black, gold, and white with a watercolor wash texture. Below this, a full-length figure of Kobe Bryant from the back, wearing a yellow Los Angeles Lakers jersey with the number 24, walks away from the viewer towards a stylized cityscape of Los Angeles on the right. A prominent, swirling black ink brushstroke path leads from the base of the image up towards the portrait. Several smaller action shots of Kobe Bryant in his Lakers jersey playing basketball are integrated into the upper right. The background blends traditional East Asian ink wash painting of mountains and a pagoda on the left with a modern urban skyline on the right. Included text: 'HEROES COME AND GO, BUT LEGENDS ARE FOREVER.' and 'KOBE BRYANT' in an elegant script, along with the words 'MAMBA MENTALITY' and the Mamba logo in the lower right. The overall style is a fusion of digital art, watercolor, and ink wash, utilizing a palette of gold, black, grey, and white.\",\r\n  \"negative_prompt\": \"photograph, realistic, distorted, low resolution, blurry, pixelated, bad anatomy, messy composition, low quality, fragmented text, illegible writing, cluttered, noisy background, oversaturated colors\",\r\n  \"style\": \"artistic digital tribute illustration, fusion of watercolor and ink wash styles\",\r\n  \"camera\": {\r\n    \"body\": \"N/A\",\r\n    \"lens\": \"N/A\",\r\n    \"aperture\": \"N/A\",\r\n    \"shutter_speed\": \"N/A\",\r\n    \"iso\": \"N/A\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"eye-level, front and back composite view\",\r\n    \"height\": \"full body\",\r\n    \"framing\": \"vertical poster format\",\r\n    \"depth_of_field\": \"flat artistic depth\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"dramatic artistic lighting\",\r\n    \"reflections\": \"minimal\",\r\n    \"mood\": \"inspirational, somber, epic\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"abstract fusion of Asian landscape and Los Angeles cityscape\",\r\n    \"weather\": \"N/A\",\r\n    \"season\": \"N/A\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"high\",\r\n    \"detail\": \"intricate\",\r\n    \"photorealism\": \"not applicable, artistic style\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/49.jpg",
+    "category": "Minimalista",
+    "tags": [
+      "kobe bryant",
+      "los angeles lakers",
+      "tributo",
+      "arte digital",
+      "watercolor",
+      "ink wash",
+      "esportes",
+      "basquete"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "11/06/2026, 07:52:08"
   }
 ]
