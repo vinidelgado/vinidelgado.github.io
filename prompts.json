@@ -1063,5 +1063,30 @@
       "aspect_ratio": "16:9"
     },
     "date": "11/06/2026, 07:52:08"
+  },
+  {
+    "id": "50",
+    "title": "Samurai Neon",
+    "prompt": "{\r\n\"prompt\": \"A high-quality, atmospheric digital illustration of a futuristic samurai warrior, centered, wearing intricate dark iron plate armor and a traditional helmet with sharp edges. The warrior has glowing red eyes and a stern expression. Floating prominently in the foreground is a large, vibrant red glowing Nike swoosh logo featuring an intricate black circuit-board or cracked-glass texture pattern within it. Behind the warrior, a circular red neon halo or mystical sigil glows intensely. To the sides in the blurred background, two shadowy silhouettes of other samurai warriors are visible. The entire scene is enveloped in thick, swirling dark grey smoke and light fog, with small floating glowing red embers or light particles scattered throughout. At the very top, there is a stylized red Japanese character symbol. The overall aesthetic is a fusion of cyberpunk, dark fantasy, and high-fashion streetwear, with a sharp contrast between the dark environment and the brilliant red neon lighting. Extracted from image_2d5816.png.\",\r\n\"negative_prompt\": \"low resolution, blurry, distorted features, bad anatomy, flat lighting, daylight, bright colors, cluttered background, realistic photograph, watermark, signature, poorly rendered hands, messy details, bright background, washed out colors\",\r\n\"style\": \"cyberpunk dark fantasy digital illustration\",\r\n\"camera\": {\r\n\"body\": \"N/A\",\r\n\"lens\": \"N/A\",\r\n\"aperture\": \"N/A\",\r\n\"shutter_speed\": \"N/A\",\r\n\"iso\": \"N/A\"\r\n},\r\n\"composition\": {\r\n\"angle\": \"centered eye-level\",\r\n\"height\": \"half-body portrait\",\r\n\"framing\": \"vertical\",\r\n\"depth_of_field\": \"shallow, with depth created by smoke and light layers\"\r\n},\r\n\"lighting\": {\r\n\"type\": \"dramatic rim lighting and neon glow\",\r\n\"reflections\": \"glowing red light reflections on the armor\",\r\n\"mood\": \"intense, mystical, edgy\"\r\n},\r\n\"environment\": {\r\n\"location\": \"mysterious smoke-filled void\",\r\n\"weather\": \"smoky, foggy\",\r\n\"season\": \"N/A\"\r\n},\r\n\"quality\": {\r\n\"resolution\": \"high\",\r\n\"detail\": \"intricate, hyper-detailed textures\",\r\n\"photorealism\": \"stylized digital art\"\r\n}\r\n}",
+    "negative_prompt": "",
+    "image": "images/50.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "darkfantasy",
+      "neon",
+      "samurai",
+      "digitalart",
+      "futuristic",
+      "mystical"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "11/06/2026, 07:53:28"
   }
 ]
