@@ -1114,5 +1114,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "15/06/2026, 05:39:28"
+  },
+  {
+    "id": "52",
+    "title": "Vaporwave Adidas",
+    "prompt": "{\r\n  \"prompt\": \"A high-resolution, vibrant graphic wallpaper featuring a centered black Adidas Originals trefoil logo and the text 'adidas' and 'ORIGINALS' stacked underneath. The logo and text are bold, solid black, and placed against a picturesque background of palm tree silhouettes reaching upward into a sky filled with sunset-inspired colors. The scene has a dreamy, vaporwave-inspired aesthetic with a gradient color palette transitioning from warm golden-oranges at the top to cool teals and blues at the bottom. The palm leaves are detailed and frame the central logo from the corners and sides. The lighting is soft and atmospheric, emphasizing a retro summer vibe, 8K resolution, clean vector-style logo placement over a filtered photographic landscape, artistic digital composition.\",\r\n  \"negative_prompt\": \"blurry, distorted, low resolution, messy, grainy, dull colors, distorted text, incorrect logo proportions, photographic imperfections, lens flare, motion blur, shadows, people, objects, buildings, watermark\",\r\n  \"style\": \"Graphic design, minimalist logo overlay on vibrant aesthetic background\",\r\n  \"camera\": {\r\n    \"body\": \"N/A (Digital Graphic Design)\",\r\n    \"lens\": \"N/A\",\r\n    \"aperture\": \"N/A\",\r\n    \"shutter_speed\": \"N/A\",\r\n    \"iso\": \"N/A\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"eye-level, centered\",\r\n    \"height\": \"center frame\",\r\n    \"framing\": \"symmetrical\",\r\n    \"depth_of_field\": \"flat/graphic\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"dreamy sunset gradient\",\r\n    \"reflections\": \"none\",\r\n    \"mood\": \"nostalgic, tropical, vibrant\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"Tropical beach/resort atmosphere\",\r\n    \"weather\": \"clear sky at sunset\",\r\n    \"season\": \"summer\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"high\",\r\n    \"photorealism\": \"stylized graphic\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/52.jpg",
+    "category": "Vaporwave",
+    "tags": [
+      "vaporwave",
+      "adidas",
+      "graphicdesign",
+      "minimalist",
+      "sunset",
+      "tropical",
+      "dreamy",
+      "retro"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "15/06/2026, 05:47:55"
   }
 ]
