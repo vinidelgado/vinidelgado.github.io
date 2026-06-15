@@ -1088,5 +1088,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "11/06/2026, 07:53:28"
+  },
+  {
+    "id": "51",
+    "title": "Lime Green Storm",
+    "prompt": "{\r\n  \"prompt\": \"Vertical digital poster art featuring a rear view of a lime-green BMW M4 Competition. The car is depicted in a stylized, high-contrast, artistic manner. The background is a mix of abstract teal and cream-colored vertical bands with intense paint splatter effects in blue, yellow, and black. A large, bold, yellow sans-serif 'M4' text is positioned prominently in the upper middle. Below it, the word 'Competition' is written in a stylized, handwritten yellow script. To the right, 'M4IPERS' and 'TUX' are written in a distressed, dark, modern font. The car sits at the bottom, showcasing its quad-exhaust system, aggressive rear diffuser, and iconic taillights. The ground is a dark, abstract texture with a yellow painted lane line. The overall aesthetic is urban, energetic, street-art inspired, and heavily stylized, blending graphic design elements with automotive portraiture.\",\r\n  \"negative_prompt\": \"photorealistic, photograph, real life, blurry, low quality, distorted, bad anatomy, deformed car parts, dull colors, plain background, simple, minimalist\",\r\n  \"style\": \"urban street art, high-energy graphic design, abstract mixed media\",\r\n  \"camera\": {\r\n    \"body\": \"digital graphic art\",\r\n    \"lens\": \"n/a\",\r\n    \"aperture\": \"n/a\",\r\n    \"shutter_speed\": \"n/a\",\r\n    \"iso\": \"n/a\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"rear-facing low eye-level\",\r\n    \"height\": \"low angle\",\r\n    \"framing\": \"vertical, centered\",\r\n    \"depth_of_field\": \"flat/graphic\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"dramatic studio light on vehicle with abstract digital lighting\",\r\n    \"reflections\": \"sharp metallic reflections\",\r\n    \"mood\": \"energetic, aggressive, bold\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"abstract urban digital space\",\r\n    \"weather\": \"none\",\r\n    \"season\": \"none\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"4K, high-resolution digital art\",\r\n    \"detail\": \"high\",\r\n    \"photorealism\": \"not applicable, artistic style\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/51.jpg",
+    "category": "Urban Street Art",
+    "tags": [
+      "urban",
+      "streetart",
+      "bmw",
+      "m4",
+      "limegreen",
+      "abstract",
+      "digitalart",
+      "highenergy"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "15/06/2026, 05:39:28"
   }
 ]
