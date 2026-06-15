@@ -1140,5 +1140,30 @@
       "aspect_ratio": "16:9"
     },
     "date": "15/06/2026, 05:47:55"
+  },
+  {
+    "id": "53",
+    "title": "Adidas Trefoil Logo Fusion",
+    "prompt": "{\r\n  \"prompt\": \"A high-quality artistic digital graphic featuring the Adidas Trefoil logo centered prominently. The logo has a metallic, teal-blue gradient finish with horizontal scan lines, creating a subtle futuristic or digital texture. The word 'adidas' is positioned directly below the logo in a bold, sans-serif font, matching the same metallic teal-blue aesthetic and horizontal line pattern. The background is a complex, intricate, and swirling Art Nouveau-inspired pattern filled with ornate botanical swirls, paisley-like shapes, and circular motifs. The color palette of the background is a rich, warm blend of burnt orange, terracotta, deep bronze, and teal accents, providing a stark, vibrant contrast to the cool tones of the central logo. The entire image has a textured, slightly distressed appearance with a vignette effect that darkens the edges, drawing focus toward the center. Sharp focus, high contrast, intricate detail, wallpaper aesthetic.\",\r\n  \"negative_prompt\": \"photograph, realistic, distorted logo, blurry, pixelated, low resolution, simple background, flat colors, washed out, text, watermark, messy lines, low quality, deformed lettering, grainy, noise\",\r\n  \"style\": \"Digital Art Nouveau fusion with graphic design branding\",\r\n  \"camera\": {\r\n    \"body\": \"N/A - Digital Graphic Design\",\r\n    \"lens\": \"N/A\",\r\n    \"aperture\": \"N/A\",\r\n    \"shutter_speed\": \"N/A\",\r\n    \"iso\": \"N/A\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"frontal\",\r\n    \"height\": \"eye-level\",\r\n    \"framing\": \"centered composition\",\r\n    \"depth_of_field\": \"flat\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"studio lighting effect\",\r\n    \"reflections\": \"metallic sheen on logo\",\r\n    \"mood\": \"modern, energetic, stylized\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"abstract digital space\",\r\n    \"weather\": \"none\",\r\n    \"season\": \"none\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"extreme\",\r\n    \"photorealism\": \"not applicable (stylized)\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/53.jpg",
+    "category": "Digital Art Nouveau",
+    "tags": [
+      "digital art",
+      "adidas trefoil",
+      "art nouveau",
+      "metallic logo",
+      "futuristic",
+      "wallpaper aesthetic",
+      "graphic design"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "15/06/2026, 06:40:45"
   }
 ]
