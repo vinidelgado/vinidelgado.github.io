@@ -1165,5 +1165,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "15/06/2026, 06:40:45"
+  },
+  {
+    "id": "54",
+    "title": "Puma Cub Portrait",
+    "prompt": "{\r\n  \"prompt\": \"Ultra-realistic macro studio photography of an adorable baby black panther cub peeking out from the chest pocket of a vibrant mustard-yellow knit sweater. The cub has soft, jet-black fur, visible whiskers, and striking light-blue, expressive eyes looking directly at the camera. The sweater has a prominent, visible knit texture. Attached to the top edge of the pocket is a high-quality, black rectangular leather patch with the word 'PUMA' embossed in white/light yellow text, featuring the iconic jumping puma logo above the text. The lighting is soft, even, and flattering, emphasizing the texture of the fabric and the fine details of the cub's fur. Shallow depth of field with sharp focus on the cub's face and the logo patch, creamy soft-focus background. Professional studio portrait, cinematic lighting, 8K resolution, hyper-detailed, photorealistic, endearing and high-fashion advertising aesthetic.\",\r\n  \"negative_prompt\": \"cartoon, illustration, painting, drawing, CGI, 3D render, low resolution, blurry, distorted features, deformed eyes, unnatural fur texture, bad anatomy, watermark, text (other than logo), human, person, hands, messy composition, oversaturated, underexposed, artificial glowing eyes\",\r\n  \"style\": \"professional macro portrait photography\",\r\n  \"camera\": {\r\n    \"body\": \"Canon EOS R5\",\r\n    \"lens\": \"100mm f/2.8 Macro\",\r\n    \"aperture\": \"f/2.8\",\r\n    \"shutter_speed\": \"1/200\",\r\n    \"iso\": 200\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"eye-level, front-facing\",\r\n    \"height\": \"close-up\",\r\n    \"framing\": \"tight portrait\",\r\n    \"depth_of_field\": \"shallow\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"soft, diffused studio lighting\",\r\n    \"reflections\": \"subtle catchlights in eyes\",\r\n    \"mood\": \"cute, premium, warm\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"studio setting\",\r\n    \"weather\": \"n/a\",\r\n    \"season\": \"n/a\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"8K\",\r\n    \"detail\": \"extreme\",\r\n    \"photorealism\": \"maximum\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/54.jpg",
+    "category": "Fotorealista",
+    "tags": [
+      "fotografia",
+      "estudio",
+      "pantera",
+      "puma",
+      "sweater",
+      "amarelo",
+      "preto",
+      "olhos_azuis"
+    ],
+    "settings": {
+      "model": "Nano Banana",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "15/06/2026, 06:42:09"
   }
 ]
