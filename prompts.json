@@ -1191,5 +1191,31 @@
       "aspect_ratio": "16:9"
     },
     "date": "15/06/2026, 06:42:09"
+  },
+  {
+    "id": "55",
+    "title": "Neon Urban Portrait",
+    "prompt": "{\r\n\"prompt\": \"Highly detailed digital illustration of a stylish man in profile, wearing futuristic audio equipment, headset with '553X' logo in neon pink. The character has long braided dark hair, wearing a white oversized t-shirt with abstract red and pink paint drip patterns and various graphic text elements like 'FIX' and '2MLXOGEST'. He sports intricate arm tattoos, a prominent metallic watch, and heavy chain jewelry. The background features a dramatic, high-contrast cityscape under construction with towering cranes, saturated in deep pink and black tones, with a paint-splatter aesthetic. The overall mood is urban, edgy, and high-fashion, with a gritty, artistic style reminiscent of street art combined with contemporary digital portraiture.\",\r\n\"negative_prompt\": \"photograph, realistic, natural, soft focus, blurry, low contrast, simple background, calm, landscape, portrait photo\",\r\n\"style\": \"digital art, urban street style, graphic illustration, high-contrast\",\r\n\"camera\": {\r\n\"body\": \"digital medium\",\r\n\"lens\": \"not applicable\",\r\n\"aperture\": \"not applicable\",\r\n\"shutter_speed\": \"not applicable\",\r\n\"iso\": \"not applicable\"\r\n},\r\n\"composition\": {\r\n\"angle\": \"side profile\",\r\n\"height\": \"eye level\",\r\n\"framing\": \"medium close-up\",\r\n\"depth_of_field\": \"shallow focus on the subject\"\r\n},\r\n\"lighting\": {\r\n\"type\": \"dramatic high-contrast\",\r\n\"reflections\": \"vibrant neon pink glow\",\r\n\"mood\": \"intense, urban, gritty\"\r\n},\r\n\"environment\": {\r\n\"location\": \"industrial urban cityscape with construction cranes\",\r\n\"weather\": \"not applicable\",\r\n\"season\": \"not applicable\"\r\n},\r\n\"quality\": {\r\n\"resolution\": \"high\",\r\n\"detail\": \"intricate\",\r\n\"photorealism\": \"not applicable (stylized art)\"\r\n}\r\n}",
+    "negative_prompt": "",
+    "image": "images/55.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "digitalart",
+      "urbanstreetstyle",
+      "graphicillustration",
+      "highcontrast",
+      "neonpink",
+      "futuristic",
+      "edgy",
+      "streetart"
+    ],
+    "settings": {
+      "model": "ChatGPT",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "30/06/2026, 12:40:06"
   }
 ]
