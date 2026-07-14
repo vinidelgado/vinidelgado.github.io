@@ -1217,5 +1217,30 @@
       "aspect_ratio": "16:9"
     },
     "date": "30/06/2026, 12:40:06"
+  },
+  {
+    "id": "56",
+    "title": "Doom Supreme",
+    "prompt": "{\r\n  \"prompt\": \"Comic book art style illustration of Doctor Doom, centered composition, wearing his iconic metallic mask with glowing green eyes and dark green hooded cloak. He is extending his armored right hand forward, emitting crackling magical green energy. A large, circular golden halo-like structure with intricate geometric carvings sits behind his head. The background features a complex architectural blueprint style with technical grids, crosshair targeting symbols, and stylized building designs in soft beige and cyan tones. The overall aesthetic combines dark fantasy with futuristic technology, sharp ink lines, flat color blocking with subtle shading, and a high-contrast color palette of deep greens, metallic grays, and warm gold. Artistic signature 'CHILLYVIBESART' visible on the left, additional subtle text elements at the bottom right, vertical orientation, professional comic book panel aesthetic.\",\r\n  \"negative_prompt\": \"photograph, 3d render, realistic, blurry, messy, low quality, distorted anatomy, incorrect armor proportions, low contrast, washed out colors, sketch, painting, oily, watermarked, distorted face, uneven lines\",\r\n  \"style\": \"Modern comic book art, cel-shaded, vector illustration style\",\r\n  \"camera\": {\r\n    \"body\": \"n/a\",\r\n    \"lens\": \"n/a\",\r\n    \"aperture\": \"n/a\",\r\n    \"shutter_speed\": \"n/a\",\r\n    \"iso\": \"n/a\"\r\n  },\r\n  \"composition\": {\r\n    \"angle\": \"eye-level\",\r\n    \"height\": \"waist-up\",\r\n    \"framing\": \"vertical\",\r\n    \"depth_of_field\": \"flat\"\r\n  },\r\n  \"lighting\": {\r\n    \"type\": \"dramatic, studio comic lighting\",\r\n    \"reflections\": \"metallic highlights on armor\",\r\n    \"mood\": \"ominous, intellectual, powerful\"\r\n  },\r\n  \"environment\": {\r\n    \"location\": \"abstract laboratory background\",\r\n    \"weather\": \"n/a\",\r\n    \"season\": \"n/a\"\r\n  },\r\n  \"quality\": {\r\n    \"resolution\": \"4K vector quality\",\r\n    \"detail\": \"high\",\r\n    \"photorealism\": \"not applicable\"\r\n  }\r\n}",
+    "negative_prompt": "",
+    "image": "images/56.jpg",
+    "category": "Cyberpunk",
+    "tags": [
+      "comicbook",
+      "darkfantasy",
+      "futuristech",
+      "metallicmask",
+      "greenenergy",
+      "vectorart",
+      "celshaded"
+    ],
+    "settings": {
+      "model": "Gemini",
+      "cfg_scale": "4.0",
+      "steps": "25",
+      "seed": "123456789",
+      "aspect_ratio": "16:9"
+    },
+    "date": "14/07/2026, 07:18:18"
   }
 ]
